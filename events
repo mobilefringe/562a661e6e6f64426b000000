@@ -1,7 +1,7 @@
 <div class="fluid_row mobile_padding">
     <div class="row">
         <div class="col-md-12">
-            <h3 class="store_list_header">Promotions</h3>
+            <h3 class="store_list_header">Events</h3>
         </div>
         <div id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">

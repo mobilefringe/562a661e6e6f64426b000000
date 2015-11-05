@@ -29,7 +29,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            var promotions = getEventsList().sortBy(function(o){ return o.start_date });
             renderPromotions("#promos_container","#promos_template", promotions);
             show_content();
         }

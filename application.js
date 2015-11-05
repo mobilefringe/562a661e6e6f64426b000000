@@ -434,7 +434,7 @@ function renderEvents(container, template, collection){
             val.image_url = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         if(val.event_image_url_abs.indexOf('missing.png') < 0){
-            val.logo = val.promo_image_url_abs;
+            val.logo = val.event_image_url_abs;
         }
         else{
             if(val.image_url.indexOf('missing.png') < 0){

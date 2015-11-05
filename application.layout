@@ -229,7 +229,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 hidden_phone">
-                   
+                   <div id="instafeed"></div>
+
                 </div>
             </div>
             <div class="mini_footer mobile_padding">

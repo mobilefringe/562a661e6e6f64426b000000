@@ -112,7 +112,6 @@ a:focus, a:hover{
     POSITION: relative;
     background: #d2d2d2;
     padding: 5px;
-    border-radius: 15px;
 }
 
 .logo_container img, .logo_container_small img{

@@ -991,6 +991,9 @@ a:hover, a:focus{
     .accordion_header{
         padding: 12px 20px;
     }
+    .store_details_social_header{
+        text-align:center;
+    }
 }
 
 

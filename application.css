@@ -985,7 +985,7 @@ a:hover, a:focus{
         right: 10px;
         top:0;
     }
-    .logo_container{
+    .logo_container, .logo_container_small{
         width:100%;
     }
     .accordion_header{

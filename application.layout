@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta property="og:title" content="{{meta_title}}">
+        <meta property="og:description" content="{{meta_description}}">
+        <meta property="og:image" content="{{meta_image}}">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{meta_description}}">
+        <meta name="keywords" content="{{meta_keywords}}">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,initial-scale=1">
+        <title>{{meta_title}}</title>
+    
+        <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- Custom Fonts -->
+        
+        
+        <!-- Custom CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="../application.css" rel="stylesheet">
+        
+        <!-- js-->
+        <!-- jQuery Version 1.11.0 -->
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
+        
+        
+        <!--MallMaverick SDK-->
+        <script src="http://mallmaverick.codecloudapp.com/mallmaverick.js?v=0.3"></script>
+        <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+        <script src="../application.js" type="text/javascript"></script>
+        <script src="../helpers.js" type="text/javascript"></script>
+        <script>
+            setEndPoint('http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/all.json');
+        </script>
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body id="page-top">
+        <div class="site_container">
+            <nav class="show_phone mobile_nav navbar-fixed-top">
+                <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png" class="menu_toggler" alt="menu" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <a href="/"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446664167000/dixie_mall_logo_1B[1].png" class="logo_phone" alt="logo"></a>
+                <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="dd_link" href="#" id="mobile_nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Stores <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="mobile_nav1">
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Centre Map</a></li>
+                            </ul>
+                                
+                        </li>
+                        <li>
+                            <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="mobile_nav2">
+                                <li><a href="/stores">Events</a></li>
+                                <li><a href="/map">Wild Guess to Win</a></li>
+                            </ul>
+                                
+                        </li>
+                        <li><a href="#">Promotions</a></li>
+                        <li>
+                            <a class="dd_link" href="#" id="mobile_nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="mobile_nav3">
+                                <li><a href="#">Hours</a></li>
+                                <li><a href="#">Getting Here</a></li>
+                                <li><a href="#">Group Tours</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Leasing</a></li>
+                                <li><a href="#">Non-Profit Groups</a></li>
+                                <li><a href="#">Green Initiatives</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </nav>
+            <div class="row top_header">
+                <div class="col-md-4 hidden_phone">
+                    <p class="todays_hours">
+                        <b>Today's Hours </b>
+                        10:00AM - 9:00PM
+                        <br />
+                        <a href="/hours">
+                            CLICK HERE FOR FULL HOURS
+                        </a>
+                    </p>
+                    <div class="top_header_social_icons ">
+                        <a href="#"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" class="" alt="Facebook"></a>
+                        <a href="#"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" class="" alt="Twitter"></a>
+                        <a href="#"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445628012000/Pinterest Copy 2.png" class="" alt="Pinterest"></a>
+                        <a href="#"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445628026000/Instagram.png" class="" alt="Instagram"></a>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center hidden_phone">
+                    <a href="/">
+                        <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446664167000/dixie_mall_logo_1B[1].png" class="main_logo" alt="Dixie Logo">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <div class="pull-right">
+                        <label class="top_form_control">
+                            <i class="fa fa-envelope-o"></i>
+                            <input type="text" placeholder="Enter your email to Subscribe" />
+                        </label>
+                        <label class="top_form_control no_mobile_margin">
+                            <i class="fa fa-search"></i>
+                            <input type="text" placeholder="Search" />
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row top_nav hidden_phone">
+                <div class="top_nav_row">
+                    <div class="top_nav_menu">
+                        <div class="dropdown">
+                            <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Stores <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu1">
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Centre Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top_nav_menu">
+                        <div class="dropdown">
+                            <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Wild Guess to Win</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top_nav_menu">
+                        <a href="/promotions">Promotions</a>
+                    </div>
+                    <div class="top_nav_menu">
+                        <div class="dropdown">
+                            <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
+                                <li><a href="#">Hours</a></li>
+                                <li><a href="#">Getting Here</a></li>
+                                <li><a href="#">Group Tours</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="top_nav_menu">
+                        <div class="dropdown">
+                            <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Leasing</a></li>
+                                <li><a href="#">Non-Profit Groups</a></li>
+                                <li><a href="#">Green Initiatives</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site_container yield">
+            {{yield}}
+        </div>
+        <footer class="site_container">
+            <div class="row footer_nav">
+                <div class="col-md-3">
+                    <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446664167000/dixie_mall_logo_1B[1].png" class="main_logo" alt="Dixie Logo">
+                    <p class="footer_desc">
+                        As one of Canada’s largest enclosed outlet shopping centres, Dixie Outlet Mall delivers what any great shopping experience should – a great selection at fantastic prices with plenty of, "back away, I found it first" moments.
+                    </p>
+                </div>
+                <div class="col-md-5 hidden_phone">
+                    <h3 class="footer_explore">EXPLORE</h3>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul class="footer_ul">
+                                <li class="footer_main_li">Stores</li>
+                                <li><a href="#">Directory</a></li>
+                                <li><a href="#">Centre Map</a></li>
+                                <li class="footer_main_li">What's On</li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Wild Guess to Win</a></li>
+                                <li class="footer_main_li"><a href="#">Promotions</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer_ul">
+                                <li class="footer_main_li">Centre Information</li>
+                                <li><a href="#">Hours</a></li>
+                                <li><a href="#">Getting Here</a></li>
+                                <li><a href="#">Group Tours</a></li>
+                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul class="footer_ul">
+                                <li class="footer_main_li">About Us</li>
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Leasing</a></li>
+                                <li><a href="#">Non-Profit Groups</a></li>
+                                <li><a href="#">Green Initiatives</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden_phone">
+                   
+                </div>
+            </div>
+            <div class="mini_footer mobile_padding">
+                <p class="pull-left">
+                    © 2015 Heartland Town Centre All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+                </p>
+                <p class="pull-right">
+                    Powered by <a href="#">Mall Maverick</a>
+                </p>
+                <div class="clearfix"></div>
+            </div>
+        </footer>
+        <a href="#top" class="scrollToTop"><i class="fa fa-arrow-up"></i></a>
+    </body>
+    
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -27,7 +27,9 @@ body{
 .hidden_now{
     display:none;    
 }
-
+.ig-image{
+    
+}
 .ig-image img{
     width:210px;
     height:210px;

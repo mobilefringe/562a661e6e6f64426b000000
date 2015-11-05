@@ -416,7 +416,7 @@ function renderStoreDetailsHours(container, template, collection){
 }
 
 
-function renderPromotions(container, template, collection){
+function renderEvents(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

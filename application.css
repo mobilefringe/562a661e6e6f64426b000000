@@ -31,8 +31,8 @@ body{
     
 }
 .ig-image img{
-    width:210px;
-    height:210px;
+    width:25%;
+    padding:2px;
 }
 
 a:focus, a:hover{

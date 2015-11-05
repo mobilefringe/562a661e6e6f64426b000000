@@ -348,12 +348,7 @@ function renderPromoDetails(container, template, collection){
                 val.image_url = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";
             }
             else{
-                if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
-                    val.image_url = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";
-                }
-                else{
-                    val.image_url = store_details.store_front_url_abs;
-                }
+                val.image_url = store_details.store_front_url_abs;
             }
         }
         else{

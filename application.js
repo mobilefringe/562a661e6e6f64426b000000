@@ -356,6 +356,10 @@ function renderPromoDetails(container, template, collection){
             val.image_url = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         
+        if(val.promo_image_url_abs.indexOf('missing.png') > -1){
+            va;.promo_image_show="display:nonw";
+        }
+        
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         var rendered = Mustache.render(template_html,val);

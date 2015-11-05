@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <h3 class="store_list_header"><a href="/stores">Back to stores</a></h3>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mobile_padding">
             <div id="store_details_container">
                 <script id="store_details_template" type="x-tmpl-mustache/text">
                     <img src="{{alt_store_front_url}}" class="store_logo hidden_phone" alt="{{name}}" />

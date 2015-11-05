@@ -92,7 +92,7 @@
                             <script id="jobs_template" type="x-tmpl-mustache/text">
                                 <div class="row filter_row" data-job-type="{{job_type}}">
                                     <div class="col-md-9 mobile_padding">
-                                        <h3 class="jobs_name"><a href="/jobs/{{slug}}">{{name}} <i class="fa fa-arrow-right arrow_custom show_phone"></i></a></h3>
+                                        <h3 class="jobs_name"><a href="/jobs/{{slug}}">{{name}} <i class="fa fa-arrow-right arrow_custom show_phone no_margin"></i></a></h3>
                                     </div>
                                     <div class="col-md-3 hidden_phone">
                                         <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{published_on}}</h3>

@@ -422,7 +422,7 @@ function renderPromotions(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
-        if (val.promotionable_type == "Store") {
+        if (val.eventable_type == "Store") {
             var store_details = getStoreDetailsByID(val.eventable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;

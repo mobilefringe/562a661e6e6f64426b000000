@@ -3,8 +3,8 @@
         <div class="col-md-12">
             <h3 class="store_list_header">Events</h3>
         </div>
-        <div id="promos_container">
-            <script id="promos_template" type="x-tmpl-mustache/text">
+        <div id="jobs_container">
+            <script id="jobs_template" type="x-tmpl-mustache/text">
                 <div class="col-md-6 margin_50">
                     <div class="row">
                         <div class="col-md-6">
@@ -16,7 +16,7 @@
                             <h3 class="details_header">{{name}}</h3>
                             <h3 class="details_store_name">{{store_name}}</h3>
                             <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{dates}}</h3>
-                            <a href="/promotions/{{slug}}" class="read_more_btn">read more</a>
+                            <a href="/jobs/{{slug}}" class="read_more_btn">read more</a>
                         </div>
                     </div>
                 </div>

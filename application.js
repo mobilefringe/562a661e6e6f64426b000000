@@ -357,7 +357,7 @@ function renderPromoDetails(container, template, collection){
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
-            va;.promo_image_show="display:none";
+            val.promo_image_show="display:none";
         }
         
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");

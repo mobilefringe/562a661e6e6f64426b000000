@@ -699,6 +699,10 @@ a:hover, a:focus{
     font-family: 'brandon';
     font-size:15px;
     color:#666;
+    a{
+        color: #FFCD2A;
+        text-decoration:underline;
+    }
 }
 
 

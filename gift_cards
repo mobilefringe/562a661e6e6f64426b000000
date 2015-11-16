@@ -3,13 +3,12 @@
         <div class="col-md-3">
             <h3 class="store_list_header">Centre Information</h3>
             <ul class="side_menu hidden_phone">
-                <li><a href="#">About us</a></li>
-                <li class="active"><a href="#">Operating Hours</a></li>
-                <li><a href="#">Getting Here</a></li>
-                <li><a href="#">Employment</a></li>
-                <li><a href="#">Non-Profit Groups</a></li>
-                <li><a href="#">Leasing & Partnerships</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Guest Service</a></li>
+                <li class="active"><a href="#">Gift Cards</a></li>
+                <li><a href="#">Group Tours</a></li>
+                <li><a href="#">Mall Malker's Program</a></li>
+                <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Green Initiatives</a></li>
                 
             </ul>
             <div class="position_relative show_phone">

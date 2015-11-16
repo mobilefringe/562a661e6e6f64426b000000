@@ -696,6 +696,7 @@ a:hover, a:focus{
     font-family: 'brandon';
     font-size:15px;
     color:#666;
+    line-height: 24px;
     a{
         color: #FFCD2A;
         text-decoration:underline;

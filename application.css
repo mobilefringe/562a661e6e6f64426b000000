@@ -701,9 +701,6 @@ a:hover, a:focus{
         color: #FFCD2A;
         text-decoration:underline;
     }
-    &:hover{
-        color:red;
-    }
 }
 
 

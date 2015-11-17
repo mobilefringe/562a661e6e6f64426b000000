@@ -107,6 +107,7 @@
             <hr class="separator" />
             <div class="margin_40"></div>
             <h2 class="feedback_header">Send us your feedback</h2>
+            <h3 class="required_fields">Required fields*</h3>
         </div>
     </div>
 </div>

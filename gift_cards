@@ -54,15 +54,17 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <li>Galeries Rive Nord</li>
-                    <li>La Plaza de la Mauricie</li>
-                    <li>Les Promonades Beauport</li>
-                    <li>Les Rivières</li>
-                    <li>Mail Champlain</li>
-                    <li>Mail Montenach</li>
-                    <li>Place de la Cité</li>
-                    <li>Place Longueuil</li>
-                    <li>Rockland</li>
+                    <ul class="custom_list">
+                        <li>Galeries Rive Nord</li>
+                        <li>La Plaza de la Mauricie</li>
+                        <li>Les Promonades Beauport</li>
+                        <li>Les Rivières</li>
+                        <li>Mail Champlain</li>
+                        <li>Mail Montenach</li>
+                        <li>Place de la Cité</li>
+                        <li>Place Longueuil</li>
+                        <li>Rockland</li>
+                    </ul>
                 </div>
             </div>
             <div class="margin_10"></div>
@@ -80,13 +82,15 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <li>Sukiyaki</li>
-                    <li>Vanelli's</li>
-                    <li>Dollarama</li>
-                    <li>Dr. Tenny Leung - Dentist</li>
-                    <li>Freshly Squeezed</li>
-                    <li>Jane Harvey Lawyers</li>
-                    <li>New York Fries</li>
+                    <ul class="custom_list">
+                        <li>Sukiyaki</li>
+                        <li>Vanelli's</li>
+                        <li>Dollarama</li>
+                        <li>Dr. Tenny Leung - Dentist</li>
+                        <li>Freshly Squeezed</li>
+                        <li>Jane Harvey Lawyers</li>
+                        <li>New York Fries</li>
+                    </ul>
                 </div>
             </div>
             <div class="margin_10"></div>

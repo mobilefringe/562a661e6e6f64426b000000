@@ -1079,6 +1079,11 @@ a:hover, a:focus{
     .contact_box{
         padding-bottom:30px;
     }
+    
+    .contact_rows .accordion_header {
+        padding: 12px 20px;
+        margin-bottom: 2px;
+    }
 }
 
 

@@ -774,6 +774,7 @@ a:hover, a:focus{
 }
 
 .custom_list_direction{
+    margin-top: 10px;
     padding-left: 30px;
     font-size: 15px;
     li{

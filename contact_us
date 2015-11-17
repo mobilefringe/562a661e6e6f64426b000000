@@ -94,11 +94,11 @@
                 </div>
                 <div class="col-md-6">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
-                        LEASING INQUIRIES
+                        SPECIALTY LEASING & PARTNERSHIPS INQUIRIES
                     </h3>
                     <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="contact_box">
-                            <h3>Leasing Manager</h3>
+                            <h3>Speciality Leasing Manager</h3>
                             E: <a href="mailto:leasing@dixieoutletmall.com">leasing@dixieoutletmall.com</a>
                         </div>
                     </div>

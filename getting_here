@@ -5,7 +5,7 @@
             <ul class="side_menu hidden_phone">
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Operating Hours</a></li>
-                <li><a href="#">Getting Here</a></li>
+                <li class="active"><a href="#">Getting Here</a></li>
                 <li><a href="#">Employment</a></li>
                 <li><a href="#">Non-Profit Groups</a></li>
                 <li><a href="#">Leasing & Partnerships</a></li>

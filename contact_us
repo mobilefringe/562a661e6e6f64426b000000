@@ -30,10 +30,10 @@
             <div class="margin_20"></div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
                         ADMINISTRATION OFFICE
                     </h3>
-                    <div id="collapse3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
                     
                     </div>
                 </div>

@@ -156,18 +156,19 @@
         function renderAll(){
             show_content();
             $('#feedback_form').submit(function(e){
-            e.preventDefault();
-            $('#message').val($('#subject').val() + "\n" + $('#message').val());
-            $.post("http://dixieoutlet.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
-                if(status == "success"){
-                    $("#success_subscribe").fadeIn();
-                    $('#form_div').hide();
-                }
-                else{
-                    alert("Unable to process your request. Please try again later.")
-                }
-            });
-        })
+                verify_captcha();
+                e.preventDefault();
+                $('#message').val($('#subject').val() + "\n" + $('#message').val());
+                $.post("http://dixieoutlet.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
+                    if(status == "success"){
+                        $("#success_subscribe").fadeIn();
+                        $('#form_div').hide();
+                    }
+                    else{
+                        alert("Unable to process your request. Please try again later.")
+                    }
+                });
+            })
         }
         loadMallDataCached(renderAll); 
     })

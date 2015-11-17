@@ -33,7 +33,7 @@
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
                         ADMINISTRATION OFFICE
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                         <div class="contact_box">
                             <h3>Dixie Outlet Mall</h3>
                             1250 South Service Road <br />
@@ -44,10 +44,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                         GUEST SERVICES KIOSK
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
                         <div class="contact_box">
                             <h3>Located near the Yellow Entrane</h3>
                             T: (905) 278-7492<br />
@@ -58,10 +58,10 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         DIXIE OUTLET MALL SECURITY
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="contact_box">
                             <h3>Security Control Office</h3>
                             E: <a href="mailto:security@dixieoutletmall.com">security@dixieoutletmall.com</a>
@@ -69,10 +69,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                         LEASING INQUIRIES
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
                         <div class="contact_box">
                             <h3>Leasing Manager</h3>
                             E: <a href="mailto:leasing@dixieoutletmall.com">leasing@dixieoutletmall.com</a>
@@ -82,10 +82,10 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
                         SPECIALTY LEASING & PARTNERSHIPS INQUIRIES
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
                         <div class="contact_box">
                             <h3>Speciality Leasing Manager</h3>
                             E: <a href="mailto:specialityleasing@dixieoutletmall.com">specialityleasing@dixieoutletmall.com</a>
@@ -93,10 +93,10 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
                         MARKETING INQUIRIES
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading6">
                         <div class="contact_box">
                             <h3>Marketing Director</h3>
                             E: <a href="mailto:marketing@dixieoutletmall.com">marketing@dixieoutletmall.com</a>

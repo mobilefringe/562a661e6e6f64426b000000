@@ -81,25 +81,23 @@
                 </div>
                 <div class="col-md-6">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
-                        GUEST SERVICES KIOSK
+                        DIXIE OUTLET MALL SECURITY
                     </h3>
                     <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="contact_box">
-                            <h3>Located near the Yellow Entrane</h3>
-                            T: (905) 278-7492<br />
-                            E: <a href="mailto:"></a>
+                            <h3>Security Control Office</h3>
+                            E: <a href="mailto:security@dixieoutletmall.com">security@dixieoutletmall.com</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
-                        GUEST SERVICES KIOSK
+                        LEASING INQUIRIES
                     </h3>
                     <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="contact_box">
-                            <h3>Located near the Yellow Entrane</h3>
-                            T: (905) 278-7492<br />
-                            E: <a href="mailto:"></a>
+                            <h3>Leasing Manager</h3>
+                            E: <a href="mailto:leasing@dixieoutletmall.com">leasing@dixieoutletmall.com</a>
                         </div>
                     </div>
                 </div>

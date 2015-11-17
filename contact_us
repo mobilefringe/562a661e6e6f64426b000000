@@ -109,10 +109,14 @@
             <h2 class="feedback_header">Send us your feedback</h2>
             <h3 class="required_fields">Required fields*</h3>
             <div class="margin_40"></div>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4"></div>
-            </div>
+            <form>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label>First Name</label>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </form>
         </div>
     </div>
 </div>

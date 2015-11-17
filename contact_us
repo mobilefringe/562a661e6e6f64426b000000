@@ -33,7 +33,7 @@
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
                         ADMINISTRATION OFFICE
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="contact_box">
                             <h3>Dixie Outlet Mall</h3>
                             1250 South Service Road <br />

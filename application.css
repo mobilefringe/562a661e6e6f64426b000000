@@ -766,6 +766,9 @@ a:hover, a:focus{
     span{
         color:#D0021B;
     }
+    textarea{
+        height:30px;
+    }
 }
 
 

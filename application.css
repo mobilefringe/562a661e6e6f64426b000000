@@ -701,11 +701,6 @@ a:hover, a:focus{
         color: #FFCD2A;
         text-decoration:underline;
     }
-    h5{
-        font-weight:bold;
-        text-transform:uppercase;
-        font-size:15px;
-    }
 }
 
 

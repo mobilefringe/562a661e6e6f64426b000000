@@ -31,7 +31,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
         <script src="http://assets.codecloudapp.com/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
-        
+        <script src='https://www.google.com/recaptcha/api.js'></script>
         <!--MallMaverick SDK-->
         <script src="http://mallmaverick.codecloudapp.com/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>

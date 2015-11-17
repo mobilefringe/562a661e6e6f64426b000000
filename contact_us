@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-4">
                         <label for="subject">Subject<span>*</span></label>
-                        <select id="subject">
+                        <select id="subject" class="form-control">
                             
                         </select>
                     </div>

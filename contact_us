@@ -34,7 +34,9 @@
                         ADMINISTRATION OFFICE
                     </h3>
                     <div id="collapse1" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading3">
-                    
+                        <div class="contact_box">
+                            
+                        </div>
                     </div>
                 </div>
             </div>

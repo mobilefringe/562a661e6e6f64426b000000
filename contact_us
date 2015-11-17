@@ -140,6 +140,9 @@
                         <textarea name="feedback[comment]" id="message" class="form-control"></textarea>
                     </div>
                 </div>
+                <div class="row">
+                    
+                </div>
             </form>
         </div>
     </div>

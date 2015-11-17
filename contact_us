@@ -143,6 +143,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <div class="g-recaptcha" data-sitekey="6LeCLhETAAAAAC3q-Pe4XQ3lCan0nxt2AWvI6ylr"></div>
+                        <input type="submit" value="SUBMIT" class="read_more_btn" />
                     </div>
                 </div>
             </form>

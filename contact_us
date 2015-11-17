@@ -123,7 +123,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <label for="first_name">Email<span>*</span></label>
-                        <input id="first_name" type="text" class="form-control" required />
+                        <input id="first_name" type="email" class="form-control" required />
                     </div>
                     <div class="col-md-4">
                         <label for="last_name">Last Name <span>*</span></label>

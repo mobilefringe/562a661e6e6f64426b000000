@@ -59,6 +59,10 @@ a:focus, a:hover{
     margin-bottom:30px
 }
 
+.margin_10{
+    margin-bottom:10px
+}
+
 .full_width{
     width:100%;
 }

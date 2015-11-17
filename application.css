@@ -77,6 +77,11 @@ a:focus, a:hover{
     margin-bottom:20px;
 }
 
+.required_fields{
+    color:#D0021B;
+    font-size:15pxs;
+}
+
 .no_margin{
     margin:0 !important;
 }

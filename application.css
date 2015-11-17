@@ -716,7 +716,9 @@ a:hover, a:focus{
     margin-bottom: 15px;
 }
 
-
+.custom_list{
+    padding-left:20px;
+}
 
 
 

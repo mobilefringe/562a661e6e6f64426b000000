@@ -141,7 +141,9 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="g-recaptcha" data-sitekey="6LeCLhETAAAAAC3q-Pe4XQ3lCan0nxt2AWvI6ylr"></div>
+                    <div class="col-md-8">
+                        <div class="g-recaptcha" data-sitekey="6LeCLhETAAAAAC3q-Pe4XQ3lCan0nxt2AWvI6ylr"></div>
+                    </div>
                 </div>
             </form>
         </div>

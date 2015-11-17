@@ -28,9 +28,7 @@
         <div class="col-md-9 contact_rows">
             <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
-            <p>
-                Dixie Outlet Mall is conveniently located at the QEW & Dixie Road, in Mississauga, Ontario.
-            </p>
+            <p class="desc">Dixie Outlet Mall is conveniently located at the QEW & Dixie Road, in Mississauga, Ontario.</p>
             <div class="row">
                 <div class="col-md-6">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">

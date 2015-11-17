@@ -707,6 +707,15 @@ a:hover, a:focus{
     }
 }
 
+.contact_box{
+    line-height: 28px;
+    font-size: 15px;
+    h3{
+        color:#FFCD2A;
+    }
+}
+
+
 
 .page_miniheads{
     font-weight:bold;

@@ -37,7 +37,7 @@
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
                     <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                        <ul class="custom_list">
+                        <ul class="custom_list_direction">
                             <li>QEW East to Cawthra Road</li>
                             <li>Right onto Cawthra Road</li>
                             <li>Left onto South Service Road</li>

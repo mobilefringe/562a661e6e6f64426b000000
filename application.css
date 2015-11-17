@@ -755,6 +755,16 @@ a:hover, a:focus{
     margin-bottom: 20px;
 }
 
+#feedback_form{
+    .row{
+        margin-bottom:20px;
+    }
+    label{
+        font-weight:400;
+        font-size:15px;
+    }
+}
+
 
 
 

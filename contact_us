@@ -27,35 +27,7 @@
         </div>
         <div class="col-md-9">
             <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
-            <h3 class="hours_header">Regular Shopping hours</h3>
-            <table id="reg_hours_container" class="hours_container">
-                <script id="reg_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
-                        <td class="hours_left">
-                            <span>{{day}}</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>{{h}}</span>
-                        </td>
-                    </tr>
-                </script>
-            </table>
-            <div class="margin_20"></div>
-            <h2 class="hours_header">HOLIDAY HOURS</h2>    
-            <table id="holiday_hours_container" class="hours_container">
-                <script id="holiday_hours_template" type="x-tmpl-mustache/text">
-                    <tr>
-                        <td class="hours_left">
-                            <span>{{holiday_name}} ({{formatted_date}})</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            {{h}}
-                        </td>
-                    </tr>
-                </script>
-            </table>
+            
         </div>
     </div>
 </div>

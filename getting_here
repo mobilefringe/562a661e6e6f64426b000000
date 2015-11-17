@@ -51,11 +51,12 @@
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
                     <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
-                        <div class="contact_box">
-                            <h3>Located near the Yellow Entrane</h3>
-                            T: (905) 278-7492<br />
-                            E: <a href="mailto:info@dixieoutletmall.com">nfo@dixieoutletmall.com</a>
-                        </div>
+                        <ul class="custom_list_direction">
+                            <li>From Union Station take the GO Transit Lakeshore West Line</li>
+                            <li>Exit the GO train at Long Branch station and take the Mississauga Transit Route 5 North bus</li>
+                            <li>Route % North bus will take your directly to Dixie Outlet Mall</li>
+                            <li></li>
+                        </ul>
                     </div>
                 </div>
             </div>

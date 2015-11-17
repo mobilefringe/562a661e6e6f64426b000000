@@ -213,31 +213,35 @@ function drop_pin(id){
 }
 
 function load_map(reg, store_details){
-            // stores_x5F_3_x5F_6_2_
-            this_region = {}
-            this_region = store_details.svgmap_region
-            map = $('#mapsvg_store_detail').mapSvg({
-                source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaa', hover: 0},
-                disableAll: false,
-                height:335,
-                width:848,
-                regions: reg,
-                tooltipsMode:'custom',
-                loadingText: "loading...",
-                zoom: true,
-                zoomButtons: {'show': false,'location': 'left' },
-                pan:true,
-                panLimit:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0,10]
-            });
-            
-            map.setViewBox(store_details.svgmap_region)
-            map.selectRegion(store_details.svgmap_region)
-            drop_pin(store_details.svgmap_region)
-        }
+    // stores_x5F_3_x5F_6_2_
+    this_region = {}
+    this_region = store_details.svgmap_region
+    map = $('#mapsvg_store_detail').mapSvg({
+        source: getSVGMapURL(),    // Path to SVG map
+        colors: {stroke: '#aaa', hover: 0},
+        disableAll: false,
+        height:335,
+        width:848,
+        regions: reg,
+        tooltipsMode:'custom',
+        loadingText: "loading...",
+        zoom: true,
+        zoomButtons: {'show': false,'location': 'left' },
+        pan:true,
+        panLimit:true,
+        cursor:'pointer',
+        responsive:true,
+        zoomLimit: [0,10]
+    });
+    
+    map.setViewBox(store_details.svgmap_region)
+    map.selectRegion(store_details.svgmap_region)
+    drop_pin(store_details.svgmap_region)
+}
+
+function verify_captcha(){
+    
+}
 
 
 

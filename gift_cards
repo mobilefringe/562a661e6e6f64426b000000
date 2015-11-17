@@ -65,6 +65,35 @@
                     <li>Rockland</li>
                 </div>
             </div>
+            <div class="margin_10"></div>
+            <h5 class="page_miniheads">Non-participating retailers at dixie outlet mall</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="custom_list">
+                        <li>Alexis Nihon</li>
+                        <li>Carrefour Charlesbourg</li>
+                        <li>Carrefour Frontenac</li>
+                        <li>Carrefour St-Georges</li>
+                        <li>Carrefour Rimouski</li>
+                        <li>Centre Laval</li>
+                        <li>Centre Rivière-du-Loup</li>
+                        <li>Centropolis</li>
+                        <li>Dixie Outlet Mall</li>
+                        <li>Galeries de Hull</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <li>Galeries Rive Nord</li>
+                    <li>La Plaza de la Mauricie</li>
+                    <li>Les Promonades Beauport</li>
+                    <li>Les Rivières</li>
+                    <li>Mail Champlain</li>
+                    <li>Mail Montenach</li>
+                    <li>Place de la Cité</li>
+                    <li>Place Longueuil</li>
+                    <li>Rockland</li>
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -708,6 +708,8 @@ a:hover, a:focus{
     font-weight:bold;
     text-transform:uppercase;
     font-size:15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 

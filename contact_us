@@ -120,6 +120,16 @@
                         <input id="last_name" type="text" class="form-control" required />
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="first_name">First Name <span>*</span></label>
+                        <input id="first_name" type="text" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="last_name">Last Name <span>*</span></label>
+                        <input id="last_name" type="text" class="form-control" required />
+                    </div>
+                </div>
             </form>
         </div>
     </div>

@@ -129,8 +129,8 @@
                         <label for="subject">Subject<span>*</span></label>
                         <select id="subject" class="form-control">
                             <option selected disabled>Purpose of your message</option>
-                            <option>Complaint</option>
-                            <option>Suggestion</option>
+                            <option value="complaint">Complaint</option>
+                            <option value="suggestion">Suggestion</option>
                         </select>
                     </div>
                 </div>

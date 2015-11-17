@@ -777,6 +777,9 @@ a:hover, a:focus{
     li{
         margin-bottom:8px;
     }
+    a{
+        color:custom_list_direction;
+    }
 }
 
 

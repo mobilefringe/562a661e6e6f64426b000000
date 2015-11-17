@@ -241,7 +241,8 @@ function load_map(reg, store_details){
 
 function verify_captcha(response){
     var secret_key = "6LeCLhETAAAAAH8koFeWonL5g_kkYrSp8gcsrRjO";
-    var g-recaptcha-response = response
+    var g-recaptcha-response = response;
+    var data = {"secret_key": secret_key, }
 }
 
 

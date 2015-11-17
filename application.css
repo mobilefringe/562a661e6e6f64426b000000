@@ -1025,6 +1025,10 @@ a:hover, a:focus{
         text-align:center;
         
     }
+    
+    .custom_list{
+        margin-bottom:0;
+    }
 }
 
 

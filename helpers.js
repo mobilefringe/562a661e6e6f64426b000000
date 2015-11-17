@@ -239,7 +239,7 @@ function load_map(reg, store_details){
     drop_pin(store_details.svgmap_region)
 }
 
-function verify_captcha(){
+function verify_captcha(response){
     
 }
 

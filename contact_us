@@ -149,10 +149,19 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var hours = getPropertyHours();
-            renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
-            renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
             show_content();
+            $('#feedback_form').submit(function(e){
+            e.preventDefault();
+            $.post("http://stc.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
+                if(status == "success"){
+                    $("#success_subscribe").fadeIn();
+                    $('#form_div').hide();
+                }
+                else{
+                    alert("Unable to process your request. Please try again later.")
+                }
+            });
+        })
         }
         loadMallDataCached(renderAll); 
     })

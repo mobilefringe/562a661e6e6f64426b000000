@@ -1,7 +1,7 @@
 <div class="fluid_row mobile_padding">
     <div class="row">
         <div class="col-md-3">
-            <h3 class="store_list_header">Centre Information</h3>
+            <h3 class="store_list_header">GUEST SERVICES</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="#">Guest Service</a></li>
                 <li class="active"><a href="#">Gift Cards</a></li>

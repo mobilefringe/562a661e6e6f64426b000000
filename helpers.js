@@ -240,7 +240,8 @@ function load_map(reg, store_details){
 }
 
 function verify_captcha(response){
-    var secret = "6LeCLhETAAAAAH8koFeWonL5g_kkYrSp8gcsrRjO"
+    var secret = "6LeCLhETAAAAAH8koFeWonL5g_kkYrSp8gcsrRjO";
+    
 }
 
 

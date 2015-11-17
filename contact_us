@@ -128,7 +128,9 @@
                     <div class="col-md-4">
                         <label for="subject">Subject<span>*</span></label>
                         <select id="subject" class="form-control">
-                            
+                            <option selected disabled>Purpose of your message</option>
+                            <option>Complaint</option>
+                            <option>Suggestion</option>
                         </select>
                     </div>
                 </div>

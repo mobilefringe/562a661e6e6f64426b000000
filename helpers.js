@@ -38,6 +38,10 @@ function init(e){
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
+    var windowWidth = $(window).width();
+    if(windowWidth <= 1024) {
+         $('.panel-collapse').removeClass('in')
+    }
 }
 
 function show_cat_stores(){

@@ -137,7 +137,7 @@
                 <div class="row">
                     <div class="col-md-8">
                         <label for="message">Message<span>*</span></label>
-                        <textarea name="feedback[phone]" id="message" class="form-control"></textarea>
+                        <textarea name="feedback[comment]" id="message" class="form-control"></textarea>
                     </div>
                 </div>
             </form>

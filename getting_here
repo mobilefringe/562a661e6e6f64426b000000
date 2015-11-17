@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-6">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                        GUEST SERVICES KIOSK
+                       FROM DOWNTOWN TORONTO VIA GO TRANSIT
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
                     <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">

@@ -697,6 +697,7 @@ a:hover, a:focus{
     padding: 6px 35px;
     font-size: 12px;
     border-radius: 4px;
+    border:0;
 }
 
 .read_more_btn:hover{

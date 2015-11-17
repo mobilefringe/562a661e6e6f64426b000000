@@ -103,7 +103,7 @@
             </p>
             <div class="margin_10"></div>
             <h5 class="page_miniheads">Corporate Orders</h5>
-            <p class="page_desc">If you are making a purchase for your company or organization, contact us at the following address: marketing@dixieoutletmall.com</p>
+            <p class="page_desc">If you are making a purchase for your company or organization, contact us at the following address: <a href="mailto:marketing@dixieoutletmall.com">marketing@dixieoutletmall.com</a></p>
         </div>
     </div>
 </div>

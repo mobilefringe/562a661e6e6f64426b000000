@@ -1075,6 +1075,10 @@ a:hover, a:focus{
     .custom_list{
         margin-bottom:0;
     }
+    
+    .contact_box{
+        padding-bottom:30px;
+    }
 }
 
 

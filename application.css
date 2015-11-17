@@ -768,6 +768,7 @@ a:hover, a:focus{
     }
     textarea{
         height:100px;
+        resize: none;
     }
 }
 

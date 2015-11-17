@@ -719,6 +719,10 @@ a:hover, a:focus{
     }
 }
 
+.contact_rows .row{
+    margin-bottom:40px;
+}
+
 
 
 .page_miniheads{

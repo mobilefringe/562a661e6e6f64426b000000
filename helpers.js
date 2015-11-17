@@ -240,7 +240,7 @@ function load_map(reg, store_details){
 }
 
 function verify_captcha(response){
-    
+    var secret = ""
 }
 
 

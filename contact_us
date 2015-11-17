@@ -112,7 +112,8 @@
             <form id="feedback_form">
                 <div class="row">
                     <div class="col-md-4">
-                        <label>First Name</label>
+                        <label for="first_name">First Name <span>*</span></label>
+                        <input type="text" class="form-control"
                     </div>
                     <div class="col-md-4"></div>
                 </div>

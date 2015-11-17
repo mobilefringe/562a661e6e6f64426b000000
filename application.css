@@ -714,6 +714,7 @@ a:hover, a:focus{
         color:#FFCD2A;
         line-height: 28px;
         font-size: 15px;
+        margin-bottom:0;
     }
 }
 

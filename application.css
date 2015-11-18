@@ -785,6 +785,15 @@ a:hover, a:focus{
     }
 }
 
+.download_map{
+    margin-top: 45px;
+    font-size: 15px;
+    text-align: right;
+    a{
+        font-weight:bold;
+    }
+}
+
 
 
 

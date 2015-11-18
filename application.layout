@@ -87,7 +87,7 @@
                         <li>
                             <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
-                                <li><a href="/contact_us">Contacts</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
                                 <li><a href="#">Leasing</a></li>
                                 <li><a href="#">Non-Profit Groups</a></li>
                                 <li><a href="#">Green Initiatives</a></li>
@@ -171,7 +171,7 @@
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
-                                <li><a href="/contact_us">Contacts</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
                                 <li><a href="#">Leasing</a></li>
                                 <li><a href="#">Non-Profit Groups</a></li>
                                 <li><a href="#">Green Initiatives</a></li>
@@ -220,7 +220,7 @@
                         <div class="col-md-4">
                             <ul class="footer_ul">
                                 <li class="footer_main_li">About Us</li>
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Contact Us</a></li>
                                 <li><a href="#">Leasing</a></li>
                                 <li><a href="#">Non-Profit Groups</a></li>
                                 <li><a href="#">Green Initiatives</a></li>

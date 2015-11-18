@@ -259,7 +259,7 @@ function init_map(reg){
         cursor:'pointer',
         responsive:true,
         zoomLimit: [0,10],
-        viewBox:[400,400,1500,1500]
+        viewBox:[400,400,1800,1800]
     });
     
     

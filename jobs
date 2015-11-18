@@ -4,7 +4,7 @@
             <h3 class="store_list_header">Centre Information</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="#">About us</a></li>
-                <li><a href="/here">Operating Hours</a></li>
+                <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
                 <li class="active"><a href="/jobs">Employment</a></li>
                 <li><a href="#">Non-Profit Groups</a></li>

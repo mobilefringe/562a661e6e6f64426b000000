@@ -236,7 +236,7 @@ function load_map(reg, store_details){
         cursor:'pointer',
         responsive:true,
         zoomLimit: [0,10],
-        viewBox:[420,420,1650,1650]
+        viewBox:[120,120,650,650]
     });
     
     map.setViewBox(store_details.svgmap_region);

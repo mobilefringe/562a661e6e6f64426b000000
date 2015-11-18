@@ -239,7 +239,7 @@ function load_map(reg, store_details){
     });
     
     // map.setViewBox(store_details.svgmap_region);
-    map.selectRegion(store_details.svgmap_region);
+    // map.selectRegion(store_details.svgmap_region);
     drop_pin(store_details.svgmap_region);
 }
 

@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="col-md-9">
-            <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="hidden_phone" alt="hours banner">
+            <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="hidden_phone full_width" alt="hours banner">
             <div class="margin_20"></div>
             <ul class="jobs_filter hidden_phone">
                 <li class="active_filter filter_jobs" data-id="all">ALl</li>

@@ -67,7 +67,7 @@
                         <li>
                             <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav2">
-                                <li><a href="/stores">Events</a></li>
+                                <li><a href="/events">Events</a></li>
                                 <li><a href="#">Wild Guess to Win</a></li>
                             </ul>
                                 

@@ -796,6 +796,9 @@ a:hover, a:focus{
 
 .select_store{
     max-width:280px;
+    background: #9B9B9B;
+    color: #fff;
+    font-size: 15px;
 }
 
 

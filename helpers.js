@@ -243,6 +243,29 @@ function load_map(reg, store_details){
     drop_pin(store_details.svgmap_region)
 }
 
+function load_map(reg){
+    map = $('#mapsvg').mapSvg({
+        source: getSVGMapURL(),    // Path to SVG map
+        colors: {stroke: '#aaa', hover: 0},
+        disableAll: false,
+        height:335,
+        width:848,
+        regions: reg,
+        tooltipsMode:'custom',
+        loadingText: "loading...",
+        zoom: true,
+        zoomButtons: {'show': false,'location': 'left' },
+        pan:true,
+        panLimit:true,
+        cursor:'pointer',
+        responsive:true,
+        zoomLimit: [0,10]
+    });
+    
+    
+}
+
+
 function verify_captcha(response){
     var secret_key = "6LeCLhETAAAAAH8koFeWonL5g_kkYrSp8gcsrRjO";
     var data = {"secret_key": secret_key, "g-recaptcha-response": response }

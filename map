@@ -26,7 +26,7 @@
         init(e);
         function renderAll(){
             var stores = getStoresList();
-            renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+            renderStoreList('#store_select_container','#store_select_template', stores, "stores");
             show_content();
         }
         loadMallDataCached(renderAll); 

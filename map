@@ -4,7 +4,9 @@
             <h3 class="store_list_header">Centre Information</h3>
         </div>
         <div class="col-md-6 text-right">
-            <h3 class="store_list_header">Centre Information</h3>
+            <h3 class="store_list_header">
+                Click here to DOWNLOAD MAP
+            </h3>
         </div>
     </div>
 </div>

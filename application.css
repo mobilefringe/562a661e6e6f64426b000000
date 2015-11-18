@@ -1119,6 +1119,10 @@ a:hover, a:focus{
         margin-bottom: 2px;
         font-size: 12px;
     }
+    .select_store{
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 

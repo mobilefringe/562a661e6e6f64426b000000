@@ -203,6 +203,7 @@ function sortByKey(array, key) {
 }
 
 function drop_pin(id){
+    map.marksHide();
     var coords = map.get_coords(id);
     var height = parseInt(coords["height"])
     var width = parseInt(coords["width"])

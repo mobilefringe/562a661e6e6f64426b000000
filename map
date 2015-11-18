@@ -16,7 +16,8 @@
                     <option value='{{svgmap_region}}/{{slug}}'>{{name}}</option>
                 </script>
             </select>
-            
+            <div class="margin_40"></div>
+            <div class="map_container" id="mapsvg"></div>
         </div>
     </div>
 </div>

@@ -223,7 +223,7 @@ function load_map(reg, store_details){
     map = $('#mapsvg_store_detail').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0, selected: '#f00'},
-        disableAll: false,
+        disableAll: true,
         height:335,
         width:848,
         regions: reg,

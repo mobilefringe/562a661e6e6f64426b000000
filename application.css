@@ -801,6 +801,9 @@ a:hover, a:focus{
     font-size: 15px;
 }
 
+.tooltip_div img{
+    width:100%;
+}
 
 
 

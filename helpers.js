@@ -249,7 +249,7 @@ function init_map(reg){
         colors: {stroke: '#aaa', hover: 0},
         disableAll: false,
         height:335,
-        width:848,
+        width:1140,
         regions: reg,
         tooltipsMode:'custom',
         loadingText: "loading...",

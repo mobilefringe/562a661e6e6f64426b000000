@@ -209,7 +209,6 @@ function drop_pin(id){
     var width = parseInt(coords["width"])
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    console.log(coords)
     map.setviewBox(420,420,1650,1650)
     map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],
         attrs: {

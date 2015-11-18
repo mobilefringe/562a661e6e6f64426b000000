@@ -246,7 +246,7 @@ function init_map(reg){
     map = $('#mapsvg').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0},
-        disableAll: false,
+        disableAll: true,
         height:800,
         width:1140,
         regions: reg,

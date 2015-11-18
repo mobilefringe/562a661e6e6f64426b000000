@@ -17,7 +17,7 @@
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="#">About us</a></li>
                     <li><a href="/hours">Operating Hours</a></li>
-                    <li><a href="#">Getting Here</a></li>
+                    <li><a href="/getting_here">Getting Here</a></li>
                     <li><a href="/jobs">Employment</a></li>
                     <li><a href="#">Non-Profit Groups</a></li>
                     <li><a href="#">Leasing & Partnerships</a></li>

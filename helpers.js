@@ -258,7 +258,8 @@ function init_map(reg){
         panLimit:true,
         cursor:'pointer',
         responsive:true,
-        zoomLimit: [0,10]
+        zoomLimit: [0,10],
+        viewBox:[100,100,650,650]
     });
     
     

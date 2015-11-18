@@ -68,20 +68,20 @@
                             <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav2">
                                 <li><a href="/stores">Events</a></li>
-                                <li><a href="/map">Wild Guess to Win</a></li>
+                                <li><a href="#">Wild Guess to Win</a></li>
                             </ul>
                                 
                         </li>
-                        <li><a href="#">Promotions</a></li>
+                        <li><a href="/promotions">Promotions</a></li>
                         <li>
                             <a class="dd_link" href="#" id="mobile_nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav3">
-                                <li><a href="#">Hours</a></li>
-                                <li><a href="#">Getting Here</a></li>
+                                <li><a href="/hours">Hours</a></li>
+                                <li><a href="/getting_here">Getting Here</a></li>
                                 <li><a href="#">Group Tours</a></li>
                                 <li><a href="#">Accessibility</a></li>
-                                <li><a href="#">Gift Cards</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li><a href="/gift_cards">Gift Cards</a></li>
+                                <li><a href="/jobs">Careers</a></li>
                             </ul>
                         </li>
                         <li>

@@ -46,7 +46,7 @@
                 }
             });
             $('#store_select_container').change(function(e){
-                alert($(this).val())
+                drop_pin($(this).val())
             })
             init_map(regions)
         }

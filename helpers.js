@@ -235,7 +235,7 @@ function load_map(reg, store_details){
         panLimit:true,
         cursor:'pointer',
         responsive:true,
-        zoomLimit: [0,10]
+        zoomLimit: [0,10],
         viewBox:[420,420,1650,1650]
     });
     

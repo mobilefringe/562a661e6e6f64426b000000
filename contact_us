@@ -3,12 +3,11 @@
         <div class="col-md-3 mobile_padding">
             <h3 class="store_list_header">About Us</h3>
             <ul class="side_menu hidden_phone">
-                <li><a href="/hours">Operating Hours</a></li>
-                <li><a href="/getting_here">Getting Here</a></li>
+                <li class="active"><a href="/contact_us">Contact Us</a></li>
+                <li><a href="#">Leasing</a></li>
                 <li><a href="/jobs">Employment</a></li>
                 <li><a href="#">Non-Profit Groups</a></li>
                 <li><a href="#">Leasing & Partnerships</a></li>
-                <li class="active"><a href="/contact_us">Contact Us</a></li>
                 
             </ul>
             <div class="position_relative show_phone">

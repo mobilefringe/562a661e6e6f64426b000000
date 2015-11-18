@@ -248,7 +248,7 @@ function init_map(reg){
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0},
         disableAll: false,
-        height:335,
+        height:800,
         width:1140,
         regions: reg,
         tooltipsMode:'custom',

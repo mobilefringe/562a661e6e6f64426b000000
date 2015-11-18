@@ -209,7 +209,6 @@ function drop_pin(id){
     var width = parseInt(coords["width"]);
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    map.setViewBox(420,420,1650,1650);
     map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],
         attrs: {
             src:  'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446749946000/pin.png'

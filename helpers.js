@@ -254,7 +254,7 @@ function init_map(reg){
         tooltipsMode:'custom',
         loadingText: "loading...",
         zoom: true,
-        zoomButtons: {'show': true,'location': 'left' },
+        zoomButtons: {'show': true,'location': 'right' },
         pan:true,
         panLimit:true,
         cursor:'pointer',

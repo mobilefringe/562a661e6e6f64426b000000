@@ -16,12 +16,12 @@
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Employment</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="side_dd">
                     <li><a href="#">About us</a></li>
-                    <li><a href="#">Operating Hours</a></li>
-                    <li><a href="#">Getting Here</a></li>
+                    <li><a href="/hours">Operating Hours</a></li>
+                    <li><a href="/getting_here">Getting Here</a></li>
                     <!--<li><a href="#">Employment</a></li>-->
                     <li><a href="#">Non-Profit Groups</a></li>
                     <li><a href="#">Leasing & Partnerships</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/contact_us">Contact Us</a></li>
                 </ul>
             </div>
         </div>

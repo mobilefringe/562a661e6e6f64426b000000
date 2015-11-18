@@ -243,7 +243,7 @@ function load_map(reg, store_details){
     drop_pin(store_details.svgmap_region)
 }
 
-function load_map(reg){
+function init_map(reg){
     map = $('#mapsvg').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0},

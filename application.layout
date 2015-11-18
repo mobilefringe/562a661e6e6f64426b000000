@@ -146,7 +146,7 @@
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
-                                <li><a href="#">Events</a></li>
+                                <li><a href="/events">Events</a></li>
                                 <li><a href="#">Wild Guess to Win</a></li>
                             </ul>
                         </div>
@@ -158,12 +158,12 @@
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
-                                <li><a href="#">Hours</a></li>
-                                <li><a href="#">Getting Here</a></li>
+                                <li><a href="/hours">Hours</a></li>
+                                <li><a href="/getting_here">Getting Here</a></li>
                                 <li><a href="#">Group Tours</a></li>
                                 <li><a href="#">Accessibility</a></li>
-                                <li><a href="#">Gift Cards</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li><a href="/gift_cards">Gift Cards</a></li>
+                                <li><a href="/jobs">Careers</a></li>
                             </ul>
                         </div>
                     </div>
@@ -171,7 +171,7 @@
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
-                                <li><a href="#">Contacts</a></li>
+                                <li><a href="/contact_us">Contacts</a></li>
                                 <li><a href="#">Leasing</a></li>
                                 <li><a href="#">Non-Profit Groups</a></li>
                                 <li><a href="#">Green Initiatives</a></li>

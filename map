@@ -45,6 +45,9 @@
                     regions[val.svgmap_region] = obj
                 }
             });
+            $('#store_select_container').change(function(e){
+                alert($(this).val())
+            })
             init_map(regions)
         }
         loadMallDataCached(renderAll); 

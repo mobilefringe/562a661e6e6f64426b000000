@@ -39,7 +39,7 @@
                     regions[val.svgmap_region] = obj
                 }
             });
-            load_map(regions)
+            init_map(regions)
         }
         loadMallDataCached(renderAll); 
     })

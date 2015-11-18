@@ -5,7 +5,8 @@
         </div>
         <div class="col-md-6 text-right">
             <h3 class="store_list_header">
-                Click here to DOWNLOAD MAP
+                Click here to 
+                <a href="#">DOWNLOAD MAP</a>
             </h3>
         </div>
     </div>

@@ -205,8 +205,8 @@ function sortByKey(array, key) {
 function drop_pin(id){
     map.marksHide();
     var coords = map.get_coords(id);
-    var height = parseInt(coords["height"])
-    var width = parseInt(coords["width"])
+    var height = parseInt(coords["height"]);
+    var width = parseInt(coords["width"]);
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
     map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],

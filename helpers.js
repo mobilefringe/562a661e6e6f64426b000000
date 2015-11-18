@@ -217,7 +217,6 @@ function drop_pin(id){
 }
 
 function load_map(reg, store_details){
-    // stores_x5F_3_x5F_6_2_
     this_region = {}
     this_region = store_details.svgmap_region
     map = $('#mapsvg_store_detail').mapSvg({

@@ -308,7 +308,7 @@ function blog_searcher(){
             $('#search_results_promotions').append(h2_promotions);
             $.each(s_stores, function(i, v){
                 var div = "<div class='blog_search_results collapse_open_promotions'>";
-                div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
+                div = div + "<h4><a href='/promotions/" + v.slug + "'>" + v.name + "</a></h4>";
                 div = div + "</div>";
                 $('#search_results_promotions').append(div);
                 $('#search_results_promotions').show();

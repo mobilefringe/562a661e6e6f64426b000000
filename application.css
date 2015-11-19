@@ -834,6 +834,7 @@ a:hover, a:focus{
         margin: 0;
         font-size: 14px;
         font-weight: 300;
+        text-align: left;
     }
 }
 

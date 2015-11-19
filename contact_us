@@ -5,7 +5,7 @@
             <ul class="side_menu hidden_phone">
                 <li class="active"><a href="/contact_us">Contact Us</a></li>
                 <li><a href="/leasing">Leasing & Partnerships</a></li>
-                <li><a href="#">Non-Profit Groups</a></li>
+                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
                 <li><a href="#">Green Initiatives</a></li>
             </ul>
             <div class="position_relative show_phone">

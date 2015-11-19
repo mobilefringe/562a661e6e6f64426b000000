@@ -160,8 +160,8 @@
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
                                 <li><a href="/hours">Hours</a></li>
                                 <li><a href="/getting_here">Getting Here</a></li>
-                                <li><a href="#">Group Tours</a></li>
-                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="/group_tours">Group Tours</a></li>
+                                <li><a href="/accessibility">Accessibility</a></li>
                                 <li><a href="/gift_cards">Gift Cards</a></li>
                                 <li><a href="/jobs">Employment</a></li>
                             </ul>
@@ -172,9 +172,9 @@
                             <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
                                 <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="#">Leasing</a></li>
-                                <li><a href="#">Non-Profit Groups</a></li>
-                                <li><a href="#">Green Initiatives</a></li>
+                                <li><a href="/leasing">Leasing</a></li>
+                                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                                <li><a href="/green_initiatives">Green Initiatives</a></li>
                             </ul>
                         </div>
                     </div>

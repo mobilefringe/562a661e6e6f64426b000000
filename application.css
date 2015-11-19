@@ -853,6 +853,7 @@ a:hover, a:focus{
 }
 .site_searcher_div{
     position:absolute;
+        z-index: 9999;
 }
 
 

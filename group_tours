@@ -6,7 +6,7 @@
                 <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
                 <li class="active"><a href="/group_tours">Group Tours</a></li>
-                <li><a href="#">Accessibility</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
                 <li><a href="/gift_cards">Gift Cards</a></li>
                 <li><a href="/jobs">Employment</a></li>
                 
@@ -15,8 +15,8 @@
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Group Tours</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="/hours">Operating Hours</a></li>
-                    <li><a href="#">GettingHere Tours</a></li>
-                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="/getting_here">Getting Here</a></li>
+                    <li><a href="/accessibility">Accessibility</a></li>
                     <li><a href="/gift_cards">Gift Cards</a></li>
                     <li><a href="/jobs">Employment</a></li>
                 </ul>

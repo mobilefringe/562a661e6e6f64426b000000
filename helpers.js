@@ -306,12 +306,12 @@ function blog_searcher(){
             $('.li_open').click(function(){
                 var collapse = ".collapse_" + $(this).attr('id');
                 if($(this).hasClass('open')){
-                    $(this).slideUp('fast');
+                    $(collapse).slideUp('fast');
                     $(this).removeClass('open');
                 }
                 else{
                     $(this).addClass('open');
-                    $(this).slideDown('fast');
+                    $(collapse).slideDown('fast');
                 }
                 
             })

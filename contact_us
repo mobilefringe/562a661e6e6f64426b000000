@@ -4,7 +4,7 @@
             <h3 class="store_list_header">About Us</h3>
             <ul class="side_menu hidden_phone">
                 <li class="active"><a href="/contact_us">Contact Us</a></li>
-                <li><a href="#">Leasing & Partnerships</a></li>
+                <li><a href="/leasing">Leasing & Partnerships</a></li>
                 <li><a href="#">Non-Profit Groups</a></li>
                 <li><a href="#">Green Initiatives</a></li>
             </ul>

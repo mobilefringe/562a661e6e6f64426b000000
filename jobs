@@ -5,7 +5,7 @@
             <ul class="side_menu hidden_phone">
                 <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
-                <li><a href="#">Group Tours</a></li>
+                <li><a href="/group_tours">Group Tours</a></li>
                 <li><a href="#">Accessibility</a></li>
                 <li><a href="/gift_cards">Gift Cards</a></li>
                 <li class="active"><a href="/jobs">Employment</a></li>
@@ -16,7 +16,7 @@
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="side_dd">
                     <li><a href="/hours">Operating Hours</a></li>
                     <li><a href="/getting_here">Getting Here</a></li>
-                    <li><a href="#">Group Tours</a></li>
+                    <li><a href="/group_tours">Group Tours</a></li>
                     <li><a href="#">Accessibility</a></li>
                     <li><a href="/gift_cards">Gift Cards</a></li>
                 </ul>

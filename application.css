@@ -259,7 +259,7 @@ a:hover, a:focus{
     outline: #979797 solid 1px;
 }
 
-.top_form_control i{
+.top_form_control .custom_i{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);

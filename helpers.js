@@ -296,7 +296,7 @@ function blog_searcher(){
             var s_promos = results.promotions;
             var h2 = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
             var d = "<div id='collapse_open_stores>"
-            $('#search_results_stores').append(h2);
+            // $('#search_results_stores').append(h2);
             $('#search_results_stores').append(d);
             var div = "";
             $.each(s_stores, function(i, v){

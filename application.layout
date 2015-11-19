@@ -124,15 +124,16 @@
                             <i class="custom_i fa fa-envelope-o"></i>
                             <input type="text" placeholder="Enter your email to Subscribe" />
                         </label>
-                        <label class="top_form_control no_mobile_margin">
-                            <i class="custom_i fa fa-search"></i>
-                        </label>
                         <div class="site_searcher_div" >
-                            <input type="text" placeholder="Search" id="site_search" />
+                            <label class="top_form_control no_mobile_margin">
+                                <i class="custom_i fa fa-search"></i>
+                                <input type="text" placeholder="Search" id="site_search" />
+                            </label>
                             <div class="site_search_results" id="search_results_stores"></div>
                             <div class="site_search_results" id="search_results_events"></div>
                             <div class="site_search_results" id="search_results_promotions"></div>
                         </div>
+                    
                     </div>
                 </div>
             </div>

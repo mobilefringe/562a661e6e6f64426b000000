@@ -291,7 +291,7 @@ function blog_searcher(){
             var val = $(this).val().toLowerCase();
             
             results = getSearchResults(val);
-            console.log(results)
+            console.log(results.stores)
             // $.each(results, function(i, v){
             //     var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +v.posts.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
             //     var div = "<div class='blog_search_results' id='collapse_open_"+ i  + "'>";

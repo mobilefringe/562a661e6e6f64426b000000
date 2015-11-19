@@ -305,9 +305,12 @@ function blog_searcher(){
             });
             $('.li_open').click(function(){
                 var collapse = ".collapse_" + $(this).attr('id');
-                var collapse_js = "collapse_" + $(this).attr('id');
-                console.log(collapse)
-                $(collapse).slideDown('fast');
+                if($(this).hasClass('open')){
+                    
+                }
+                else{
+                    $(collapse).slideDown('fast');
+                }
                 
             })
             

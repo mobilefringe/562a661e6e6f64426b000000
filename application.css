@@ -818,7 +818,6 @@ a:hover, a:focus{
 
 .site_search_results {
     width: 235px;
-    position: absolute;
     background-color: #fff;
     padding: 0;
     border: 1px solid #eee;

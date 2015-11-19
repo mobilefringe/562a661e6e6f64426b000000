@@ -4,8 +4,8 @@
             <h3 class="store_list_header">Centre Information</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="/contact_us">Contact Us</a></li>
-                <li class="active"><a href="/leasing">Leasing & Partnerships</a></li>
-                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                <li><a href="/leasing">Leasing & Partnerships</a></li>
+                <li class="active"><a href="/non_profit_groups">Non-Profit Groups</a></li>
                 <li><a href="/green_initiatives">Green Initiatives</a></li>
                 
             </ul>

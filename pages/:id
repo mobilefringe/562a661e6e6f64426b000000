@@ -8,7 +8,7 @@
             <div class="margin_20"></div>
             <h3 class="hours_header" id="mm_page_title"></h3>
             <div id="mm_page_content"></div>
-            <div id="404_msg">Sorry we can't find the page you're looking for</div>
+            <div id="404_msg">Sorry we can't find the page you're looking for.</div>
         </div>
     </div>
 </div>

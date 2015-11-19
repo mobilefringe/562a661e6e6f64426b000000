@@ -282,7 +282,7 @@ function blog_searcher(){
             $('#close_search').hide();
         }
         else{
-            $('#close__search').show();
+            $('#close_search').show();
             $('#blog_results').html('');
             var val = $(this).val().toLowerCase();
             results = search_blog(val);

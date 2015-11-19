@@ -25,7 +25,70 @@
         <div class="col-md-9 contact_rows">
             <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
+            <!-- body CONTENT BLOCK START-->    
+<section id="editor" class="froala-element">
+  <a href="#" style="font-size:20px;display:none" id="content_block_564e20616e6f640705000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_564e20616e6f640705000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
+  <div id='edit_564e20616e6f640705000000'>
+	  <%=content_block_564e20616e6f640705000000%>
+  </div>
+  <script>
+      $(function(){
+		if (typeof $('#edit_564e20616e6f640705000000').editable != 'undefined') {
+			$('#content_block_564e20616e6f640705000000').show();
+	        $('#edit_564e20616e6f640705000000').editable({
+				buttons: ["bold", "italic", "underline", "strikeThrough",'insertHorizontalRule', "fontFamily", "fontSize", "color", "formatBlock", "blockStyle", 'table',"align", "insertOrderedList", "insertUnorderedList", "outdent", "indent", "selectAll", "createLink", "insertImage", "insertVideo", "undo", "redo", "html"],
+				inlineMode: false,
+                paragraphy: true,
+                alwaysBlank: true,
+                toolbarFixed: true,
+                imageMove: true,
+                saveURL: '/web_pages/save_content_block',
+                saveRequestType: 'POST',
+	            saveParams: {name:'body', id: '564e20616e6f640705000000',web_page_id: '564e1f3f6e6f642b9f000000',authenticity_token: '<%=form_authenticity_token%>'},
+	            autosave: false,
+				minHeight: 200,
+				imageUploadToS3: {
+                    bucket: 'kodekloud',
+                    region: 's3',
+                    keyStart: 'site/562a661e6e6f64426b000000/a29fd2825011d88b0b98675ad9e05459/${filename}',
+					callback: function (url, key) {
+                      $.ajax({
+                            url : "../add_upload_from_content_block",
+                            type: "POST",
+                            data : {authenticity_token: '<%=form_authenticity_token%>',upload:{url:url}},
+                            success: function(data, textStatus, jqXHR)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            },
+                            error: function (jqXHR, textStatus, errorThrown)
+                            {
+                                console.log('saved image to uploads');
+                                console.log(textStatus);
+                            }
+                        });
+                    },
+                    params: {
+					  utf8: '&#x2713;',
+                      acl: 'public-read', // ACL according to Amazon Documentation.
+                      AWSAccessKeyId: 'AKIAJDG7LVTTRXSI4QEA', // Access Key from Amazon.
+                      policy: 'eyJleHBpcmF0aW9uIjoiMjI4OS0wOS0wMlQxOToxNzo1My4zNjBaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkdXRmOCIsIiJdLFsic3RhcnRzLXdpdGgiLCIka2V5IiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXlfcm9vdCIsIiJdLFsiY29udGVudC1sZW5ndGgtcmFuZ2UiLDAsNTI0Mjg4MDAwXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkc3VjY2Vzc19hY3Rpb25fc3RhdHVzIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRYLVJlcXVlc3RlZC1XaXRoIiwiIl0seyJidWNrZXQiOiJrb2Rla2xvdWQifSx7ImFjbCI6InB1YmxpYy1yZWFkIn1dfQ==', // Policy string computed in the backend.
+                      signature: 'ObbU5T2uJ+l02R5JlCeuE0RDhT0=', // Signature computed in the backend.
+                    }
+                }
             
+	        })
+		}
+		$('#status_564e20616e6f640705000000').hide();
+        
+        $('#content_block_564e20616e6f640705000000').click(function(event){
+            event.preventDefault();
+            $('#edit_564e20616e6f640705000000').editable("save");
+        });
+      });
+  </script>
+</section>    
+<!-- body CONTENT BLOCK END -->
         </div>
     </div>
 </div>

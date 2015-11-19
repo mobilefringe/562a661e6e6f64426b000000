@@ -811,7 +811,8 @@ a:hover, a:focus{
 #mm_page_content{
     font-size:15px;
     a{
-        color: #FFCD2A;;
+        color: #FFCD2A;
+        text-decoration:underline;
     }
 }
 

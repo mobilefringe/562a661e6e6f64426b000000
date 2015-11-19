@@ -130,7 +130,7 @@
                                 <input type="text"  placeholder="Search" id="blog_search" />
                                 <div id="search_results_stores"></div>
                                 <div id="search_results_events"></div>
-                                <div id="search_results_promotion"></div>
+                                <div id="search_results_promotions"></div>
                                 
                             </div>
                         </label>

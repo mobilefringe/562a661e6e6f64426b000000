@@ -88,7 +88,7 @@
                             <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
                                 <li><a href="/contact_us">Contact Us</a></li>
-                                <li><a href="#">Leasing</a></li>
+                                <li><a href="/leasing">Leasing</a></li>
                                 <li><a href="#">Non-Profit Groups</a></li>
                                 <li><a href="#">Green Initiatives</a></li>
                             </ul>

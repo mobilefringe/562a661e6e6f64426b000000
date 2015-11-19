@@ -32,7 +32,7 @@ function init(e){
     
         feed.run();
     }
-    blog_searcher
+    blog_searcher();
 }
 
 

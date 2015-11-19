@@ -128,9 +128,9 @@
                             <i class="fa fa-search"></i>
                             <div class="site_searcher_div" >
                                 <input type="text" placeholder="Search" id="site_search" />
-                                <div id="search_results_stores"></div>
-                                <div id="search_results_events"></div>
-                                <div id="search_results_promotions"></div>
+                                <div class="site_search_results" id="search_results_stores"></div>
+                                <div class="site_search_results" id="search_results_events"></div>
+                                <div class="site_search_results" id="search_results_promotions"></div>
                             </div>
                         </label>
                     </div>

@@ -298,9 +298,9 @@ function blog_searcher(){
             $('#search_results_stores').append(h2_stores);
             $.each(s_stores, function(i, v){
                 var div_stores = "<div class='blog_search_results collapse_open_stores'>";
-                div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
-                div = div + "</div>";
-                $('#search_results_stores').append(div);
+                div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
+                div_stores = div_stores + "</div>";
+                $('#search_results_stores').append(div_stores);
                 $('#search_results_stores').show();
             });
             

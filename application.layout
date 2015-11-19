@@ -125,7 +125,7 @@
                             <input type="text" placeholder="Enter your email to Subscribe" />
                         </label>
                         <div class="site_searcher_div" >
-                            <label class="top_form_control no_mobile_margin">
+                            <label class="top_form_control no_margin">
                                 <i class="custom_i fa fa-search"></i>
                                 <input type="text" placeholder="Search" id="site_search" />
                             </label>

@@ -299,9 +299,9 @@ function blog_searcher(){
                 var div = "<div class='blog_search_results' id='collapse_open_"+ i  + "'>";
                 // div = div + "<h4><a href='/posts/" + k.slug + "'>" + k.title + "<br /><span>Published on: " + k.published_on +"</span></a></h4>";
                 div = div + "</div>";
-                $('#blog_results').append(h2);
-                $('#blog_results').append(div);
-                $('#blog_results').show();
+                $('#search_results_stores').append(h2);
+                $('#search_results_stores').append(div);
+                $('#search_results_stores').show();
             // });
             // $('.li_open').click(function(){
             //     var collapse = "#collapse_" + $(this).attr('id');

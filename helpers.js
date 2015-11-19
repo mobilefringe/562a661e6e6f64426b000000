@@ -294,8 +294,8 @@ function blog_searcher(){
             var s_stores = results.stores;
             var s_events = results.events;
             var s_promos = results.promotions;
+            var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +s_stores.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
             $.each(s_stores, function(i, v){
-                var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +s_stores.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
                 var div = "<div class='blog_search_results' id='collapse_open_"+ i  + "'>";
                 // div = div + "<h4><a href='/posts/" + k.slug + "'>" + k.title + "<br /><span>Published on: " + k.published_on +"</span></a></h4>";
                 div = div + "</div>";

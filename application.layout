@@ -78,8 +78,8 @@
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav3">
                                 <li><a href="/hours">Hours</a></li>
                                 <li><a href="/getting_here">Getting Here</a></li>
-                                <li><a href="#">Group Tours</a></li>
-                                <li><a href="#">Accessibility</a></li>
+                                <li><a href="/group_tours">Group Tours</a></li>
+                                <li><a href="/accessibility">Accessibility</a></li>
                                 <li><a href="/gift_cards">Gift Cards</a></li>
                                 <li><a href="/jobs">Employment</a></li>
                             </ul>

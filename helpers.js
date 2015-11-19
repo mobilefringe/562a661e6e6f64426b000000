@@ -279,10 +279,10 @@ function blog_searcher(){
             $('#search_results_stores').hide();
             $('#search_results_events').hide();
             $('#search_results_promotions').hide();
-            $('#close_blog_search').hide();
+            $('#close_search').hide();
         }
         else{
-            $('#close_blog_search').show();
+            $('#close__search').show();
             $('#blog_results').html('');
             var val = $(this).val().toLowerCase();
             results = search_blog(val);

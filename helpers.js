@@ -288,6 +288,7 @@ function blog_searcher(){
             $('#search_results_promotions').html('');
             
             var val = $(this).val().toLowerCase();
+            
             results = search_blog(val);
             $.each(results, function(i, v){
                 var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +v.posts.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";

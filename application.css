@@ -829,6 +829,7 @@ a:hover, a:focus{
     z-index: 99;
     h2 {
         padding: 10px 12px;
+        border-bottom: 1px solid #ccc;
         cursor: pointer;
         margin: 0;
         font-size: 14px;

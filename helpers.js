@@ -295,7 +295,7 @@ function blog_searcher(){
             var s_events = results.events;
             var s_promos = results.promotions;
             $.each(s_stores, function(i, v){
-                var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +v.posts.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
+                var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +s_stores.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
                 var div = "<div class='blog_search_results' id='collapse_open_"+ i  + "'>";
                 $.each(v.posts, function(j,k){
                     var date_blog = new Date((k.publish_date + " 05:00:00").replace(/-/g,"/"));

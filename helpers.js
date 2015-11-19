@@ -283,7 +283,9 @@ function blog_searcher(){
         }
         else{
             $('#close_search').show();
-            $('#blog_results').html('');
+            $('#search_results_stores').html('');
+            $('#search_results_events').html('');
+            $('#search_results_promotions').html('');
             var val = $(this).val().toLowerCase();
             results = search_blog(val);
             $.each(results, function(i, v){

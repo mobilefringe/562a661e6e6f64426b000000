@@ -808,6 +808,10 @@ a:hover, a:focus{
     }
 }
 
+#mm_page_content{
+    font-size:15px;
+}
+
 
 
 @media(max-width:800px){

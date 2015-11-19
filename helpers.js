@@ -303,7 +303,7 @@ function blog_searcher(){
                 div = div + "</div>";
             });
             $('#search_results_stores').append(div);
-                $('#search_results_stores').show();
+            $('#search_results_stores').show();
             $('.li_open').click(function(){
                 var collapse = "#collapse_" + $(this).attr('id');
                 var collapse_js = "collapse_" + $(this).attr('id');

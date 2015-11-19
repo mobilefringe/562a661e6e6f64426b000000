@@ -128,11 +128,11 @@
                             <i class="custom_i fa fa-search"></i>
                         </label>
                         <div class="site_searcher_div" >
-                                <input type="text" placeholder="Search" id="site_search" />
-                                <div class="site_search_results" id="search_results_stores"></div>
-                                <div class="site_search_results" id="search_results_events"></div>
-                                <div class="site_search_results" id="search_results_promotions"></div>
-                            </div>
+                            <input type="text" placeholder="Search" id="site_search" />
+                            <div class="site_search_results" id="search_results_stores"></div>
+                            <div class="site_search_results" id="search_results_events"></div>
+                            <div class="site_search_results" id="search_results_promotions"></div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -32,6 +32,7 @@ function init(e){
     
         feed.run();
     }
+    blog_searcher
 }
 
 

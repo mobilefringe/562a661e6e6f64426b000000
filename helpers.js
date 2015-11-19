@@ -302,7 +302,7 @@ function blog_searcher(){
                 $('#search_results_stores').append(h2);
                 $('#search_results_stores').append(div);
                 $('#search_results_stores').show();
-            // });
+            });
             // $('.li_open').click(function(){
             //     var collapse = "#collapse_" + $(this).attr('id');
             //     var collapse_js = "collapse_" + $(this).attr('id');

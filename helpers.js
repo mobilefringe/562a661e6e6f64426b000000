@@ -302,7 +302,7 @@ function blog_searcher(){
                 div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                 div = div + "</div>";
             });
-            $('#search_results_stores').append(div);
+            $('#collapse_open_stores').html(div);
             $('#search_results_stores').show();
             
             $('.li_open').click(function(){

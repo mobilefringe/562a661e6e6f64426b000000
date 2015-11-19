@@ -304,7 +304,10 @@ function blog_searcher(){
                 $('#search_results_stores').show();
             });
             $('.li_open').click(function(){
-                $('.collapse_open_stores').slideDown('fast');
+                var collapse = "#collapse_" + $(this).attr('id');
+                var collapse_js = "collapse_" + $(this).attr('id');
+                
+                $(collapse).slideDown('fast');
                 
             })
             

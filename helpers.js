@@ -271,9 +271,9 @@ function verify_captcha(response){
 }
 
 function blog_searcher(){
-    $('#blog_search').keyup(function(){
-        if ($('#blog_search').val() == ""){
-            $('#blog_results').html('');
+    $('#site_search').keyup(function(){
+        if ($('#site_search').val() == ""){
+            $('#search_results').html('');
             $('#blog_results').hide();
             $('#close_blog_search').hide();
         }

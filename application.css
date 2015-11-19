@@ -849,6 +849,10 @@ a:hover, a:focus{
     }
 }
 
+.collapse_open_stores{
+    display:none;
+}
+
 
 
 @media(max-width:800px){

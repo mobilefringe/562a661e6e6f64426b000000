@@ -292,6 +292,8 @@ function blog_searcher(){
             
             results = getSearchResults(val);
             var s_stores = results.stores;
+            var s_events = results.events;
+            var s_promos = results.promos;
             // $.each(results, function(i, v){
             //     var h2 = "<h2 id='open_"+ i +"' class='li_open'>(" +v.posts.length + ") " + v.name +"<i class='pull-right fa fa-chevron-down'></i></h2>";
             //     var div = "<div class='blog_search_results' id='collapse_open_"+ i  + "'>";

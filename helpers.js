@@ -316,18 +316,6 @@ function blog_searcher(){
                 
             })
             
-            // $('.li_open').click(function(){
-            //     var collapse = "#collapse_" + $(this).attr('id');
-            //     var collapse_js = "collapse_" + $(this).attr('id');
-            //     if (document.getElementById(collapse_js).classList.contains("open")){
-            //         $(collapse).slideUp('fast');
-            //         $(collapse).removeClass('open');
-            //     }
-            //     else{
-            //         $(collapse).addClass('open');
-            //         $(collapse).slideDown('fast');
-            //     }
-            // });
         }
     });
 }

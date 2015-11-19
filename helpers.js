@@ -295,18 +295,14 @@ function blog_searcher(){
             var s_events = results.events;
             var s_promos = results.promotions;
             var h2 = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
-            var d = "<div id='collapse_open_stores>s</div>"
-            // $('#search_results_stores').append(h2);
-            $('#search_results_stores').append(d);
-            var div = "";
+            $('#search_results_stores').append(h2);
             $.each(s_stores, function(i, v){
-                div = "<div class='blog_search_results collapse_open_stores'>";
+                var div = "<div class='blog_search_results collapse_open_stores'>";
                 div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                 div = div + "</div>";
+                $('#search_results_stores').append(div);
+                $('#search_results_stores').show();
             });
-            // $('#collapse_open_stores').html(div);
-            $('#search_results_stores').show();
-            
             $('.li_open').click(function(){
                 var collapse = "#collapse_" + $(this).attr('id');
                 var collapse_js = "collapse_" + $(this).attr('id');

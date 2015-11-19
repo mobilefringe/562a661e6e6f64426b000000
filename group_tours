@@ -25,56 +25,7 @@
         <div class="col-md-9 contact_rows">
             <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.646956026263!2d-79.57064718409426!3d43.593069479123514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b47dbaa35b3f5%3A0x694cdc42c6a2c734!2sDixie+Outlet+Mall!5e0!3m2!1sen!2sca!4v1447796950959" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class="margin_20"></div>
-            <p class="page_desc mobile_padding">Dixie Outlet Mall is conveniently located at the QEW & Dixie Road, in Mississauga, Ontario.</p>
-            <div class="margin_30"></div>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
-                        FROM THE WEST
-                        <i class="fa fa-caret-down pull-right show_phone"></i>
-                    </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
-                        <ul class="custom_list_direction">
-                            <li>QEW East to Cawthra Road</li>
-                            <li>Right onto Cawthra Road</li>
-                            <li>Left onto South Service Road</li>
-                            <li>Dixie Outlet Mall is on your right</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                       FROM DOWNTOWN TORONTO VIA GO TRANSIT
-                        <i class="fa fa-caret-down pull-right show_phone"></i>
-                    </h3>
-                    <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
-                        <ul class="custom_list_direction">
-                            <li>From Union Station take the GO Transit Lakeshore West Line</li>
-                            <li>Exit the GO train at Long Branch station and take the Mississauga Transit Route 5 North bus</li>
-                            <li>Route % North bus will take your directly to Dixie Outlet Mall</li>
-                            For additional details and transit fares please visit <a href="http://www.gotransit.com">www.gotransit.com</a>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             
-            <div class="row">
-                <div class="col-md-6">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                        FROM THE EAST
-                        <i class="fa fa-caret-down pull-right show_phone"></i>
-                    </h3>
-                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
-                        <ul class="custom_list_direction">
-                            <li>Gardiner Expressway/QEW West to Dixie Road</li>
-                            <li>Left onto Dixie Road South</li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
         </div>
     </div>
 </div>

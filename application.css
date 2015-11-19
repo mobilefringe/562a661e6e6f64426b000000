@@ -821,7 +821,7 @@ a:hover, a:focus{
     position: absolute;
     background-color: #fff;
     padding: 0;
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     border-top: 0;
     display: none;
     list-style: none;

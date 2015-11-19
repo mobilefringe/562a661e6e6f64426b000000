@@ -310,8 +310,8 @@ function blog_searcher(){
                 var div = "<div class='blog_search_results collapse_open_promotions'>";
                 div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                 div = div + "</div>";
-                $('#search_results_stores').append(div);
-                $('#search_results_stores').show();
+                $('#search_results_promotions').append(div);
+                $('#search_results_promotions').show();
             });
             
             var h2_events = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";

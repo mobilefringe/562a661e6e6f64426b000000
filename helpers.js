@@ -295,7 +295,7 @@ function blog_searcher(){
             var s_events = results.events;
             var s_promos = results.promotions;
             
-            if(s_stores.length > 0){
+            if((s_stores !=undefined && s_stores.length > 0){
                 var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_stores').append(h2_stores);
                 $.each(s_stores, function(i, v){
@@ -306,7 +306,7 @@ function blog_searcher(){
                     $('#search_results_stores').show();
                 });
             }
-            if(s_promos.length > 0){
+            if(s_promos != undefined && s_promos.length > 0){
                 var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_promotions').append(h2_promotions);
                 $.each(s_promos, function(i, v){

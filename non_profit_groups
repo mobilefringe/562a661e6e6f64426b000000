@@ -36,6 +36,7 @@
             prefix = get_prefix();
             var pages_json = 'http://dixieoutlet.mallmaverick.com/pages/dixieoutlet-non-profit-groups.json'
             $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title);
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {

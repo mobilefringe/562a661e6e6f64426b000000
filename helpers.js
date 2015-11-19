@@ -273,7 +273,9 @@ function verify_captcha(response){
 function blog_searcher(){
     $('#site_search').keyup(function(){
         if ($('#site_search').val() == ""){
-            $('#search_results').html('');
+            $('#search_results_stores').html('');
+            $('#search_results_events').html('');
+            $('#search_results_promotions').html('');
             $('#blog_results').hide();
             $('#close_blog_search').hide();
         }

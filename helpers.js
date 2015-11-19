@@ -303,7 +303,7 @@ function blog_searcher(){
                 $('#search_results_stores').append(div);
                 $('#search_results_stores').show();
             });
-            $('#open_stores').click(function(){$('. collapse_open_stores').show()})
+            $('#open_stores').click(function(){$('.collapse_open_stores').show()})
         }
     });
 }

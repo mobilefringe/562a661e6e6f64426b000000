@@ -852,6 +852,9 @@ a:hover, a:focus{
 .blog_search_results{
     display:none;
 }
+.site_searcher_div{
+    position:absolute;
+}
 
 
 

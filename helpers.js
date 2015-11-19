@@ -276,9 +276,9 @@ function blog_searcher(){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
-            $('#search_results_stores').html('');
-            $('#search_results_events').html('');
-            $('#search_results_promotions').html('');
+            $('#search_results_stores').hide();
+            $('#search_results_events').hide();
+            $('#search_results_promotions').hide();
             $('#close_blog_search').hide();
         }
         else{

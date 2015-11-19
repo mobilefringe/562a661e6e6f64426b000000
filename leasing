@@ -14,7 +14,7 @@
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="/contact_us">Contact Us</a></li>
                     <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
-                <li><a href="/green_initiatives">Green Initiatives</a></li>
+                    <li><a href="/green_initiatives">Green Initiatives</a></li>
                 </ul>
             </div>
         </div>

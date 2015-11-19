@@ -304,9 +304,9 @@ function blog_searcher(){
                 $('#search_results_stores').show();
             });
             
-            var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
+            var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
             $('#search_results_promotions').append(h2_promotions);
-            $.each(s_stores, function(i, v){
+            $.each(s_promos, function(i, v){
                 var div = "<div class='blog_search_results collapse_open_promotions'>";
                 div = div + "<h4><a href='/promotions/" + v.slug + "'>" + v.name + "</a></h4>";
                 div = div + "</div>";

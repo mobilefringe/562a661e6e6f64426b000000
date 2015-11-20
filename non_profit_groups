@@ -1,7 +1,7 @@
 <div class="fluid_row">
     <div class="row">
         <div class="col-md-3 mobile_padding">
-            <h3 class="store_list_header">Centre Information</h3>
+            <h3 class="store_list_header">ABOUT US</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="/contact_us">Contact Us</a></li>
                 <li><a href="/leasing">Leasing & Partnerships</a></li>

@@ -74,6 +74,7 @@
             renderJobs('#jobs_container', '#jobs_template', jobs);
             show_content();
             jobs_filter();
+            $('#top_nav_centre_info').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

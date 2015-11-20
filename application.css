@@ -20,6 +20,16 @@ body{
     display: none;
 }
 
+#subscription_confirmed{
+    display: none; 
+    position: absolute;
+    z-index: 999999;
+    background: #FFCD2A;
+    width: 100%;
+    padding: 5px 10px;
+    top: 0px;
+}
+
 .position_relative{
     position:relative;
 }

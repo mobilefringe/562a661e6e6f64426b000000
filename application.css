@@ -870,6 +870,7 @@ a:hover, a:focus{
 .top_nav_menu:before{
     height:2px;
     width:10px;
+    background:red;
 }
 
 @media(max-width:800px){

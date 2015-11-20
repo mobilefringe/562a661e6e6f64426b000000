@@ -100,7 +100,7 @@
                 <div class="col-md-4 hidden_phone">
                     <p class="todays_hours">
                         <b>Today's Hours </b>
-                        <span class="hours_box feature_box" id="home_hours_container">
+                        <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
                                 {{h}}
                             </script>

@@ -146,7 +146,6 @@ function get_day(id){
 
 
 function convert_hour(d){
-    
     var h = (d.getUTCHours());
     var m = addZero(d.getUTCMinutes());
     var s = addZero(d.getUTCSeconds());

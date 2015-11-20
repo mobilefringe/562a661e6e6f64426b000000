@@ -102,7 +102,7 @@
                         <b>Today's Hours </b>
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                {{{h}}}
+                                {%raw%}{{h}}{%endraw%}
                             </script>
                         </span>
                         <br />

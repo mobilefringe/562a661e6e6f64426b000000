@@ -138,7 +138,7 @@
             </div>
             <div class="row top_nav hidden_phone">
                 <div class="top_nav_row">
-                    <div class="top_nav_menu">
+                    <div class="top_nav_menu" id="top_nav_stores">
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Stores <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu1">
@@ -147,7 +147,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="top_nav_menu">
+                    <div class="top_nav_menu" id="top_nav_events">
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
@@ -156,10 +156,10 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="top_nav_menu">
+                    <div class="top_nav_menu" id="top_nav_promotions">
                         <a href="/promotions">Promotions</a>
                     </div>
-                    <div class="top_nav_menu">
+                    <div class="top_nav_menu" id="top_nav_centre_info>
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
@@ -172,7 +172,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="top_nav_menu">
+                    <div class="top_nav_menu" id="top_nav_about_us">
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">

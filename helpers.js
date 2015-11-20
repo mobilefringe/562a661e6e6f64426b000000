@@ -36,7 +36,16 @@ function init(e){
     
     $('#subForm').submit(function(e){
         e.preventDefault();
-        
+        $.getJSON(
+            this.action + "?callback=?",
+            $(this).serialize(),
+            function (data) {
+                if (data.Status === 400) {
+                    alert("Please try again later.");
+                } else { // 200
+                    $("#subscription_confirmed").fadeIn();
+                }
+        });
     });
 }
 

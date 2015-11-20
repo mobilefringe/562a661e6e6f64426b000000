@@ -20,6 +20,10 @@ body{
     display: none;
 }
 
+#404_msg{
+    display:none;
+}
+
 
 #subscription_confirmed{
     display: none; 

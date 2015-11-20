@@ -46,6 +46,10 @@ body{
 .hidden_now{
     display:none;    
 }
+
+.home_hours_container{
+    text-transform:uppercase;
+}
 .ig-image{
     
 }

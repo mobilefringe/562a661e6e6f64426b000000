@@ -33,6 +33,10 @@ function init(e){
         feed.run();
     }
     blog_searcher();
+    
+    $('#subForm').submit(function(e){
+        e.preventDefault();
+    });
 }
 
 

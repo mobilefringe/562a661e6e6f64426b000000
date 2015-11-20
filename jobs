@@ -57,7 +57,7 @@
                             <h3 class="jobs_name"><a href="/jobs/{{slug}}">{{name}} <i class="fa fa-arrow-right arrow_custom show_phone"></i></a></h3>
                         </div>
                         <div class="col-md-3 hidden_phone">
-                            <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{published_on}}</h3>
+                            <h3 class="jobs_publish_date text-center"><i class="fa fa-calendar"></i> &nbsp;{{published_on}}</h3>
                         </div>
                     </div>
                 </script>

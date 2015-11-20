@@ -514,6 +514,7 @@ function renderHomeHours(container, template, collection){
         } else {
             val.h = "Closed";
         }
+        console.log(rendered)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

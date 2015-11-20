@@ -125,7 +125,7 @@
                                 <i class="custom_i fa fa-envelope-o"></i>
                                 <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />
                             </label>
-                            <span id="subscription_confirmed"></span>
+                            <span id="subscription_confirmed">Thank you for subscribing.</span>
                         </form>
                         <div class="site_searcher_div" >
                             <label class="top_form_control no_margin">

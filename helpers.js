@@ -59,8 +59,7 @@ function show_content(){
     if(windowWidth <= 1024) {
          $('.panel-collapse').removeClass('in')
     }
-    var today_hours = getTodaysHours();
-    renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
+    
 }
 
 function show_cat_stores(){

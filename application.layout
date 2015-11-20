@@ -120,7 +120,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="pull-right">
-                        <form action="http://mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm">
+                        <form action="http://mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="position_relative">
                             <label class="top_form_control">
                                 <i class="custom_i fa fa-envelope-o"></i>
                                 <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />

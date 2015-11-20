@@ -120,10 +120,12 @@
                 </div>
                 <div class="col-md-4">
                     <div class="pull-right">
-                        <label class="top_form_control">
-                            <i class="custom_i fa fa-envelope-o"></i>
-                            <input type="text" placeholder="Enter your email to Subscribe" />
-                        </label>
+                        <form action="http://mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm">
+                            <label class="top_form_control">
+                                <i class="custom_i fa fa-envelope-o"></i>
+                                <input type="text" placeholder="Enter your email to Subscribe" />
+                            </label>
+                        </form>
                         <div class="site_searcher_div" >
                             <label class="top_form_control no_margin">
                                 <i class="custom_i fa fa-search"></i>

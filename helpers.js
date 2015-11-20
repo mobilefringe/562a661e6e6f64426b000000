@@ -15,7 +15,7 @@ function init(e){
 		e.preventDefault();
 	});
 	
-	$('.accordion_header').click(function(e){
+	$('.accordion_header, .li_open').click(function(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 	

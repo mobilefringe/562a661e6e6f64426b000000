@@ -1220,7 +1220,7 @@ a:hover, a:focus{
     .site_searcher_div, .site_search_results{
         width:100%;
     }
-    .li_open .pull-right{
+    .top_header .col-md-4  .li_open .pull-right{
         float:right !important;
     }
     

@@ -36,6 +36,7 @@ function init(e){
     
     $('#subForm').submit(function(e){
         e.preventDefault();
+        
     });
 }
 

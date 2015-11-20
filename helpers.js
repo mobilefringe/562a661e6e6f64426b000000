@@ -339,7 +339,7 @@ function blog_searcher(){
                 $('#search_results_stores').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
-                    div = div + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
+                    div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
                     $('#search_results_stores').show();

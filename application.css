@@ -285,6 +285,7 @@ a:hover, a:focus{
     line-height: 26px;
     display: inline-block;
     margin: 5px 12px;
+    position:relative;
 }
 
 .top_nav_menu a{

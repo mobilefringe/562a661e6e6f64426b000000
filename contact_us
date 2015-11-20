@@ -155,6 +155,7 @@
         init(e);
         function renderAll(){
             show_content();
+            $('#top_nav_about_us').addClass('active_yellow')
             $('#feedback_form').submit(function(e){
                 verify_captcha();
                 e.preventDefault();

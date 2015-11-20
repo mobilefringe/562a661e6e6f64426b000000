@@ -17,7 +17,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-9 contact_rows">
+        <div class="col-md-9 contact_rows mobile_padding">
             <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
             <h3 class="hours_header" id="mm_page_title"></h3>

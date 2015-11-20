@@ -495,7 +495,6 @@ function renderEventDetails(container, template, collection){
 }
 
 function renderHomeHours(container, template, collection){
-    alert("YO")
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();

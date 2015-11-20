@@ -41,7 +41,7 @@ function init(e){
             $(this).serialize(),
             function (data) {
                 if (data.Status === 400) {
-                    alert("Please try again later.");
+                    alert("An error occured while processing your request. Please try again later.");
                 } else { // 200
                     $("#subscription_confirmed").fadeIn();
                 }

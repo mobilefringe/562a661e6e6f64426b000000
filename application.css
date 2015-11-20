@@ -868,6 +868,7 @@ a:hover, a:focus{
 }
 
 .top_nav_menu::before{
+    content:"yo";
     height:2px;
     width:10px;
     background:red;

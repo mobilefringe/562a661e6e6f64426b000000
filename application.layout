@@ -159,7 +159,7 @@
                     <div class="top_nav_menu" id="top_nav_promotions">
                         <a href="/promotions">Promotions</a>
                     </div>
-                    <div class="top_nav_menu" id="top_nav_centre_info>
+                    <div class="top_nav_menu" id="top_nav_centre_info">
                         <div class="dropdown">
                             <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre information <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">

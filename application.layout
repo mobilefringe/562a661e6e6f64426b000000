@@ -123,7 +123,7 @@
                         <form action="http://mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm">
                             <label class="top_form_control">
                                 <i class="custom_i fa fa-envelope-o"></i>
-                                <input type="text" placeholder="Enter your email to Subscribe" />
+                                <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" />
                             </label>
                         </form>
                         <div class="site_searcher_div" >

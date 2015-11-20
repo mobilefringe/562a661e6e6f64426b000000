@@ -867,12 +867,7 @@ a:hover, a:focus{
     font-size:15px;
 }
 
-.top_nav_menu::before{
-    content:"yo";
-    height:2px;
-    width:10px;
-    background:red;
-}
+
 
 @media(max-width:800px){
     .top_header .col-md-4 .pull-right{

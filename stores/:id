@@ -30,9 +30,9 @@
             <div id="mapsvg_store_detail"></div>
             <div class="margin_30"></div>
             <div id="accordion" role="tablist" aria-multiselectable="true">
+            <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">STORE DESCRIPTION <i class="fa fa-caret-up pull-right hidden_phone"></i><i class="fa fa-caret-down pull-right show_phone"></i></h3>
                 <div id="details_container">
                     <script id="details_template" type="x-tmpl-mustache/text">
-                        <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">STORE DESCRIPTION <i class="fa fa-caret-up pull-right hidden_phone"></i><i class="fa fa-caret-down pull-right show_phone"></i></h3>
                         <div id="collapseOne" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingOne">
                             <p class="store_desc margin_30">{{description}}</p>
                         </div>

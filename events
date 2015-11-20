@@ -32,6 +32,7 @@
             var jobs = getEventsList().sortBy(function(o){ return o.start_date });
             renderEvents("#jobs_container","#jobs_template", jobs);
             show_content();
+            $('#top_nav_eventss').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

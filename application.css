@@ -1216,9 +1216,10 @@ a:hover, a:focus{
         max-width: 100%;
         margin-bottom: 20px;
     }
-    .site_search_results{
+    .site_searcher_div, .site_search_results{
         width:100%;
     }
+    
 }
 
 

@@ -84,6 +84,7 @@
         init(e);
         function renderAll(){
             show_content();
+            $('#top_nav_centre_info').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

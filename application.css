@@ -910,6 +910,7 @@ a:hover, a:focus{
     .top_header{
         margin:12px;
         padding-top: 74px;
+        height: 142px;
     }
     .top_header .col-md-4{
         padding:0;

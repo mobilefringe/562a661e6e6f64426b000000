@@ -24,6 +24,10 @@ body{
     position:relative;
 }
 
+.cursor_auto{
+    cursor:auto;
+}
+
 .hidden_now{
     display:none;    
 }

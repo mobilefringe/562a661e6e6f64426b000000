@@ -867,6 +867,11 @@ a:hover, a:focus{
     font-size:15px;
 }
 
+.top_nav_menu:before{
+    height:2px;
+    width:10px;
+}
+
 @media(max-width:800px){
     .top_header .col-md-4 .pull-right{
         float:none !important;

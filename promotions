@@ -32,6 +32,7 @@
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderPromotions("#promos_container","#promos_template", promotions);
             show_content();
+            $('#top_nav_promotions').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

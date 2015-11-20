@@ -44,7 +44,7 @@ function init(e){
                     alert("An error occured while processing your request. Please try again later.");
                 } else { // 200
                     $("#subscription_confirmed").fadeIn();
-                    $('#subscription_confirmed').delay(5000).fadeOut();
+                    $('#subscription_confirmed').delay(2000).fadeOut();
                     $('#subForm').trigger('reset');
                 }
         });

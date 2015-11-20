@@ -35,6 +35,7 @@
             var stores = getStoresList();
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
             show_content();
+            $('#top_nav_stores').addClass('active_yellow')
             regions = {};
             $.each( stores , function( key, val ) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){

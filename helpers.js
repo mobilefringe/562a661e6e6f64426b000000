@@ -45,6 +45,7 @@ function init(e){
                 } else { // 200
                     $("#subscription_confirmed").fadeIn();
                     $('#subscription_confirmed').delay(5000).fadeOut()
+                    $(this).reset()
                 }
         });
     });

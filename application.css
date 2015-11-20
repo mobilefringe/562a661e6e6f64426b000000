@@ -47,7 +47,7 @@ body{
     display:none;    
 }
 
-.home_hours_container{
+#home_hours_container{
     text-transform:uppercase;
 }
 .ig-image{

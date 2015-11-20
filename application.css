@@ -868,10 +868,14 @@ a:hover, a:focus{
 }
 
 .top_nav_menu::before{
-    content:"yo";
-    height:2px;
-    width:10px;
-    background:red;
+    content: " ";
+    height: 4px;
+    width: 40px;
+    background: #FFCD2A;
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    transform: translateX(-50%);
 }
 
 @media(max-width:800px){

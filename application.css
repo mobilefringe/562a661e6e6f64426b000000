@@ -867,7 +867,7 @@ a:hover, a:focus{
     font-size:15px;
 }
 
-.top_nav_menu:before{
+.top_nav_menu::before{
     height:2px;
     width:10px;
     background:red;

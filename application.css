@@ -1227,7 +1227,9 @@ a:hover, a:focus{
     .top_header .col-md-4  .li_open .pull-right{
         float:right !important;
     }
-    
+    .site_searcher_div{
+        z-index:999;
+    }
 }
 
 

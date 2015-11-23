@@ -28,7 +28,12 @@
         <!-- jQuery Version 1.11.0 -->
         
         
-        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
 
     <body id="page-top">
@@ -238,7 +243,8 @@
         </footer>
         <a href="#top" class="scrollToTop"><i class="fa fa-arrow-up"></i></a>
         
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    </body>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
@@ -252,14 +258,6 @@
         <script>
             setEndPoint('http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/all.json');
         </script>
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </body>
-    
 </html>
 
 

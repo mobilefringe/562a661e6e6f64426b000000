@@ -134,8 +134,9 @@
             }
             
             var store_promo_ids = store_details.promotions
-            if( store_promo_ids.length > 0){
-                var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });;
+            var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+            if( store_promos.length > 0){
+                
                 renderPromotions("#promos_container","#promos_template", store_promos);
             }
             else{

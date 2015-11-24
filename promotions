@@ -22,7 +22,7 @@
                 </div>
             </script>
         </div>
-        <h3 class="hidden_now">There are currently no Promotions available, please check back again later</h3>
+        <h3 id="no_promos" class="hidden_now">There are currently no Promotions available, please check back again later</h3>
     </div>
 </div>
 <div class="margin_40"></div>

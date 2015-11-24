@@ -30,7 +30,15 @@
         init(e);
         function renderAll(){
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
-            renderPromotions("#promos_container","#promos_template", promotions);
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
+            renderPromotions("#promos_container","#promos_template", published_promos);
             show_content();
             $('#top_nav_promotions').addClass('active_yellow')
         }

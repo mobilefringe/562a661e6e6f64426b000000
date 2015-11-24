@@ -161,7 +161,7 @@
                 } 
             });
             if( published_jobs.length > 0){
-                renderJobs('#jobs_container', '#jobs_template', store_jobs);
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
             }
             else{
                 $('#employment').hide();

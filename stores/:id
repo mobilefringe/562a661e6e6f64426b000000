@@ -135,6 +135,14 @@
             
             var store_promo_ids = store_details.promotions
             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
+            var published_promos = [];
+            $.each( store_promos , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
             if( store_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", store_promos);
             }

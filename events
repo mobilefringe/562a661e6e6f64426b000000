@@ -33,7 +33,21 @@
         init(e);
         function renderAll(){
             var jobs = getEventsList().sortBy(function(o){ return o.start_date });
-            renderEvents("#jobs_container","#jobs_template", jobs);
+            
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
+            if(published_promos.length > 0){
+                renderEvents("#jobs_container","#jobs_template", jobs);
+            }
+            else{
+                $('#no_promos').show()
+            }
             show_content();
             $('#top_nav_events').addClass('active_yellow')
         }

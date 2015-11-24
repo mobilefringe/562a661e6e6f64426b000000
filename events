@@ -34,7 +34,7 @@
         function renderAll(){
             var events = getEventsList().sortBy(function(o){ return o.start_date });
             var published_jobs = [];
-            $.each( jobs , function( key, val ){
+            $.each( events , function( key, val ){
                 console.log(val)
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)

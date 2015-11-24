@@ -70,7 +70,21 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getJobsList().sortBy(function(o){ return o.name });
+            var jobs = getJobsList().sortBy(function(o){ return o.name
+            var published_jobs = [];
+            $.each( events , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_events.push(val)
+                } 
+            });
+            if(published_events.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
+            }
+            else{
+                $('#no_events').show()
+            }
             renderJobs('#jobs_container', '#jobs_template', jobs);
             show_content();
             jobs_filter();

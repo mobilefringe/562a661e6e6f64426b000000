@@ -22,6 +22,7 @@
                 </div>
             </script>
         </div>
+        <h3 class="hidden_now">There are currently no Promotions available, please check back again later</h3>
     </div>
 </div>
 <div class="margin_40"></div>
@@ -42,7 +43,7 @@
                 renderPromotions("#promos_container","#promos_template", published_promos);
             }
             else{
-                $('#promos_container').html("There are currently no Promotions available, please check back again later")
+                $('#promos_container').html("")
             }
             show_content();
             $('#top_nav_promotions').addClass('active_yellow')

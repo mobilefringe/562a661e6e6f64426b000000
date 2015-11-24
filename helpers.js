@@ -255,7 +255,7 @@ function load_map(reg, store_details){
         viewBox:[420,420,1650,1650]
     });
     console.log(store_details.svgmap_region);
-    map.setViewBox(store_details.svgmap_region);
+    // map.setViewBox(store_details.svgmap_region);
     map.selectRegion(store_details.svgmap_region);
     drop_pin(store_details.svgmap_region);
 }

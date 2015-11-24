@@ -247,11 +247,11 @@ function load_map(reg, store_details){
         tooltipsMode:'custom',
         loadingText: "loading...",
         zoom: true,
-        zoomButtons: {'show': true,'location': 'left' },
+        zoomButtons: {'show': false,'location': 'left' },
         pan:true,
         cursor:'pointer',
         responsive:true,
-        zoomLimit: [0,10],
+        zoomLimit: [0,5],
         viewBox:[420,420,1650,1650]
     });
     map.setViewBox(store_details.svgmap_region);

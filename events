@@ -34,20 +34,20 @@
         function renderAll(){
             var events = getEventsList().sortBy(function(o){ return o.start_date });
             var published_events = [];
-            $.each( promotions , function( key, val ){
+            $.each( events , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
-                    published_promos.push(val)
+                    published_events.push(val)
                 } 
             });
-            if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos);
+            if(published_events.length > 0){
+                renderEvents("#jobs_container","#jobs_template", published_events);
             }
             else{
-                $('#no_promos').show()
+                $('#no_events').show()
             }
-            renderEvents("#jobs_container","#jobs_template", events);
+            
             
             show_content();
             $('#top_nav_events').addClass('active_yellow')

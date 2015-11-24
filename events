@@ -33,16 +33,15 @@
         init(e);
         function renderAll(){
             var jobs = getEventsList().sortBy(function(o){ return o.start_date });
-            
-            var published_promos = [];
-            $.each( promotions , function( key, val ){
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
-                    published_promos.push(val)
+                    published_jobs.push(val)
                 } 
             });
-            if(published_promos.length > 0){
+            if(published_jobs.length > 0){
                 renderEvents("#jobs_container","#jobs_template", published_jobs);
             }
             else{

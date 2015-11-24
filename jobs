@@ -83,9 +83,8 @@
                 renderJobs('#jobs_container', '#jobs_template', published_jobs);
             }
             else{
-                $('#no_events').show()
+                $('#no_jobs').show()
             }
-            renderJobs('#jobs_container', '#jobs_template', jobs);
             show_content();
             jobs_filter();
             $('#top_nav_centre_info').addClass('active_yellow')

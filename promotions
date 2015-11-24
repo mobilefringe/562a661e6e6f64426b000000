@@ -38,6 +38,7 @@
                     published_promos.push(val)
                 } 
             });
+            if(published_promos.length > 0)
             renderPromotions("#promos_container","#promos_template", published_promos);
             show_content();
             $('#top_nav_promotions').addClass('active_yellow')

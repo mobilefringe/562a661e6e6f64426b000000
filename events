@@ -32,8 +32,9 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var jobs = getEventsList().sortBy(function(o){ return o.start_date });
-            renderEvents("#jobs_container","#jobs_template", jobs);
+            var events = getEventsList().sortBy(function(o){ return o.start_date });
+            renderEvents("#jobs_container","#jobs_template", events);
+            
             show_content();
             $('#top_nav_events').addClass('active_yellow')
         }

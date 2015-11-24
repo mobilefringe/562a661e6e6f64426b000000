@@ -76,10 +76,10 @@
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
-                    published_events.push(val)
+                    published_jobs.push(val)
                 } 
             });
-            if(published_events.length > 0){
+            if(published_jobs.length > 0){
                 renderJobs('#jobs_container', '#jobs_template', published_jobs);
             }
             else{

@@ -23,7 +23,7 @@
             </script>
         </div>
         <div class="col-md-12">
-            <h3 id="no_events" class="hidden_now">There are currently no Events available, please check back again later.</h3>
+            <h3 id="no_events" class="hidden_now">There are currently no Promotions available, please check back again later.</h3>
         </div>
     </div>
 </div>
@@ -32,22 +32,8 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var events = getEventsList().sortBy(function(o){ return o.start_date });
-            var published_jobs = [];
-            $.each( events , function( key, val ){
-                console.log(val)
-                today = new Date();
-                webDate = new Date(val.show_on_web_date)
-                if (today >= webDate) {
-                    published_jobs.push(val)
-                } 
-            });
-            if(published_jobs.length > 0){
-                renderEvents("#jobs_container","#jobs_template", published_jobs);
-            }
-            else{
-                $('#no_promos').show()
-            }
+            var jobs = getEventsList().sortBy(function(o){ return o.start_date });
+            renderEvents("#jobs_container","#jobs_template", jobs);
             show_content();
             $('#top_nav_events').addClass('active_yellow')
         }

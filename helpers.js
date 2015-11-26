@@ -26,7 +26,7 @@ function init(e){
             clientId: 'da5cf03899eb49a496424d9a76bafa0d',
             template: '<a class="ig-image" target=_blank href="{{link}}" title="{{caption}}" ><img src="{{image}}" alt="{{caption}}" /></a>',
             limit : 12,
-            resolution:'low_resolution'
+            resolution:'thumbnail'
     
         });
     

@@ -38,7 +38,7 @@
         <script src="../application.js" type="text/javascript"></script>
         <script src="../helpers.js" type="text/javascript"></script>
         <script>
-            setEndPoint('http://sq1.mallmaverickstaging.com/api/v2/sq1/all.json');
+            setEndPoint('http://sq1.mallmaverickstaging.com/api/v2/sq1/all.json.gz');
         </script>
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

@@ -42,7 +42,7 @@ body{
 .error_img_div{
     text-align: center;
     margin: 80px 10px;
-    margin-bottom:0;
+    margin-bottom:20;
     img{
         width:300px;
     }

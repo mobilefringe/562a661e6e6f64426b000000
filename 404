@@ -1,5 +1,5 @@
 <div class="error_img_div"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1448659431000/404_error_msg.png"  alt="404 page"></div>
-<a href="/" class="back_to_home">Go to Homepage!</a>
+<a href="/" class="back_to_home">Take me to the Homepage!</a>
 <script>
     $(document).ready(function(e){
         init(e);

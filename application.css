@@ -24,6 +24,13 @@ body{
     display:none;
 }
 
+.error_img_div{
+    text-align: center;
+    margin: 80px 10px;
+    img{
+        width:300px;
+    }
+}
 
 #subscription_confirmed{
     display: none; 

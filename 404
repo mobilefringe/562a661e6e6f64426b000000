@@ -1,4 +1,4 @@
-<div class="error_img_div"><img src="http://assets.codecloudapp.com/sites/55aebd796e6f647ab3000000/image/png/1448655648000/404_error_msg.png"  alt="404 page"></div>
+<div class="error_img_div"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1448659431000/404_error_msg.png"  alt="404 page"></div>
 <script>
     $(document).ready(function(e){
         init(e);

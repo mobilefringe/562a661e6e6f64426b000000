@@ -297,9 +297,12 @@ function verify_captcha(response){
 function blog_searcher(){
     $('#close_search').click(function(){
         $(this).hide();
-        $('#blog_results').html('');
-        $('#blog_search').val('');
-        $('#blog_results').hide();
+        $('#search_results_stores').html('');
+        $('#search_results_events').html('');
+        $('#search_results_promotions').html('');
+        $('#search_results_stores').hide();
+        $('#search_results_events').hide();
+        $('#search_results_promotions').hide();
     });
     $('#site_search').keyup(function(){
         if ($('#site_search').val() == ""){

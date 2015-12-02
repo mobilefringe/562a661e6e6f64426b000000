@@ -86,7 +86,19 @@ body{
     top: 0px;
     left: 0;
     color: #fff;
-    
+}
+
+.checkbox-custom+.checkbox-custom-label:before {
+    font-family: 'FontAwesome';
+    color: #fff;
+    content: '\f00c';
+    background: #CCD1D9;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
 }
 
 .position_relative{

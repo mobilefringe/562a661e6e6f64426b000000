@@ -50,6 +50,10 @@ function init(e){
                     }
             });
         }
+        else{
+            $("#agree_newsletter").focus();
+            alert("Please agree to receive newsletter before continuing.")
+        }
     });
 }
 

@@ -100,9 +100,9 @@ body{
 
 .checkbox-custom+.checkbox-custom-label:before {
     font-family: 'FontAwesome';
-    color: #9b9b9b;
+    color: #fff;
     content: '\f00c';
-    background: #eee;
+    background: #9b9b9b;
     display: inline-block;
     vertical-align: middle;
     padding: 2px 5px;

@@ -295,6 +295,12 @@ function verify_captcha(response){
 }
 
 function blog_searcher(){
+    $('#close_search').click(function(){
+        $(this).hide();
+        $('#blog_results').html('');
+        $('#blog_search').val('');
+        $('#blog_results').hide();
+    });
     $('#site_search').keyup(function(){
         if ($('#site_search').val() == ""){
             $('#search_results_stores').html('');

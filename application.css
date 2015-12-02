@@ -60,6 +60,10 @@ body{
     }
 }
 
+.submit_newsletter{
+    float:right;
+}
+
 .error_img_div{
     text-align: center;
     margin: 80px 10px;

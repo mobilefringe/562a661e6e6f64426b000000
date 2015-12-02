@@ -96,6 +96,7 @@ body{
     font-size: 20px;
     color: #9b9b9b;
     cursor: pointer;
+    display:none;
 }
 
 .checkbox-custom+.checkbox-custom-label:before {

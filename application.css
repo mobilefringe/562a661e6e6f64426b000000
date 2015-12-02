@@ -367,6 +367,7 @@ a:hover, a:focus{
     color: #9b9b9b;
     background: #eee;
     border:0;
+    padding-right: 25px;
 }
 
 .top_form_control input:focus{

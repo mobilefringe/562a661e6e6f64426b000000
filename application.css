@@ -92,13 +92,28 @@ body{
     font-family: 'FontAwesome';
     color: #fff;
     content: '\f00c';
-    background: #CCD1D9;
+    background: #9b9b9b;
     display: inline-block;
     vertical-align: middle;
     width: 20px;
     height: 20px;
     margin-right: 5px;
     text-align: center;
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.checkbox-custom-label, .radio-custom-label {
+    position: relative;
+}
+.checkbox-custom:checked+.checkbox-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    background: #FFCD2A;
+    color: #fff;
 }
 
 .position_relative{

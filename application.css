@@ -39,6 +39,11 @@ body{
     }
 }
 
+.newsletter_form{
+    position:relative;
+    margin-top:40px;
+}
+
 .error_img_div{
     text-align: center;
     margin: 80px 10px;

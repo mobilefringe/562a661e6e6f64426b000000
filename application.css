@@ -88,6 +88,16 @@ body{
     color: #fff;
 }
 
+#close_search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+    font-size: 20px;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+
 .checkbox-custom+.checkbox-custom-label:before {
     font-family: 'FontAwesome';
     color: #fff;

@@ -139,7 +139,7 @@
                                 <i class="custom_i fa fa-envelope-o"></i>
                                 <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />
                             </label>
-                            <input id="agree_newsletter" type="checkbox" class="checkbox-custom" required />
+                            <input id="agree_newsletter" type="checkbox" class="checkbox-custom hidden_now" required />
                             <label for="agree_newsletter" class="newsletter_label checkbox-custom-label">
                                 I agree to receive newsletters.
                             </label>

@@ -143,6 +143,7 @@
                                 <input id="agree_newsletter" type="checkbox" required />
                                 I agree to receive newsletters.
                             </label>
+                            <button type="submit"><i class="fa fa-arrow-right"></i></button>
                             <span id="subscription_confirmed">Thank you for subscribing.</span>
                         </form>
                     </div>

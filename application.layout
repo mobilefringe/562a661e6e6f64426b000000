@@ -124,6 +124,16 @@
                 </div>
                 <div class="col-md-4">
                     <div class="pull-right">
+                        <div class="site_searcher_div" >
+                            <label class="top_form_control no_margin">
+                                <i class="custom_i fa fa-search"></i>
+                                <input type="text" placeholder="Search" id="site_search" />
+                                
+                            </label>
+                            <div class="site_search_results" id="search_results_stores"></div>
+                            <div class="site_search_results" id="search_results_events"></div>
+                            <div class="site_search_results" id="search_results_promotions"></div>
+                        </div>
                         <form action="http://mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="position_relative">
                             <label class="top_form_control">
                                 <i class="custom_i fa fa-envelope-o"></i>
@@ -131,15 +141,6 @@
                             </label>
                             <span id="subscription_confirmed">Thank you for subscribing.</span>
                         </form>
-                        <div class="site_searcher_div" >
-                            <label class="top_form_control no_margin">
-                                <i class="custom_i fa fa-search"></i>
-                                <input type="text" placeholder="Search" id="site_search" />
-                            </label>
-                            <div class="site_search_results" id="search_results_stores"></div>
-                            <div class="site_search_results" id="search_results_events"></div>
-                            <div class="site_search_results" id="search_results_promotions"></div>
-                        </div>
                     </div>
                 </div>
             </div>

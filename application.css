@@ -44,6 +44,18 @@ body{
     margin-top:38px;
 }
 
+.newsletter_label{
+    width: 235px;
+    padding: 0px 10px;
+    color: #9b9b9b;
+    font-weight: 400;
+    margin-top: -2px;
+    display: block;
+    input{
+        margin-right:5px;
+    }
+}
+
 .error_img_div{
     text-align: center;
     margin: 80px 10px;

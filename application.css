@@ -62,6 +62,9 @@ body{
 
 .submit_newsletter{
     float:right;
+    color: #fff;
+    border: none;
+    background: #FFCD2A;
 }
 
 .error_img_div{

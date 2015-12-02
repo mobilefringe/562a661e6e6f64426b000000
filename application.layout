@@ -141,7 +141,7 @@
                             </label>
                             <label>
                                 <input type="checkbox" required />
-                                I agree to receive newsletters from Dixie Outlet
+                                
                             </label>
                             <span id="subscription_confirmed">Thank you for subscribing.</span>
                         </form>

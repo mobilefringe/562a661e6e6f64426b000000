@@ -139,8 +139,8 @@
                                 <i class="custom_i fa fa-envelope-o"></i>
                                 <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />
                             </label>
-                            <label class="">
-                                <input type="checkbox" required />
+                            <label class="newsletter_label">
+                                <input id="agree_newsletter" type="checkbox" required />
                                 I agree to receive newsletters.
                             </label>
                             <span id="subscription_confirmed">Thank you for subscribing.</span>

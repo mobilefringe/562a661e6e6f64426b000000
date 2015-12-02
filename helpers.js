@@ -303,6 +303,7 @@ function blog_searcher(){
         $('#search_results_stores').hide();
         $('#search_results_events').hide();
         $('#search_results_promotions').hide();
+        $('#site_search').val('')
     });
     $('#site_search').keyup(function(){
         if ($('#site_search').val() == ""){

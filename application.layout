@@ -48,7 +48,7 @@
         <script src="../application.js" type="text/javascript"></script>
         <script src="../helpers.js" type="text/javascript"></script>
         <script>
-            setEndPoint('http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/all.json');
+            setEndPoint('http://stc.mallmaverick.com/api/v2/stc/all.json');
         </script>
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

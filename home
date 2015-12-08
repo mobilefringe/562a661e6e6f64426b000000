@@ -35,6 +35,6 @@
                 animation: "slide",
             });
         }
-        loadMallData(renderAll); 
+        loadMallDataCachedDixie(renderAll); 
     })
 </script>

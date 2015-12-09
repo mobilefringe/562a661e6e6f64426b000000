@@ -1,13 +1,13 @@
 <div class="fluid_row">
     <div class="row">
         <div class="col-md-3 mobile_padding">
-            <h3 class="store_list_header">ABOUT US</h3>
+            <h3 class="store_list_header">Centre Information</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="/about_us">About Us</a></li>
                 <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
                 <li><a href="/jobs">Careers</a></li>
-                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                <li class="active"><a href="/non_profit_groups">Non-Profit Groups</a></li>
                 <li><a href="/leasing">Leasing & Partnership</a></li>
                 <li><a href="/contact_us">Contact Us</a></li>
             </ul>

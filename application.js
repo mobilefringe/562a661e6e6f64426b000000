@@ -326,7 +326,7 @@ function renderPromotions(container, template, collection){
         }
         
         if(val.image_url.indexOf('missing.png') < 0){
-            val.image_url = val.image_url = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";;
+            val.image_url  = "http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/jpeg/1446753494000/Dixie_default.jpg";;
         }
         
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");

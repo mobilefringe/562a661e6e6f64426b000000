@@ -6,7 +6,7 @@
                 <li><a href="/about_us">About Us</a></li>
                 <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
-                <li class="jobs"><a href="/jobs">Careers</a></li>
+                <li class="active"><a href="/jobs">Careers</a></li>
                 <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
                 <li><a href="/leasing">Leasing & Partnership</a></li>
                 <li><a href="/contact_us">Contact Us</a></li>

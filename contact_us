@@ -181,7 +181,7 @@
                     });
                 }
                 else{
-                    alert(Please select subject.)
+                    alert("Please select subject.")
                 }
             });
         }

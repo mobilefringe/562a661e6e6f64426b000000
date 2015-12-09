@@ -22,6 +22,15 @@ body{
 .uploaded-img-responsive{
     width:100%;
 }
+
+.gs_header{
+    font-size: 15px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #222;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
 #404_msg{
     display:none;
 }

@@ -170,7 +170,7 @@
                     if(status == "success"){
                         $("#success_subscribe").fadeIn();
                         $('#form_div').hide();
-                        $('#feedback_form').trigger('reset')
+                        $('#feedback_form').trigger('reset');
                     }
                     else{
                         alert("Unable to process your request. Please try again later.")

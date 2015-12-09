@@ -23,6 +23,10 @@ body{
     width:100%;
 }
 
+.gs_div{
+    margin-bottom:20px;
+}
+
 .gs_header{
     font-size: 18px;
     text-transform: uppercase;

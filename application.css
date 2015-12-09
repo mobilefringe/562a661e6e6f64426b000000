@@ -25,6 +25,9 @@ body{
 
 .gs_div{
     margin-bottom:40px;
+    .page_miniheads{
+        margin-top:0;
+    }
 }
 
 .gs_header{

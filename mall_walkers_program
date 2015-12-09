@@ -38,7 +38,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = 'http://dixieoutlet.mallmaverick.com/pages/dixieoutlet-mall-walkers-program.json'
+            var pages_json = 'http://dixieoutlet.mallmaverick.com/pages/dixieoutlet-mall-walker-s-program.json'
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title);
                 $('#mm_page_content').html(data.body);

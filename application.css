@@ -24,7 +24,7 @@ body{
 }
 
 .gs_div{
-    margin-bottom:40px;
+    padding: 0 20px;
     .page_miniheads{
         margin-top:0;
     }

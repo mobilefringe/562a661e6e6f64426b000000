@@ -28,6 +28,10 @@ body{
     .page_miniheads{
         margin-top:0;
     }
+    p{
+        font-size: 15px;
+        line-height: 28px;
+    }
 }
 
 .gs_header{

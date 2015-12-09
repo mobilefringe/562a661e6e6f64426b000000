@@ -98,7 +98,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
                                 <li><a href="/guest_services">Guest Services</a></li>
                                 <li><a href="/gift_cards">Gift Cards</a></li>

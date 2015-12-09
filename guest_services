@@ -1,6 +1,6 @@
 <div class="fluid_row">
     <div class="row">
-        <div class="col-md-3 mobile_padding">
+        <div class="col-md-3">
             <h3 class="store_list_header">Centre Information</h3>
             <ul class="side_menu hidden_phone">
                 <li class="active"><a href="/guest_services">Guest Services</a></li>

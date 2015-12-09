@@ -183,7 +183,7 @@
                 else{
                     alert(Please select subject.)
                 }
-            })
+            });
         }
         loadMallDataCached(renderAll); 
     })

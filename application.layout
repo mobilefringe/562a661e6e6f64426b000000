@@ -177,7 +177,7 @@
                     </div>
                     <div class="top_nav_menu" id="top_nav_events">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">What's On <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Events <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
                                 <li><a href="/contests">Online Contests</a></li>

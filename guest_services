@@ -57,8 +57,23 @@
                                 The Dixie Outlet Mall gift card is the perfect gift for every occasion. Gift cards are available for sale at the Guest Services Desk in any amount ranging from $5 to $500.
                             </p>
                         </div>
+                        
                         <div class="gs_div">
                             <h5 class="accordion_header">WASHROOMS</h5>
+                            <p class="p_desc">
+                                <strong>Washrooms</strong> are all wheelchair accessible, and located:
+                            </p>
+                            <ul class="custom_list">
+                                <li>In the Food Court</li>
+                                <li>Beside Guess Factory Store (near Yellow Entrance)</li>
+                            </ul>
+                            <p>
+                                <strong>Family Washroom</strong> is available for little ones and their parents, and equipped with a toddler-size rest area and a private nursing/feeding area with child's play space. Located beside Guess Factory Store (near Yellow Entrance) 
+                            </p>
+                        </div>
+                        
+                        <div class="gs_div">
+                            <h5 class="accordion_header">FAMILY SERVICES</h5>
                             <p class="p_desc">
                                 <strong>Washrooms</strong> are all wheelchair accessible, and located:
                             </p>

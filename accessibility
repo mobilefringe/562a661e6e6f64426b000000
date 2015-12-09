@@ -7,7 +7,7 @@
                 <li><a href="/gift_cards">Gift Cards</a></li>
                 <li><a href="/group_tours">Group Tours</a></li>
                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
-                <li><a href="/accessibility">Accessibility</a></li>
+                <li class="active"><a href="/accessibility">Accessibility</a></li>
                 <li><a href="/green_initiatives">Green Initiatives</a></li>
             </ul>
             <div class="position_relative show_phone">

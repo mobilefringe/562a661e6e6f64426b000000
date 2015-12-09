@@ -29,7 +29,7 @@
                 }
             }); 
             show_content();
-            $('#top_nav_centre_info').addClass('active_yellow')
+            $('#top_nav_whats_ons').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

@@ -36,6 +36,7 @@ body{
 
 .gs_header{
     font-size: 18px;
+    border-bottom:1px solid #222;
     text-transform: uppercase;
     margin-top: 20px;
 }

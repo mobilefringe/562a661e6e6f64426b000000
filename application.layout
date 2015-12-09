@@ -245,12 +245,13 @@
                         <div class="col-md-4">
                             <ul class="footer_ul">
                                 <li class="footer_main_li">Centre Information</li>
-                                <li><a href="/hours">Hours</a></li>
+                                <li><a href="/about_us">About Us</a></li>
+                                <li><a href="/hours">Operating Hours</a></li>
                                 <li><a href="/getting_here">Getting Here</a></li>
-                                <li><a href="/group_tours">Group Tours</a></li>
-                                <li><a href="/accessibility">Accessibility</a></li>
-                                <li><a href="/gift_cards">Gift Cards</a></li>
-                                <li><a href="/jobs">Employment</a></li>
+                                <li><a href="/jobs">Careers</a></li>
+                                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                                <li><a href="/leasing">Leasing & Partnership</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">

@@ -24,13 +24,12 @@ body{
 }
 
 .gs_div{
-    margin-bottom:20px;
+    margin-bottom:40px;
 }
 
 .gs_header{
     font-size: 18px;
     text-transform: uppercase;
-    border-bottom: 1px solid #222;
     padding-bottom: 5px;
     margin-top: 20px;
 }

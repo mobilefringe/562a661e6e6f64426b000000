@@ -1319,6 +1319,7 @@ a:hover, a:focus{
     }
     .site_searcher_div{
         z-index:999;
+        top:-40px;
     }
 }
 

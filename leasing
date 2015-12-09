@@ -45,7 +45,7 @@
                 }
             }); 
             show_content();
-            $('#top_nav_about_us').addClass('active_yellow')
+            $('#top_nav_centre_info').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 
     })

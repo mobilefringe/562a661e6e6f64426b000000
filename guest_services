@@ -26,26 +26,28 @@
             <div class="margin_20"></div>
             <h3 class="hours_header">Guest Services</h3>
             <div id="mm_page_content">
-                <h5 class="page_miniheads">Help is just steps away.</h5>
-                <p class="p_desc">
-                    If you have any questions (or your husband's gotten lost), visit our Guest Services located near the Yellow Entrance for:
-                </p>
-                <ul class="custom_list">
-                    <li>Information</li>
-                    <li>Dixie Outlet Mall Gift Cards</li>
-                    <li>Local tourism info & brochures</li>
-                    <li>Complimentary wheelchairs & walkers</li>
-                    <li>Lost & found</li>
-                    <li>First aid station</li>
-                    <li>Fax & photocopy services</li>
-                    <li>Complimentary diaper kits</li>
-                    <li>Access to security control centre</li>
-                </ul>
-                <strong>Need more information?</strong>
-                <p class="p_desc">
-                    Call us at (905) 278-7492 or email us at <a href="mailto:info@dixieoutletmall.com">info@dixieoutletmall.com</a> <br />
-                    Have a comment or suggestion? Email us at <a href="mailto:comments@dixieoutletmall.com">comments@dixieoutletmall.com</a>
-                </p>
+                <div class="mobile_padding">
+                    <h5 class="page_miniheads">Help is just steps away.</h5>
+                    <p class="p_desc">
+                        If you have any questions (or your husband's gotten lost), visit our Guest Services located near the Yellow Entrance for:
+                    </p>
+                    <ul class="custom_list">
+                        <li>Information</li>
+                        <li>Dixie Outlet Mall Gift Cards</li>
+                        <li>Local tourism info & brochures</li>
+                        <li>Complimentary wheelchairs & walkers</li>
+                        <li>Lost & found</li>
+                        <li>First aid station</li>
+                        <li>Fax & photocopy services</li>
+                        <li>Complimentary diaper kits</li>
+                        <li>Access to security control centre</li>
+                    </ul>
+                    <strong>Need more information?</strong>
+                    <p class="p_desc">
+                        Call us at (905) 278-7492 or email us at <a href="mailto:info@dixieoutletmall.com">info@dixieoutletmall.com</a> <br />
+                        Have a comment or suggestion? Email us at <a href="mailto:comments@dixieoutletmall.com">comments@dixieoutletmall.com</a>
+                    </p>
+                </div>
                 <div class="margin_40"></div>
                 <div class="row">
                     <div class="col-md-6">

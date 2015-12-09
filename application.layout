@@ -228,7 +228,7 @@
                         As one of Canada’s largest enclosed outlet shopping centres, Dixie Outlet Mall delivers what any great shopping experience should – a great selection at fantastic prices with plenty of, "back away, I found it first" moments.
                     </p>
                 </div>
-                <div class="col-md-5 hidden_phone">
+                <div class="col-md-6 hidden_phone">
                     <h3 class="footer_explore">EXPLORE</h3>
                     <div class="row">
                         <div class="col-md-4">
@@ -254,7 +254,7 @@
                                 <li><a href="/contact_us">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-4">
                             <ul class="footer_ul">
                                 <li class="footer_main_li">Guest Services</li>
                                 <li><a href="/guest_services">Guest Services</a></li>

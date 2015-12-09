@@ -254,7 +254,7 @@
                                 <li><a href="/contact_us">Contact Us</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-5">
                             <ul class="footer_ul">
                                 <li class="footer_main_li">Guest Services</li>
                                 <li><a href="/guest_services">Guest Services</a></li>
@@ -267,7 +267,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 hidden_phone">
+                <div class="col-md-3 hidden_phone">
                    <div id="instafeed"></div>
                 </div>
             </div>

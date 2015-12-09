@@ -1022,6 +1022,9 @@ a:hover, a:focus{
 }
 
 @media(max-width:800px){
+    .gs_div{
+        margin:10px 0;
+    }
     .top_header .col-md-4 .pull-right{
         float:none !important;
     }

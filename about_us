@@ -3,7 +3,7 @@
         <div class="col-md-3 mobile_padding">
             <h3 class="store_list_header">CENTRE INFORMATION</h3>
             <ul class="side_menu hidden_phone">
-                <li><a href="/about_us">About Us</a></li>
+                <li class="active"><a href="/about_us">About Us</a></li>
                 <li><a href="/hours">Operating Hours</a></li>
                 <li><a href="/getting_here">Getting Here</a></li>
                 <li><a href="/jobs">Careers</a></li>

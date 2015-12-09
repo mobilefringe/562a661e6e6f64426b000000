@@ -19,7 +19,9 @@ body{
 .yield {
     display: none;
 }
-
+.uploaded-img-responsive{
+    width:100%;
+}
 #404_msg{
     display:none;
 }

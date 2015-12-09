@@ -108,7 +108,10 @@
                             <p><strong>Bottle Warmer.</strong></p>
                             <p>Complimentary bottle warming, available at the Guest Services Kiosk.</p>
                         </div>
-                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
                         <div class="gs_div">
                             <h5 class="accordion_header">OTHER SERVICES</h5>
                             <p class="p_desc"><strong>Lockers.</strong></p>

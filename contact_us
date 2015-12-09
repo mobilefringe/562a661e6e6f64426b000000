@@ -132,9 +132,9 @@
                     <div class="col-md-4">
                         <label for="subject">Subject<span>*</span></label>
                         <select id="subject" class="form-control" required>
-                            <option selected disabled>Purpose of your message</option>
-                            <option value="complaint">Complaint</option>
-                            <option value="suggestion">Suggestion</option>
+                            <option selected disabled value="Purpose">Purpose of your message</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Suggestion">Suggestion</option>
                         </select>
                     </div>
                 </div>

@@ -11,7 +11,7 @@
                 <li><a href="/green_initiatives">Green Initiatives</a></li>
             </ul>
             <div class="position_relative show_phone">
-                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Group Tours</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Mall Walker’s Program</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="/guest_services">Guest Services</a></li>
                 <li><a href="/gift_cards">Gift Cards</a></li>

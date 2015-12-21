@@ -52,7 +52,7 @@ body{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    background: #FFCD2A;
+    background: #E9B50A;
     padding: 10px;
     border-radius: 4px;
     &:hover{
@@ -85,7 +85,7 @@ body{
     float:right;
     color: #fff;
     border: none;
-    background: #FFCD2A;
+    background: #E9B50A;
 }
 
 .error_img_div{
@@ -101,7 +101,7 @@ body{
     display: none; 
     position: absolute;
     z-index: 999999;
-    background: #FFCD2A;
+    background: #E9B50A;
     width: 100%;
     padding: 5px 10px;
     top: 0px;
@@ -143,7 +143,7 @@ body{
 .checkbox-custom:checked+.checkbox-custom-label:before {
     content: "\f00c";
     font-family: 'FontAwesome';
-    background: #FFCD2A;
+    background: #E9B50A;
     color: #fff;
 }
 
@@ -171,7 +171,7 @@ body{
 }
 
 a:focus, a:hover{
-    color:#FFCD2A;
+    color:#E9B50A;
 }
 
 .margin_40{
@@ -222,7 +222,7 @@ a:focus, a:hover{
 }
 
 .active_cat{
-    color:#FFCD2A !important;
+    color:#E9B50A !important;
 }
 
 .scrollToTop {
@@ -312,7 +312,7 @@ a:focus, a:hover{
 .flex-control-paging li a{
     height:13px;
     width:13px;
-    background: #FFCD2A;
+    background: #E9B50A;
     background: rgba(255, 205, 42, 0.4);
     -webkit-box-shadow: none;
     -moz-box-shadow:none;
@@ -321,7 +321,7 @@ a:focus, a:hover{
 }
 
 .flex-control-paging li a.flex-active, .flex-control-paging li a:hover{
-    background: #FFCD2A;
+    background: #E9B50A;
     background: rgba(255, 205, 42, 1);
     color: transparent;
 }
@@ -354,7 +354,7 @@ a:hover, a:focus{
 .todays_hours a{
     font-size:12px;
     font-weight:bold;
-    color:#FFCD2A;
+    color:#E9B50A;
 }
 
 .top_header_social_icons{
@@ -461,7 +461,7 @@ a:hover, a:focus{
     border-right: 2px solid #eee;
 }
 .dropdown-menu2>li>a:focus, .dropdown-menu2>li>a:hover{
-    color:#FFCD2A;
+    color:#E9B50A;
     background-color:transparent;
 }
 
@@ -507,7 +507,7 @@ a:hover, a:focus{
 }
 
 .mini_footer a:hover, .footer_ul a:hover{
-    color: #FFCD2A;
+    color: #E9B50A;
 }
 
 .footer_main_li{
@@ -551,7 +551,7 @@ a:hover, a:focus{
     width:40px;
     height:4px;
     margin: 0 auto;
-    background-color:#FFCD2A;
+    background-color:#E9B50A;
 }
 
 .category_name{
@@ -561,7 +561,7 @@ a:hover, a:focus{
 }
 
 .category_name a:hover{
-    color: #FFCD2A;;
+    color: #E9B50A;;
 }
 
 .store_initial{
@@ -597,7 +597,7 @@ a:hover, a:focus{
 }
 
 .store_list_name a:hover{
-    color: #FFCD2A;;
+    color: #E9B50A;;
 }
 
 .store_list_name img{
@@ -715,7 +715,7 @@ a:hover, a:focus{
 }
 
 .side_menu .active{
-    color:#FFCD2A;
+    color:#E9B50A;
 }
 
 .side_menu li{
@@ -832,7 +832,7 @@ a:hover, a:focus{
 
 .read_more_btn{
     width:140px;
-    background:#FFCD2A;
+    background:#E9B50A;
     color:#fff;
     text-transform:uppercase;
     padding: 6px 35px;
@@ -855,7 +855,7 @@ a:hover, a:focus{
     color:#666;
     line-height: 24px;
     a{
-        color: #FFCD2A;
+        color: #E9B50A;
         text-decoration:underline;
     }
 }
@@ -865,7 +865,7 @@ a:hover, a:focus{
     line-height: 28px;
     font-size: 15px;
     h3{
-        color:#FFCD2A;
+        color:#E9B50A;
         line-height: 28px;
         font-size: 15px;
         margin:0;
@@ -922,7 +922,7 @@ a:hover, a:focus{
         margin-bottom:8px;
     }
     a{
-        color:#FFCD2A;
+        color:#E9B50A;
     }
 }
 
@@ -953,7 +953,7 @@ a:hover, a:focus{
     font-size:15px;
     line-height: 28px;
     a{
-        color: #FFCD2A;
+        color: #E9B50A;
         text-decoration:underline;
     }
 }
@@ -1009,7 +1009,7 @@ a:hover, a:focus{
     content: " ";
     height: 4px;
     width: 40px;
-    background: #FFCD2A;
+    background: #E9B50A;
     position: absolute;
     left: 50%;
     top: -6px;
@@ -1138,7 +1138,7 @@ a:hover, a:focus{
         padding:10px 0;
     }
     #navbar .nav li a:focus, #navbar .nav li a:hover{
-        background-color:#FFCD2A;
+        background-color:#E9B50A;
         color: #fff ;
     }
     
@@ -1173,7 +1173,7 @@ a:hover, a:focus{
         display: block;
         padding: 10px 12px;
         margin-bottom: 12px;
-        background: #FFCD2A;
+        background: #E9B50A;
         margin: 0 12px 12px 12px;
         border-radius: 4px;
         color: #fff;
@@ -1192,7 +1192,7 @@ a:hover, a:focus{
     }
     
     #category_container_phone li{
-        background: #FFCD2A;
+        background: #E9B50A;
         padding: 5px 12px;
         color:#fff !important;
         font-size: 20px;
@@ -1211,7 +1211,7 @@ a:hover, a:focus{
     
     #side_dd{
         display: block;
-        background: #ffcd2a;
+        background: #E9B50A;
         padding: 10px 12px;
         color: #fff;
         font-size: 20px;
@@ -1219,7 +1219,7 @@ a:hover, a:focus{
     }
     
     #side_nav{
-        background: #ffcd2a;
+        background: #E9B50A;
         border: 0;
         box-shadow: none;
         width: 100%;

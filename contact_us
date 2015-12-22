@@ -175,7 +175,6 @@
                     $.post("http://dixieoutlet.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
                         if(status == "success"){
                             $("#success_subscribe").fadeIn();
-                            $('#form_div').hide();
                             $('#feedback_form').trigger('reset');
                         }
                         else{

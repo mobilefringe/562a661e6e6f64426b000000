@@ -170,21 +170,26 @@
             $('#feedback_form').submit(function(e){
                 verify_captcha();
                 e.preventDefault();
-                if($('#subject').val() != null){
-                    $('#message').val($('#subject').val() + " - " + $('#message').val());
-                    $.post("http://dixieoutlet.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
-                        if(status == "success"){
-                            $("#success_subscribe").fadeIn();
-                            $('#form_div').hide();
-                            $('#feedback_form').trigger('reset');
-                        }
-                        else{
-                            alert("Unable to process your request. Please try again later.")
-                        }
-                    });
+                if ($('#g-recaptcha-response').val() != null){
+                    if($('#subject').val() != null){
+                        var data = {}
+                        $.post("http://dixieoutlet.mallmaverick.com/email_feedback", $('#feedback_form').serialize(), function(data, status, xhr){
+                            if(status == "success"){
+                                $("#success_subscribe").fadeIn();
+                                $('#form_div').hide();
+                                $('#feedback_form').trigger('reset');
+                            }
+                            else{
+                                alert("Unable to process your request. Please try again later.")
+                            }
+                        });
+                    }
+                    else{
+                        alert("Please select subject.")
+                    }
                 }
                 else{
-                    alert("Please select subject.")
+                    alert("Please verify that you are human by checking the captcha button.")
                 }
             });
         }

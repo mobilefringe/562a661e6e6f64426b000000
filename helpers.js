@@ -119,9 +119,6 @@ function jobs_filter(){
                 if ($.inArray(filter_id, filter_array) >= 0){
                     $(val).show();
                 }
-                else{
-                    console.log("no jobs")
-                }
             });
         }
     });

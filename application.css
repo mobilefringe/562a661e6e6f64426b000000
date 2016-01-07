@@ -50,6 +50,7 @@ body{
    height:345px; /* your iframe height */
    top:345px;  /* your iframe height */
    margin-top:-345px;  /* your iframe height */
+   z-index: 9999;
 }
 
 .gs_header{

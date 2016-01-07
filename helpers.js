@@ -121,7 +121,12 @@ function jobs_filter(){
                 }
             });
         }
+        if($('.filter_row:hidden').length <= 0){
+            $('#no_jobs_in_filter').text("There are currently no jobs available, please check back again later.")
+        }
     });
+    
+    
 }
 
 function get_day(id){

@@ -17,7 +17,6 @@
                 </script>
             </select>
             <div class="margin_40"></div>
-            <div class="overlay2" onClick="style.pointerEvents='none'"></div>
             <div class="map_container" id="mapsvg"></div>
         </div>
     </div>

@@ -29,7 +29,7 @@ body{
         margin-top:0;
     }
     p{
-        font-size: 15px;
+        font-size: 17px;
         line-height: 28px;
     }
 }
@@ -223,7 +223,7 @@ a:focus, a:hover{
 
 .required_fields{
     color:#D0021B;
-    font-size:15px;
+    font-size:17px;
 }
 
 .no_margin{
@@ -391,7 +391,7 @@ a:hover, a:focus{
     width:235px;
     height: 30px;
     padding-left: 30px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     font-family: brandon;
     color: #9b9b9b;
@@ -487,14 +487,14 @@ a:hover, a:focus{
 
 .footer_desc{
     margin-top:25px;
-    font-size:15px;
+    font-size:17px;
     color: #666666
 }
 
 .footer_explore{
     font-weight:bold;
     margin: 0 0 20px 0;
-    font-size: 15px;
+    font-size: 17px;
     color: #535353;
     letter-spacing: 2px;
     line-height: 27px;
@@ -508,7 +508,7 @@ a:hover, a:focus{
 
 .footer_ul li{
     margin-bottom:5px;
-    font-size:15px;
+    font-size:17px;
 }
 
 .footer_ul a{
@@ -525,7 +525,7 @@ a:hover, a:focus{
 
 .mini_footer{
     padding:20px 0;
-    font-size:15px;
+    font-size:17px;
     color: #979797;
 }
 
@@ -564,7 +564,7 @@ a:hover, a:focus{
 }
 
 .category_name{
-    font-size:15px;
+    font-size:17px;
     margin-bottom:20px;
     color:#5C5C5C;
 }
@@ -599,7 +599,7 @@ a:hover, a:focus{
 }
 .new_store{
     font-weight:bold;
-    font-size: 15px;
+    font-size: 17px;
     color: #D0021B;
     line-height: 22px;
     text-transform:uppercase;
@@ -668,7 +668,7 @@ a:hover, a:focus{
 
 .store_details_social_header{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
     color: #000000;
     line-height: 45px;
     text-transform:uppercase;
@@ -680,14 +680,14 @@ a:hover, a:focus{
     color: #fff;
     padding: 8px 8px 9px 20px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 0;
     letter-spacing: 0.8px;
 }
 
 .store_desc{
     padding:0 20px;
-    font-size:15px;
+    font-size:17px;
     color:#4A4A4A;
     
 }
@@ -708,7 +708,7 @@ a:hover, a:focus{
     width:526px;
 }
 .hours_left{
-    font-size: 15px;
+    font-size: 17px;
     color: #4A4A4A;
     line-height: 40px;
     width:70%;
@@ -729,7 +729,7 @@ a:hover, a:focus{
 }
 
 .side_menu li{
-    font-size: 15px;
+    font-size: 17px;
     color: #4A4A4A;
     line-height: 45px;
 }
@@ -784,7 +784,7 @@ a:hover, a:focus{
 }
 
 .jobs_publish_date i{
-    font-size:15px;
+    font-size:17px;
 }
 
 
@@ -831,7 +831,7 @@ a:hover, a:focus{
 }
 
 .details_desc p{
-    font-size:15px;
+    font-size:17px;
     color:#666;
 }
 
@@ -861,7 +861,7 @@ a:hover, a:focus{
 
 .page_desc{
     font-family: 'brandon';
-    font-size:15px;
+    font-size:17px;
     color:#666;
     line-height: 24px;
     a{
@@ -873,11 +873,11 @@ a:hover, a:focus{
 .contact_box{
     padding:0 20px;
     line-height: 28px;
-    font-size: 15px;
+    font-size: 17px;
     h3{
         color:#E9B50A;
         line-height: 28px;
-        font-size: 15px;
+        font-size: 17px;
         margin:0;
     }
 }
@@ -891,7 +891,7 @@ a:hover, a:focus{
 .page_miniheads{
     font-weight:bold;
     text-transform:uppercase;
-    font-size:15px;
+    font-size:17px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
@@ -913,7 +913,7 @@ a:hover, a:focus{
     }
     label{
         font-weight:400;
-        font-size:15px;
+        font-size:17px;
     }
     span{
         color:#D0021B;
@@ -927,7 +927,7 @@ a:hover, a:focus{
 .custom_list_direction{
     margin-top: 10px;
     padding-left: 30px;
-    font-size: 15px;
+    font-size: 17px;
     li{
         margin-bottom:8px;
     }
@@ -938,7 +938,7 @@ a:hover, a:focus{
 
 .download_map{
     margin-top: 45px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: right;
     a{
         font-weight:bold;
@@ -949,7 +949,7 @@ a:hover, a:focus{
     max-width:280px;
     background: #9B9B9B;
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .tooltip_div {
@@ -960,7 +960,7 @@ a:hover, a:focus{
 }
 
 #mm_page_content{
-    font-size:15px;
+    font-size:17px;
     line-height: 28px;
     a{
         color: #E9B50A;
@@ -1012,7 +1012,7 @@ a:hover, a:focus{
 
 .back_btn{
     font-weight:400;
-    font-size:15px;
+    font-size:17px;
 }
 
 .top_nav_menu.active_yellow::before{

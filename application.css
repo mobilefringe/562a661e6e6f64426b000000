@@ -591,6 +591,7 @@ a:hover, a:focus{
     width: 150px;
     display: inline-block;
     text-align: right;
+    float:right;
 }
 
 .promo_exist{

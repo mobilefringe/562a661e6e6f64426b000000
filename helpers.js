@@ -105,6 +105,7 @@ function show_cat_stores(){
 
 function jobs_filter(){
     $('.filter_jobs').click(function(e){
+        $('#no_jobs_in_filter').text("")
         var filter_id = $(this).attr('data-id');
         $('.active_filter').removeClass('active_filter');
         $(this).addClass('active_filter');

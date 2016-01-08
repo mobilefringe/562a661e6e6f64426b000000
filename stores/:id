@@ -71,7 +71,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="logo_container_small">
-                                                <img src="{{logo}}" alt="Promotion" class="" />
+                                                <img src="{{image_url}}" alt="Promotion" class="" />
                                             </div>
                                         </div>
                                         <div class="col-md-6">

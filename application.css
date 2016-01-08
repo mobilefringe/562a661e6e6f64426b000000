@@ -51,6 +51,7 @@ body{
     }
 }
 
+
 .overlay2 {
    background:transparent; 
    position:relative; 
@@ -570,7 +571,9 @@ a:hover, a:focus{
     line-height: 29px;
     text-transform:uppercase;
     text-align:center;
-    margin-bottom:15px;
+    padding-bottom:15px;
+    margin-bottom:0;
+    background:#fff;
 }
 
 

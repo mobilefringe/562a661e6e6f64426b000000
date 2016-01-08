@@ -58,7 +58,7 @@ body{
 
 .overlay2 {
    background:transparent; 
-   position:relative; 
+   position:absolute; 
    width:100%;
    height:345px; /* your iframe height */
    top:345px;  /* your iframe height */

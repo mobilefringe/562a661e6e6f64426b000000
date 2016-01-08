@@ -28,7 +28,7 @@
             <div class="margin_20"></div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
                         ADMINISTRATION OFFICE
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                         GUEST SERVICES KIOSK
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
@@ -58,7 +58,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         DIXIE OUTLET MALL SECURITY
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
                         LEASING INQUIRIES
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
@@ -84,7 +84,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
                         SPECIALTY LEASING & PARTNERSHIPS INQUIRIES
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
                         MARKETING INQUIRIES
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>

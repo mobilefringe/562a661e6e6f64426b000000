@@ -1395,6 +1395,9 @@ a:hover, a:focus{
     #mm_page_content{
         margin-bottom:30px;
     }
+    .hours_right, .hours_left, .store_desc, .details_desc p, #mm_page_content{
+        font-size:20px;
+    }
 }
 
 

@@ -64,7 +64,7 @@
     <body id="page-top">
         <div class="site_container">
             <nav class="show_phone mobile_nav navbar-fixed-top">
-                <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png" class="menu_toggler" alt="menu" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                <img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png" class="menu_toggler">
                 <a href="/"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446664167000/dixie_mall_logo_1B[1].png" class="logo_phone" alt="logo"></a>
                 <div id="navbar">
                     <ul class="nav navbar-nav">

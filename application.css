@@ -1392,6 +1392,9 @@ a:hover, a:focus{
     .overlay{
         top:450px;
     }
+    #mm_page_content{
+        margin-bottom:30px;
+    }
 }
 
 

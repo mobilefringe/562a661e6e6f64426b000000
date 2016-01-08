@@ -23,6 +23,10 @@ body{
     width:100%;
 }
 
+.no_pointer_desktop{
+    pointer-events:none
+}
+
 .gs_div{
     padding: 0 20px;
     .page_miniheads{

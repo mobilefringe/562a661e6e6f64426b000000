@@ -570,6 +570,9 @@ a:hover, a:focus{
     padding-right:14px;
     float:left;
     width:25%;
+    img{
+        width:100%;
+    }
 }
 
 .feature_header{

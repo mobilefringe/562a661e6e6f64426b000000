@@ -36,7 +36,7 @@
                     <h3 class="accordion_header">
                         FROM THE WEST
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div>
                         <ul class="custom_list_direction">
                             <li>QEW East to Cawthra Road</li>
                             <li>Right onto Cawthra Road</li>
@@ -49,7 +49,7 @@
                     <h3 class="accordion_header">
                        FROM DOWNTOWN TORONTO VIA GO TRANSIT
                     </h3>
-                    <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+                    <div>
                         <ul class="custom_list_direction">
                             <li>From Union Station take the GO Transit Lakeshore West Line</li>
                             <li>Exit the GO train at Long Branch station and take the Mississauga Transit Route 5 North bus</li>
@@ -65,7 +65,7 @@
                     <h3 class="accordion_header" >
                         FROM THE EAST
                     </h3>
-                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+                    <div>
                         <ul class="custom_list_direction">
                             <li>Gardiner Expressway/QEW West to Dixie Road</li>
                             <li>Left onto Dixie Road South</li>

@@ -12,6 +12,10 @@
     font-weight: bold;
 }
 
+
+a{
+    -webkit-tap-highlight-color: #E9B50A
+}
 body{
     font-family:brandon;
 }

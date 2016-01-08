@@ -1057,6 +1057,10 @@ a:hover, a:focus{
 }
 
 @media(max-width:800px){
+    .no_pointer_desktop{
+        pointer-events:all;
+    }
+    
     .gs_div{
         margin-top:10px;
         margin-bottom:20px;

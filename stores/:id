@@ -62,7 +62,7 @@
                 <div id="promotions">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
                         PROMOTIONS 
-                        <i class="fa fa-caret-up pull-right"></i>
+                        <i class="fa fa-caret-down pull-right"></i>
                     </h3>
                     <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="store_desc  row" id="promos_container">

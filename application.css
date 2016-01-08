@@ -1389,6 +1389,9 @@ a:hover, a:focus{
         z-index:999;
         top:-40px;
     }
+    .overlay{
+        top:450px;
+    }
 }
 
 

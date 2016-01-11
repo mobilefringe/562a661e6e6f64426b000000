@@ -3,7 +3,7 @@ function init(e){
     
     $('.menu_toggler').click(function(){
         $('#navbar').slideToggle();
-        if ($(this).attr(src) == 'http://assets.kodekloud.io/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){
+        if ($(this).attr('src') == 'http://assets.kodekloud.io/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){
             $(this).attr('src', 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452534608000/menu_close.png')
         }else{
             $(this).attr('src', 'http://assets.kodekloud.io/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png')

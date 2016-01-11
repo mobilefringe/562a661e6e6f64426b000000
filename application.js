@@ -163,7 +163,7 @@ function renderStoreDetails(container, template, collection, slug){
             val.show_line = "display:none";
         }
         else{
-            val.show_line = "display:inline-block";
+            val.show_line = "display:block";
         }
         console.log(val.show_line)
         if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){

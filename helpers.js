@@ -3,6 +3,11 @@ function init(e){
     
     $('.menu_toggler').click(function(){
         $('#navbar').slideToggle();
+        if ($('#navbar').is(':visible')){
+            $(this).src()
+        }else{
+            
+        }
     })
     
     $(window).scroll(function(e){

@@ -151,7 +151,7 @@ function renderStoreDetails(container, template, collection, slug){
         else{
             val.phone_show = "display:none";
         }
-        if ((val.phone != null && val.phone.length > 0 ) || (val.twitter != null && val.twitter.length > 0)){
+        if ((val.phone != null && val.phone.length > 0 ) && (val.twitter != null && val.twitter.length > 0)){
             val.show_line = "display:inline-block";
         }
         else{

@@ -15,7 +15,7 @@
                     <br />
                     <a href="http://{{website}}" target="_blank" style="{{show}}"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446145967000/web_icon.png" class="store_details_icon" alt="website"><span class="store_details_phone_field">Visit Website</a>
                     <div class="margin_20"></div>
-                    <div class="grey_divider"></div>
+                    <div class="grey_divider"  style="{{show_line}}"></div>
                     <div class="margin_20"></div>
                     <h3 class="store_details_social_header" style="{{hide_social}}">Visit Our social pages</h3>
                     <div class="social_div">

@@ -2,13 +2,9 @@ function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     
     $('.menu_toggler').click(function(){
+        var src = $(this).attr('src');
+        var newsrc = (src=='http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452534608000/menu_close.png') ? 'http://assets.kodekloud.io/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png' : 'http://assets.kodekloud.io/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png';
         $('#navbar').slideToggle();
-        console.log($('.menu_toggler').attr('src') == 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png')
-        if ($('.menu_toggler').attr('src') == 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){
-            $('.menu_toggler').attr('src', 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452534608000/menu_close.png')
-        }else{
-            $('.menu_toggler').attr('src', 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png')
-        }
     })
     
     $(window).scroll(function(e){

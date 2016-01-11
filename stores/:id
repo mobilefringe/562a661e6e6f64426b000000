@@ -9,7 +9,7 @@
                     <img src="{{alt_store_front_url}}" class="store_logo hidden_phone" alt="{{name}}" />
                     <div class="yellow_line no_margin"></div>
                     <h3 class="store_details_name">{{name}}</h3>
-                    <div class="grey_divider"></div>
+                    <div class="grey_divider" style={{show_line}}></div>
                     <div class="margin_20"></div>
                     <a href="tel:{{phone}}" style="{{phone_show}}"><img src="http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1446046952000/telephone66.png" class="store_details_icon" alt="phone"><span class="store_details_phone_field">{{phone}}</a>
                     <br />

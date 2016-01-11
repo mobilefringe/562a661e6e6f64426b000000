@@ -160,10 +160,10 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
         if (val.twitter_show == "display:none" && val.phone_show == "display:none" ){
-            val.show_line = "display:inline-block";
+            val.show_line = "display:none";
         }
         else{
-            val.show_line = "display:none";
+            val.show_line = "display:inline-block";
         }
         
         if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){

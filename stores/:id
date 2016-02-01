@@ -123,7 +123,6 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
-            checkErrorPage(store_details);
             renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
             renderStoreDetails("#details_container","#details_template", store_details, slug);
             var hour_ids = store_details.store_hours;

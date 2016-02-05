@@ -252,8 +252,8 @@ function drop_pin(id){
         attrs: {
             src:  'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452532624000/pin_93.png'
         }
-    map.setViewBox(coords);
     }]);
+    map.setViewBox(coords);
 }
 
 function load_map(reg, store_details){

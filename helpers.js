@@ -253,8 +253,11 @@ function drop_pin(id){
             src:  'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452532624000/pin_93.png'
         }
     }]);
-    console.log(id)
     map.setViewBox(id);
+    $('#btnZoomIn').click();
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
 }
 
 function load_map(reg, store_details){

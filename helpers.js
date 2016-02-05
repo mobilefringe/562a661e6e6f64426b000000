@@ -254,9 +254,9 @@ function drop_pin(id){
         }
     }]);
     a= coords["x"] - 46 + x_offset
-    b= coords["x"] - 46 + x_offset + 400
+    b= coords["x"] - 46 + x_offset;
     c = coords["y"] - 110 + y_offset
-    d= coords["y"] - 110 + y_offset + 400
+    d= coords["y"] - 110 + y_offset;
     map.setViewBox([a, b, c, d]);
 }
 

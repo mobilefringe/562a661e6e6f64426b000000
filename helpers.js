@@ -255,7 +255,7 @@ function drop_pin(id){
     }]);
     map_coords =[coords["x"] - 46 + x_offset, [coords["x"] - 46 + x_offset - 400, coords["y"] - 110 + y_offset, coords["y"] - 110 + y_offset + 400];
     console.log(map_coords)
-    map.setViewBox();
+    // map.setViewBox();
 }
 
 function load_map(reg, store_details){

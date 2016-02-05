@@ -254,7 +254,7 @@ function drop_pin(id){
         }
     }]);
     map.setViewBox(id);
-    map.zoomOut(5);
+    map.zoomOut(1);
     // $('#btnZoomIn').click()
 }
 

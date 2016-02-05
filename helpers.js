@@ -254,8 +254,7 @@ function drop_pin(id){
         }
     }]);
     map.setViewBox(id);
-    map.zoomOut(1);
-    // $('#btnZoomIn').click()
+    $('#btnZoomIn').click()
 }
 
 function load_map(reg, store_details){

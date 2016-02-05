@@ -253,7 +253,7 @@ function drop_pin(id){
             src:  'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1452532624000/pin_93.png'
         }
     }]);
-    map.setViewBox([coords["x"] - 46 + x_offset, [coords["x"] - 46 + x_offset - 400, coords["y"] - 110 + y_offset + 400);
+    map.setViewBox([coords["x"] - 46 + x_offset, [coords["x"] - 46 + x_offset - 400, coords["y"] - 110 + y_offset, coords["y"] - 110 + y_offset + 400);
 }
 
 function load_map(reg, store_details){

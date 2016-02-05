@@ -255,7 +255,7 @@ function drop_pin(id){
     }]);
     a= coords["x"] - 46 + x_offset
     b= coords["x"] - 46 + x_offset;
-    map.setViewBox([a, b]);
+    map.setViewBox([a, b, a-500, b -500]);
 }
 
 function load_map(reg, store_details){

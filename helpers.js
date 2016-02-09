@@ -3,7 +3,7 @@ function init(e){
      $.fn.snow({flakeColor: '#EE0000', newOn: 1000});
      $.fn.snow({flakeColor: '#0312d7', newOn: 1000});
      $.fn.snow({flakeColor: '#8a03d7', newOn: 1000});
-     $.fn.snow({flakeColor: '#8a03d7', newOn: 1000});
+     $.fn.snow({flakeColor: '#ecda0c', newOn: 1000});
     $('.menu_toggler').click(function(){
         $('#navbar').slideToggle();
         if ($('.menu_toggler').attr('src') == 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){

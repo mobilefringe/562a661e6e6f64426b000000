@@ -37,6 +37,7 @@
         <!-- js-->
         <!-- jQuery Version 1.11.0 -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/application/x-javascript/1455033107000/snowstorm.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
@@ -44,7 +45,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
         <script src="http://assets.codecloudapp.com/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
         <script src='https://www.google.com/recaptcha/api.js'></script>
-        <script src="//assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/application/x-javascript/1455033107000/snowstorm.js"></script>
         <!--MallMaverick SDK-->
         <script src="http://mallmaverick.codecloudapp.com/mallmaverick.js?v=0.3"></script>
         <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>

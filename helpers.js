@@ -1,6 +1,6 @@
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
-     $.fn.snow({flakeColor: '#38cee3'});
+     $.fn.snow({flakeColor: '#8A0707'});
     $('.menu_toggler').click(function(){
         $('#navbar').slideToggle();
         if ($('.menu_toggler').attr('src') == 'http://assets.codecloudapp.com/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){

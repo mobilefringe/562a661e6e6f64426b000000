@@ -1,7 +1,7 @@
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
      $.fn.snow({flakeColor: '#EE0000', newOn: 500});
-     $.fn.snow({flakeColor: '#0f0', newOn: 500});
+     $.fn.snow({flakeColor: '#0312d7', newOn: 500});
      $.fn.snow({flakeColor: '#8a03d7', newOn: 500});
     $('.menu_toggler').click(function(){
         $('#navbar').slideToggle();

@@ -32,6 +32,17 @@
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
             renderFeatureItems('#feature_container','#feature_template', feature_items);
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_promos.push(val)
+                } 
+            });
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos, "Virginia Gateway");
+            }
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",

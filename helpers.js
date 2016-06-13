@@ -27,18 +27,7 @@ function init(e){
         $(this).find('i').toggleClass('fa-caret-down fa-caret-up');
 	});
 	
-	if ($('#instafeed').length > 0) {
-        var feed = new Instafeed({
-            get: 'user',
-            userId: '214660017',
-            clientId: 'da5cf03899eb49a496424d9a76bafa0d',
-            template: '<a class="ig-image" target=_blank href="{{link}}" title="{{caption}}" ><img src="{{image}}" alt="{{caption}}" /></a>',
-            limit : 9,
-            resolution:'thumbnail'
-    
-        });
-    
-        feed.run();
+    get_instagram("http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/social.json", 10, 'thumbnail', render_instagram)
     }
     blog_searcher();
     
@@ -65,7 +54,9 @@ function init(e){
     });
 }
 
-
+function render_instagram(data){
+        $('#instafeed').html(data)
+    }
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();

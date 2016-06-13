@@ -28,7 +28,7 @@ function init(e){
 	});
 	
     get_instagram("http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/social.json", 10, 'thumbnail', render_instagram)
-    }
+    
     blog_searcher();
     
     $('#subForm').submit(function(e){

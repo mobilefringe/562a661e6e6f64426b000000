@@ -55,8 +55,9 @@ function init(e){
 }
 
 function render_instagram(data){
-        $('#instafeed').html(data)
-    }
+    $('#instafeed').html(data)
+}
+
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();

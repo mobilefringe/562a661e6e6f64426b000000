@@ -271,7 +271,7 @@ function renderJobs(container, template, collection){
             val.store_name = "Dixie Outlet";
         }
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());;
-        val.published_on = show_date.format()
+        val.published_on = show_date.format('MMM D')
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

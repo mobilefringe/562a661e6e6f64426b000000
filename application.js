@@ -270,8 +270,15 @@ function renderJobs(container, template, collection){
         else{
             val.store_name = "Dixie Outlet";
         }
-        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());;
-        val.published_on = show_date.format('MMM D')
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
@@ -302,8 +309,15 @@ function renderJobDetails(container, template, collection){
             val.image_url = "http://assets.codecloudapp.com/sites/57b7340e6e6f644972020000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

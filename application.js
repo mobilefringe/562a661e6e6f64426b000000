@@ -436,6 +436,11 @@ function renderStoreDetailsHours(container, template, collection){
                 break;
             
         }
+        var open_time = in_my_time_zone(moment(val.open_time), "h:mmA");
+        var close_time = in_my_time_zone(moment(val.close_time), "h:mmA");
+        val.h = open_time + " - " + close_time;
+        
+        
         var open_time = new Date (val.open_time);
         var close_time = new Date (val.close_time);
         val.open_time = convert_hour(open_time);
@@ -443,7 +448,7 @@ function renderStoreDetailsHours(container, template, collection){
         if (val.is_closed == true){
             val.hour_string = "Closed"
         } else {
-            val.hour_string = val.open_time + " - " + val.close_time;
+            val.hour_string = open_time + " - " + close_time;
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

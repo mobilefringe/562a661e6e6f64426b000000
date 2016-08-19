@@ -499,8 +499,15 @@ function renderEventDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

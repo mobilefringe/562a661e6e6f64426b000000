@@ -37,7 +37,7 @@
             $.each( promotions , function( key, val ){
                 today = moment();
                 webDate = moment(val.show_on_web_date)
-                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
                     published_promos.push(val);
                 } 
             });

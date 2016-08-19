@@ -270,8 +270,8 @@ function renderJobs(container, template, collection){
         else{
             val.store_name = "Dixie Outlet";
         }
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());;
+        val.published_on = show_date.format()
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

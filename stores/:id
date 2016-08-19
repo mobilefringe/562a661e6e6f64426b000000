@@ -137,7 +137,7 @@
             var store_promo_ids = store_details.promotions
             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
             var published_promos = [];
-            $.each( promotions , function( key, val ){
+            $.each( store_promos , function( key, val ){
                 today = moment();
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
@@ -154,7 +154,7 @@
             var store_job_ids = store_details.jobs
             var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
             var published_jobs = [];
-            $.each( jobs , function( key, val ){
+            $.each( store_jobs , function( key, val ){
                 today = moment();
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {

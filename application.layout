@@ -53,7 +53,7 @@
         <script src="http://mallmaverick.codecloudapp.com/mallmaverick_v3.js"></script>
         <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
         <script>
-            setEndPoint('http://dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/all.json');
+            setEndPoint('http://dixieoutlet.mallmaverick.com/api/v3/dixieoutlet/all.json');
         </script>
         
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

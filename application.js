@@ -332,8 +332,8 @@ function renderPromotions(container, template, collection){
         }
         
         var show_date = moment(val.show_on_web_date);
-        var start = moment(val.start_date).tz(site_json.time_zone);
-        var end = moment(val.end_date).tz(site_json.time_zone);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM D")
         }

@@ -464,7 +464,7 @@ function renderEvents(container, template, collection){
             val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMM DD")
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

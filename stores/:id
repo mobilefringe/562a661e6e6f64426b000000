@@ -137,11 +137,11 @@
             var store_promo_ids = store_details.promotions
             var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });
             var published_promos = [];
-            $.each( store_promos , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date)
-                if (today >= webDate) {
-                    published_promos.push(val)
+            $.each( promotions , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    published_promos.push(val);
                 } 
             });
             if( published_promos.length > 0){

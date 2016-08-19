@@ -457,14 +457,14 @@ function renderEvents(container, template, collection){
                 val.logo = "http://assets.codecloudapp.com/sites/57b7340e6e6f644972020000/image/jpeg/1446753494000/Dixie_default.jpg";
             }
         }
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
-    
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(site_json.time_zone);
+        var end = moment(val.end_date).tz(site_json.time_zone);
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMMM DD")
+        }
+        else{
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);

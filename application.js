@@ -232,13 +232,23 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
-                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM D YYYY");
+                val.formatted_date = get_month(holiday.getMonth()) + " " +holiday.getDate();
                 if (val.open_time && val.close_time && val.is_closed == false){
-                    var open_time = in_my_time_zone(moment(val.open_time), "h:mmA");
-                    var close_time = in_my_time_zone(moment(val.close_time), "h:mmA");
-                    val.h = open_time + " - " + close_time;   
-                    item_list.push(val);
+                    var open_time = new Date (val.open_time);
+                    var close_time = new Date (val.close_time);
+                    val.open_time = convert_hour(open_time);
+                    val.close_time = convert_hour(close_time);    
+                    if (val.open_time == "0:00 AM"){
+                        val.open_time = "12:00 AM";
+                    }
+                     if (val.close_time == "0:00 AM"){
+                        val.close_time = "12:00 AM";
+                    }
+                    val.h = val.open_time+ " - " + val.close_time;
+                } else {
+                    val.h = "Closed";
                 }
+                item_list.push(val);
             }
         });
         collection = [];

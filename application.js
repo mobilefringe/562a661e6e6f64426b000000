@@ -231,7 +231,8 @@ function renderHours(container, template, collection, type){
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = moment(val.holiday_date);
+                holiday = new Date (val.holiday_date + "T05:00:00Z");
+                var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = get_month(holiday.getMonth()) + " " +holiday.getDate();
                 if (val.open_time && val.close_time && val.is_closed == false){
                     var open_time = new Date (val.open_time);

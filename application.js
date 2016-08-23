@@ -362,8 +362,6 @@ function renderPromotions(container, template, collection){
 }
 
 
-
-
 function renderPromoDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];

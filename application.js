@@ -366,6 +366,7 @@ function renderPromotionsDetails(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
+    item_lis.push(collection)
     $.each( collection , function( key, val ) {
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);

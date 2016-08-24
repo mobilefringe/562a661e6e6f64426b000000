@@ -32,7 +32,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
+            var promotions = getPromotionsList().sortBy(function(o){ return o.end_date.reverse() });
             var published_promos = [];
             $.each( promotions , function( key, val ){
                 today = moment();

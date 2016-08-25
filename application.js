@@ -105,6 +105,7 @@ function renderStoreList(container, template, collection, type){
         }
         if (val.promotions.length > 0){
             val.promotion_exist = "display:inline";
+            console.log(val.promotions)
         }
         else{
             val.promotion_exist = "display:none";

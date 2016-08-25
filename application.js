@@ -105,7 +105,8 @@ function renderStoreList(container, template, collection, type){
         }
         if (val.promotions.length > 0){
             val.promotion_exist = "display:inline";
-            var store_promos = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date });
+            var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
+            console.log(store_promo)
         }
         else{
             val.promotion_exist = "display:none";

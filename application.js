@@ -105,8 +105,8 @@ function renderStoreList(container, template, collection, type){
         }
         if (val.promotions.length > 0){
             val.promotion_exist = "display:inline";
-            var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
-            val.promo_btn = "/promotions/" + store_promo.slug;
+            // var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
+            // val.promo_btn = "/promotions/" + store_promo.slug;
         }
         else{
             val.promotion_exist = "display:none";

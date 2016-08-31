@@ -85,7 +85,7 @@
                             <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Events <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                                <li><a href="/contests">Online Contests</a></li>
+                               
                             </ul>
                                 
                         </li>
@@ -186,7 +186,7 @@
                             <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Events <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                                <li><a href="/contests">Online Contests</a></li>
+                               
                             </ul>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                                 <li><a href="/map">Centre Map</a></li>
                                 <li class="footer_main_li">Events</li>
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                                <li><a href="/contests">Online Contests</a></li>
+                               
                                 <li class="footer_main_li"><a href="/promotions">Promotions</a></li>
                             </ul>
                         </div>

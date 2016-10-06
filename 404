@@ -1,0 +1,11 @@
+<div class="error_img_div"><img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1448659431000/404_error_msg.png"  alt="404 page"></div>
+<a href="/" class="back_to_home">Go to Homepage!</a>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

@@ -24,7 +24,7 @@
 <div class="margin_40"></div>
 <script>
     $(document).ready(function(e){
-        init();
+        init(e);
         function renderAll(){
             var banners = getBanners();
             var feature_items = getFeatureList();

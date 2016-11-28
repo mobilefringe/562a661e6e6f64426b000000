@@ -39,73 +39,8 @@
                     </tr>
                 </script>
             </table>
-             <div class="margin_20"></div>
-            <h2 class="hours_header">EXTENDED HOURS (November 26- December 23)</h2> 
-             <table id="reg_hours_container" class="hours_container">
-                    <tr>
-                        <td class="hours_left">
-                            <span>Monday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>10:00am - 10:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Tuesday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>10:00am - 10:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Wednesday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>10:00am - 10:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Thursday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>10:00am - 10:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Friday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>10:00am - 10:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Saturday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>9:30am - 9:00pm</span>
-                        </td>
-                    </tr> 
-                    <tr>
-                        <td class="hours_left">
-                            <span>Sunday</span>
-                            <span class="dashes"></span>
-                        </td>   
-                        <td class="hours_right">
-                            <span>11:00am - 7:00pm</span>
-                        </td>
-                    </tr> 
-             </table>
+           
+            
              
             <div class="margin_20"></div>
             <h2 class="hours_header">HOLIDAY HOURS</h2>    

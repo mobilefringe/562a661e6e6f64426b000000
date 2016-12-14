@@ -72,7 +72,7 @@ function renderStoreList(container, template, collection, type){
     var store_initial="";
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
-            if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+            if(!val.store_front_url ||  val.store_front_url == null || val.store_front_url.length === 0){
                 val.alt_store_front_url = "";
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    

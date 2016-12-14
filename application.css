@@ -1104,7 +1104,8 @@ a:hover, a:focus{
     .top_header{
         margin:12px;
         padding-top: 74px;
-        height: 175px;
+        // height: 175px;
+        height: 140px;
     }
     .top_header .col-md-4{
         padding:0;
@@ -1419,7 +1420,7 @@ a:hover, a:focus{
     .site_searcher_div{
         z-index:999;
         // top:-40px;
-        top: 0;
+        top: -2px;
     }
     .newsletter_btn {
         width: 100%;

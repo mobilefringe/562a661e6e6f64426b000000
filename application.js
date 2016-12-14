@@ -103,7 +103,7 @@ function renderStoreList(container, template, collection, type){
         else{
             val.new_store = "display:none";
         }
-        if (val.promotions != null{
+        if (val.promotions != null){
             val.promotion_exist = "display:inline";
             var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
             if (store_promo != undefined){

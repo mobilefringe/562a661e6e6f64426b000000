@@ -2,6 +2,9 @@
     #mc_embed_signup form {
         padding-left: 0;
     }
+    #mc_embed_signup .mc-field-group select {
+        height: 34px;
+    }
 </style>
 <div class="fluid_row">
     <div class="row">

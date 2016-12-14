@@ -1057,9 +1057,9 @@ a:hover, a:focus{
     font-weight: 400;
     font-family: brandon;
 }
-// .newsletter_btn .fa-envelope-o {
-//     font-weight: bold;
-// }
+.newsletter_btn .fa-envelope-o {
+    font-weight: 400;
+}
 
 .newsletter_btn span {
     margin-left: 5px;

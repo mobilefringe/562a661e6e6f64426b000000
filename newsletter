@@ -4,6 +4,7 @@
     }
     #mc_embed_signup .mc-field-group select {
         height: 34px;
+        width: 100%;
     }
 </style>
 <div class="fluid_row">

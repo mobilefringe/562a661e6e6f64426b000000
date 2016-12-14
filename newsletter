@@ -26,7 +26,7 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
             <h3 class="hours_header">Subscribe to Dixie's E-Newsletter!</h3>
-            <div id="mm_page_content">
+            <!--<div id="mm_page_content">-->
                 
                 <!-- Begin MailChimp Signup Form -->
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -115,7 +115,7 @@
                 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[5]='MMERGE5';ftypes[5]='text';fnames[3]='MTD1';ftypes[3]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='dropdown';fnames[8]='MMERGE8';ftypes[8]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                 <!--End mc_embed_signup-->
                 
-            </div>
+            <!--</div>-->
         </div>
     </div>
 </div>

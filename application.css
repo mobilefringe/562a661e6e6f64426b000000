@@ -1421,7 +1421,8 @@ a:hover, a:focus{
     }
     .site_searcher_div{
         z-index:999;
-        top:-40px;
+        // top:-40px;
+        top: 0;
     }
     .overlay{
         top:450px;

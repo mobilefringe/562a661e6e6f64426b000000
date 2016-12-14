@@ -158,7 +158,7 @@
                         <div>
                             <a href="">
                                 <i class="custom_i fa fa-envelope-o"></i>
-                                <p>Subscribe to Our Newsletter</p>
+                                <span>Subscribe to Our Newsletter</span>
                             </a>
                         </div>
                         <!--<form action="//mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="newsletter_form">-->

@@ -156,7 +156,7 @@
                             <div class="site_search_results" id="search_results_promotions"></div>
                         </div>
                         <div class="newsletter_btn" style="position: relative; margin-top: 38px;">
-                            <a href="">
+                            <a href="/newsletter">
                                 <i class="custom_i fa fa-envelope-o"></i>
                                 <span>Subscribe to Our Newsletter</span>
                             </a>

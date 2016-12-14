@@ -1044,6 +1044,16 @@ a:hover, a:focus{
     z-index: 9999;
 }
 
+.newsletter_btn {
+    margin-top: 38px;
+    padding: 5px 10px;
+    position: relative;
+    width: 235px;
+    height: 30px;
+    display: inline-block;
+    background: #E9B50A;
+    color: #fff;
+}
 
 .back_btn{
     font-weight:400;

@@ -1055,7 +1055,7 @@ a:hover, a:focus{
     color: #fff;
 }
 
-.newsletter_btn:hover {
+.newsletter_btn a:hover {
     color: #FFF;
 }
 .back_btn{

@@ -1118,10 +1118,7 @@ a:hover, a:focus{
     .top_form_control input{
         width:100%;
     }
-    .newsletter_btn {
-        margin-top: 10px;
-        width: 100%;
-    }
+    
     .hidden_phone{
         display:none;
     }
@@ -1423,6 +1420,9 @@ a:hover, a:focus{
         z-index:999;
         // top:-40px;
         top: 0;
+    }
+    .newsletter_btn {
+        width: 100%;
     }
     .overlay{
         top:450px;

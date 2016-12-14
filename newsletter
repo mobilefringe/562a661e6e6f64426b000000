@@ -6,6 +6,9 @@
         height: 34px;
         width: 100%;
     }
+    #mc_embed_signup .mc-field-group.input-group label {
+        margin-left: 5px;
+    }
 </style>
 <div class="fluid_row">
     <div class="row">

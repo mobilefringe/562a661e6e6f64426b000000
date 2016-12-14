@@ -1053,6 +1053,9 @@ a:hover, a:focus{
     display: inline-block;
     background: #E9B50A;
     color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: brandon;
 }
 .newsletter_btn .fa-envelope-o {
     font-weight: bold;

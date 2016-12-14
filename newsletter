@@ -4,7 +4,7 @@
     }
     #mc_embed_signup .mc-field-group select {
         height: 34px;
-        width: 100%;
+        width: 100% !important;
     }
     #mc_embed_signup .mc-field-group.input-group label {
         margin-left: 5px;

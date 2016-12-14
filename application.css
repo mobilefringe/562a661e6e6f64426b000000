@@ -1054,6 +1054,13 @@ a:hover, a:focus{
     background: #E9B50A;
     color: #fff;
 }
+.newsletter_btn .fa-envelope-o {
+    font-weight: bold;
+}
+
+.newsletter_btn span {
+    margin-left: 5px;
+}
 
 .newsletter_btn a:hover {
     color: #FFF;

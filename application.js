@@ -239,7 +239,7 @@ function renderHours(container, template, collection, type){
     
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
-            if (!val.store_id && val.is_holiday == true) {
+            if (val.store_ids == null && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
                 val.formatted_date = in_my_time_zone(holiday, "MMM D");
                 if (val.open_time && val.close_time && val.is_closed == false){

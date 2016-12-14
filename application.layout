@@ -156,14 +156,10 @@
                             <div class="site_search_results" id="search_results_promotions"></div>
                         </div>
                         <div>
-                            <!--<a href="">-->
-                            <!--    <i class="custom_i fa fa-envelope-o"></i>-->
-                            <!--    <p>Subscribe to Our Newsletter</p>-->
-                            <!--</a>-->
-                            <label class="top_form_control">-->
+                            <a href="">
                                 <i class="custom_i fa fa-envelope-o"></i>
-                                <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />
-                            </label>
+                                <p>Subscribe to Our Newsletter</p>
+                            </a>
                         </div>
                         <!--<form action="//mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="newsletter_form">-->
                         <!--    <label class="top_form_control">-->

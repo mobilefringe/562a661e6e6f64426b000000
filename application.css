@@ -1118,6 +1118,10 @@ a:hover, a:focus{
     .top_form_control input{
         width:100%;
     }
+    .newsletter_btn {
+        margin-top: 10px;
+        width: 100%;
+    }
     .hidden_phone{
         display:none;
     }

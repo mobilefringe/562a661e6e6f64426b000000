@@ -1104,6 +1104,7 @@ a:hover, a:focus{
     margin-left: 5px;
 }
 /* */
+
 @media(max-width:800px){
     .no_pointer_desktop{
         pointer-events:all;

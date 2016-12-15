@@ -9,6 +9,7 @@
                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                 <li class="active"><a href="/accessibility">Accessibility</a></li>
                 <li><a href="/green_initiatives">Green Initiatives</a></li>
+                <li><a href="/newsletter">Newsletter</a></li>
             </ul>
             <div class="position_relative show_phone">
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Accessibility</span> <i class="fa fa-caret-down pull-right"></i></a>

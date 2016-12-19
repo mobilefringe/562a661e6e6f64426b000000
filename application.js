@@ -81,11 +81,12 @@ function renderStoreList(container, template, collection, type){
         }
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
-        log(val)
+        
         if (val.categories == null){
             val.cat_list = "";
         }
         else{
+            log(val)
             val.cat_list = val.categories.join(',')
         }
         if(store_initial.toLowerCase() == current_initial.toLowerCase()){

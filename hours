@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-9">
             <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
-            <h3 class="hours_header">EXTENDED HOURS (November 26- December 23)</h3>
+            <h3 class="hours_header">REGULAR HOURS (November 26- December 23)</h3>
             <table id="reg_hours_container" class="hours_container">
                 <script id="reg_hours_template" type="x-tmpl-mustache/text">
                     <tr>

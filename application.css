@@ -1144,8 +1144,9 @@ a:hover, a:focus{
         margin-right:0;
     }
     .feature_item{
-        width:100%;
-        padding:0;
+        // width:100%;
+        // padding:0;
+        width: 50%;
     }
     .feature_item img{
         max-width:400px;

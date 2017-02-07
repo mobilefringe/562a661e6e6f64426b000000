@@ -1166,7 +1166,8 @@ a:hover, a:focus{
         margin-left: 0;
     }
     .feature_header{
-        font-size:25px;
+        // font-size:25px;
+        font-size: 20px;
     }
     .show_phone{
         display:block;

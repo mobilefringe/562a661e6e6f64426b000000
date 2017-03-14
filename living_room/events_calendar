@@ -48,8 +48,9 @@
                 today = moment();
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && (val.tags.indexOf("#living_room") >= 0)) {
-                    published_event.start = val.start_date
-                    published_event.end = val.end_date
+                    published_event.start = val.start_date;
+                    published_event.end = val.end_date;
+                    published_event.eventColor = "#f00";
                 } 
             });
             show_content();

@@ -31,8 +31,13 @@ body{
     pointer-events:none
 }
 
-.gallery_img{
-    width:100px;
+#gallery{
+    div{
+        img{
+            width:100%;
+        }    
+    }
+    
 }
 
 .gs_div{

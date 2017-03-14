@@ -8,3 +8,10 @@
         float:none !important;
     }
 }
+
+.fc-button{
+    margin-right: .75em;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #979797;
+}

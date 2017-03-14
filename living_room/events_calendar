@@ -29,7 +29,7 @@
             <div class="margin_20"></div>
             <h3 class="hours_header">Events Calendar</h3>
             <div id="mm_page_content">
-                <div class="calendar">
+                <div class="calendar" id="calendar">
                     
                 </div>
             </div>

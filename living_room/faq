@@ -18,7 +18,7 @@
                     <li><a href="#">Events Calendar</a></li>
                     <li><a href="#">Book This Space</a></li>
                     <li><a href="#">#DixieLivingRoom</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="/living_room/faq">FAQ</a></li>
                 </ul>
             </div>
         </div>

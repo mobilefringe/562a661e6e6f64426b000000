@@ -75,7 +75,7 @@ body{
 .slick-prev{
     left:0;
     &:before{
-        content: "←";
+        content: "\f053";
         color: #000;
         left: 0;
         position: absolute;

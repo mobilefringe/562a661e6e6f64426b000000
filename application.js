@@ -328,6 +328,18 @@ function renderJobDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
+function renderGallery(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 function renderPromotions(container, template, collection){
     var item_list = [];
     var item_rendered = [];

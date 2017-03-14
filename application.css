@@ -73,6 +73,12 @@ body{
 
 .slick-prev{
     left:0;
+    &:before{
+        content: "<-";
+        color: #000;
+        left: 0;
+        position: absolute;
+    }
 }
 
 .gs_div{

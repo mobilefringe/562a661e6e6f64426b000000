@@ -60,8 +60,15 @@
                 }
             }); 
             var gallery_images = getFashionBySlug("twinpines-living-room").fashion_images;
-            renderGallery("#gallery", "#gallery_template", gallery_images)
+            renderGallery("#gallery", "#gallery_template", gallery_images);
             show_content();
+            $('#gallery').slick({
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4
+            });
+            
+            
             $('#top_nav_about_us').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

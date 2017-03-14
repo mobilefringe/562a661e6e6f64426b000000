@@ -51,7 +51,7 @@
                     published_event.start = val.start_date;
                     published_event.end = val.end_date;
                     published_event.title = val.name;
-                    published_event.color = "#f00";
+                    published_event.color = val.tags.indexOf("#public") ? "#8D437F" : "#E67B5F";
                     calendar_events.push(published_event)
                 } 
             });

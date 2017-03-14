@@ -51,6 +51,7 @@
                     published_event.start = val.start_date;
                     published_event.end = val.end_date;
                     published_event.eventColor = "#f00";
+                    calendar_events.push(published_event)
                 } 
             });
             show_content();

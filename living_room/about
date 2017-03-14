@@ -30,7 +30,7 @@
             <h3 class="hours_header" id="mm_page_title"></h3>
             <div id="mm_page_content"></div>
             <h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>
-            <div id="gallery" class=>
+            <div id="gallery" class="">
                 <script id="gallery_template" type="x-tmpl-mustache/text">
                     <div>
                         <a href="{{image_url}}" class="">

@@ -52,6 +52,23 @@ body{
     
 }
 
+.slick-arrow{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    top: calc(50% - 10px);
+    position: absolute;
+    color: transparent;
+}
+
+.slick-next{
+    right: 0;
+}
+
+.slick-prev{
+    left:o;
+}
+
 .gs_div{
     padding: 0 20px;
     .page_miniheads{

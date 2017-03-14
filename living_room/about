@@ -35,7 +35,7 @@
             <div id="gallery">
                 <script id="gallery_template" type="x-tmpl-mustache/text">
                     <div class="gallery_item">
-                        <a href="{{image_url}}" class="gallery_link" data-lightbox="roadtrip">
+                        <a href="{{image_url}}" class="gallery_link" data-lightbox="living_room_gallery">
                             <img src="{{image_url}}" alt= "{{alt}}" class />
                         </a>
                     </div>

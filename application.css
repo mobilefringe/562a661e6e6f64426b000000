@@ -59,6 +59,7 @@ body{
     top: calc(50% - 10px);
     position: absolute;
     color: transparent;
+    font-family: FontAwesome;
 }
 
 .slick-next{

@@ -59,6 +59,7 @@
                     $("#404_msg").fadeIn("fast");
                 }
             }); 
+            var gallery = getFashionBySlug("twinpines-living-room");
             show_content();
             $('#top_nav_about_us').addClass('active_yellow')
         }

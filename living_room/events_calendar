@@ -43,7 +43,7 @@
         function renderAll(){
             
             show_content();
-            $('#calendar').fullCalendar({timezone: 'UTC'})
+            $('#calendar').fullCalendar({timezone: getPropertyTimeZone()})
             $('#top_nav_about_us').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

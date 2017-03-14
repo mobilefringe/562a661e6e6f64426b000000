@@ -32,6 +32,11 @@
             <h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>
             <div id="gallery">
                 <script id="promo_details_template_2" type="x-tmpl-mustache/text">
+                    <div>
+                        <a href="{{}"} class="">
+                            <img src="{{}}" atlt= "{{}}" class />
+                        </a>
+                    </div>
                 </script>
             </div>
         </div>

@@ -34,7 +34,7 @@
                 <script id="gallery_template" type="x-tmpl-mustache/text">
                     <div>
                         <a href="{{image_url}"} class="">
-                            <img src="{{image_url}}" atlt= "{{alt}}" class />
+                            <img src="{{image_url}}" alt= "{{alt}}" class />
                         </a>
                     </div>
                 </script>

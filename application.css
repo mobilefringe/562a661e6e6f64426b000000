@@ -32,13 +32,9 @@ body{
 }
 
 #gallery{
-    gallery_item{
+    .gallery_item{
         width:25%;
-        a{
-            width: 100%;
-            display: block;
-            margin: 10px;
-        }
+        
         img{
             width:100%;
         }    

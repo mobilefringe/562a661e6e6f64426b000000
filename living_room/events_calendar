@@ -55,7 +55,11 @@
                 } 
             });
             show_content();
-            $('#calendar').fullCalendar({timezone: getPropertyTimeZone()})
+            $('#calendar').fullCalendar({
+                timezone: getPropertyTimeZone(),
+                events: calendar_events
+                
+            })
             $('#top_nav_about_us').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

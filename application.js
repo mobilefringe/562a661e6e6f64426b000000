@@ -521,7 +521,7 @@ function renderEventDetails(container, template, collection){
         }
         
         if (val.tags.indexOf("#living_room") >= 0){
-            val.store_name = "The Living Room"
+            val.store_name = "The Living Room";
         }
         
         if(val.event_image_url_abs.indexOf('missing.png') > -1){

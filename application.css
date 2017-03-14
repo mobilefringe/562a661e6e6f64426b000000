@@ -64,7 +64,7 @@ body{
 .slick-next{
     right: 0;
     &:before{
-        content: "<-";
+        content: "->";
         color: #000;
         right: 0;
         position: absolute;

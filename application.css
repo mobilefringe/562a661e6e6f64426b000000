@@ -62,7 +62,7 @@ body{
     font-family: FontAwesome;
 }
 
-.slick-disabled:before{
+.slick-prev.slick-disabled:before{
         color: rgba(0,0,0,0.5);
 }
 

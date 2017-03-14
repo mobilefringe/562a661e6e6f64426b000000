@@ -40,6 +40,7 @@ body{
 
 #gallery{
     .gallery_item{
+        padding: 0 24px;
         width:25%;
         
         img{

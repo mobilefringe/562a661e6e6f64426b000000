@@ -67,7 +67,7 @@ body{
 }
 
 .slick-next.slick-disabled:before{
-        color: rgba(0,0,0,0.5);
+        color: transparent;
 }
 
 .slick-next{

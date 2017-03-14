@@ -66,6 +66,10 @@ body{
         color: rgba(0,0,0,0.5);
 }
 
+.slick-next.slick-disabled:before{
+        color: rgba(0,0,0,0.5);
+}
+
 .slick-next{
     right: 0;
     &:before{

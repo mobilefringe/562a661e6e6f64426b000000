@@ -14,10 +14,10 @@
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">FAQ</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="#">About</a></li>
-                    <li><a href="#">What's New</a></li>
+                    <li><a href="/living_room/whats_new">What's New</a></li>
                     <li><a href="#">Events Calendar</a></li>
                     <li><a href="#">Book This Space</a></li>
-                    <li><a href="/living_room/faq">#DixieLivingRoom</a></li>
+                    <li><a href="">#DixieLivingRoom</a></li>
                     <li><a href="/living_room/faq">FAQ</a></li>
                 </ul>
             </div>

@@ -39,7 +39,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             prefix = get_prefix();
-            var pages_json = '//dixieoutlet.mallmaverick.com/pages/pages/dixieoutlet-living-room-frequently-asked-questions.json'
+            var pages_json = '//dixieoutlet.mallmaverick.com/pages/dixieoutlet-living-room-frequently-asked-questions.json'
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_title').html(data.title);
                 $('#mm_page_content').html(data.body);

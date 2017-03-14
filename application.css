@@ -63,11 +63,11 @@ body{
 }
 
 .slick-prev.slick-disabled:before{
-        color: #222;
+        color: #eee;
 }
 
 .slick-next.slick-disabled:before{
-        color: #222;
+        color: #eee;
 }
 
 .slick-next{

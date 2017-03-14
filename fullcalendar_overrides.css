@@ -1,0 +1,7 @@
+.fc-toolbar .fc-right{
+    float:none;
+}
+
+.fc-toolbar .fc-left, .fc .fc-toolbar > * > *{
+    float:none;
+}

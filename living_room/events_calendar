@@ -28,7 +28,7 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
             <h3 class="hours_header">Events Calendar</h3>
-            <div id="mm_page_content">
+            <div id="">
                 <div class="calendar" id="calendar">
                     
                 </div>

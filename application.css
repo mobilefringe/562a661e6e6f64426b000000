@@ -65,6 +65,9 @@ body{
     right: 0;
     &:before{
         content: "<-";
+        color: #000;
+        right: 0;
+        position: absolute;
     }
 }
 

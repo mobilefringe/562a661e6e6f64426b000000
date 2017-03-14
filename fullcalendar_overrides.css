@@ -10,7 +10,7 @@
 }
 
 .fc-button{
-    margin-right: .75em;
+    margin-right: .75em !important;
     border-radius: 4px;
     background: #fff;
     border: 1px solid #979797;

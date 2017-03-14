@@ -41,7 +41,17 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            
+            var calendar_events = [];
+            var events = getEventsList().sortBy(function(o){ return o.start_date });
+             $.each( events , function( key, val ){
+                 var published_event = {};
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && (val.tags.indexOf("#living_room") >= 0)) {
+                    published_event.start = val.start_date
+                    published_event.end = val.end_date
+                } 
+            });
             show_content();
             $('#calendar').fullCalendar({timezone: getPropertyTimeZone()})
             $('#top_nav_about_us').addClass('active_yellow')

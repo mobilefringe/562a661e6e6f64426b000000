@@ -334,6 +334,7 @@ function renderGallery(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
+        log(val)
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });

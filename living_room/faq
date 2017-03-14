@@ -3,7 +3,7 @@
         <div class="col-md-3 mobile_padding">
             <h3 class="store_list_header">THE LIVING ROOM</h3>
             <ul class="side_menu hidden_phone">
-                <li><a href="#">About</a></li>
+                <li><a href="/living_room/about">About</a></li>
                 <li><a href="/living_room/whats_new">What's New</a></li>
                 <li><a href="#">Events Calendar</a></li>
                 <li><a href="#">Book This Space</a></li>

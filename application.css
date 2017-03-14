@@ -32,7 +32,7 @@ body{
 }
 
 #gallery{
-    div.gallery_item{
+    gallery_item{
         width:25%;
         a{
             width: 100%;

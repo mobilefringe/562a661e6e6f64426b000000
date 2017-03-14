@@ -1,3 +1,6 @@
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
 <div class="fluid_row">
     <div class="row">
         <div class="col-md-3 mobile_padding">
@@ -27,6 +30,9 @@
             <h3 class="hours_header" id="mm_page_title"></h3>
             <div id="mm_page_content"></div>
             <h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>
+            <div id="">
+                
+            </div>
         </div>
     </div>
 </div>

@@ -30,7 +30,10 @@
             <h3 class="hours_header">Events Calendar</h3>
             <div id="">
                 <ul class="">
-                    <p><span></span> </p>
+                    <li><span></span>Public Events</li>
+                    <li><span></span>Dixie Events</li>
+                    <li><span></span>Private Events</li>
+                    <li><span></span>Closed Events</li>
                 </ul>
                 <div class="calendar" id="calendar">
                     

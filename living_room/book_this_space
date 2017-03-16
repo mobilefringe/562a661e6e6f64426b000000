@@ -34,7 +34,8 @@
                         <input required type="text" name="first_name" id="first_name" class="form-control" />
                     </div>
                     <div class="col-md-4">
-                        
+                        <label for="last_name">First Name *</label>
+                        <input required type="text" name="last_name" id="last_name" class="form-control" />
                     </div>
                 </div>
             </div>

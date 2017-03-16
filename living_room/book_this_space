@@ -127,10 +127,13 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row" style=" margin-bottom: 0px; ">
-                            <div class="col-md-6">
+                            <div class="col-md-3">
+                                <label for="booking_time_start">Start:</label>
+                            </div>
+                            <div class="col-md-3">
                                 <input name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-3">
                                 <p>To request multiple consecutive dates ,please specify in the box below.</p>
                             </div>
                         </div>

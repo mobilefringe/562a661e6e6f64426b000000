@@ -146,10 +146,10 @@
                 
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="additional_info">If other please specify:</label>
+                        <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
                     </div>
                     <div class="col-md-8">
-                        <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
+                        <textarea name="additional_info" id="additional_info" class="form-control"></textarea>
                     </div>
                 </div>
             </div>

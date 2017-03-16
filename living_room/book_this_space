@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-md-4">
                         <label for="business_name">Org / Business Name:</label>
-                        <input required type="text" name="phone" id="phone" class="form-control" />
+                        <input required type="text" name="business_name" id="business_name" class="form-control" />
                     </div>
                 </div>
                 

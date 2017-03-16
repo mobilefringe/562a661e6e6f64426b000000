@@ -62,7 +62,6 @@
                         <label>
                             <input type="radio" name="intended_use" value="public" /> Public
                         </label>
-                        <br />
                         <label>
                             <input type="radio" name="intended_use" value="private" /> Private
                         </label>

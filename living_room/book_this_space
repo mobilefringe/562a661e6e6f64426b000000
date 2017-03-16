@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<script src="//s3.amazonaws.com/kodekloud/sites/58c6f9856e6f642bbf0b0000/application/x-javascript/1451856482000/bootstrap-timepicker.min.js"></script>
+<link href="http://assets.codecloudapp.com/sites/58c6f9856e6f642bbf0b0000/text/css/1451856482000/bootstrap-timepicker.min.css" rel="stylesheet">
 <style>
     label{
         display:block;

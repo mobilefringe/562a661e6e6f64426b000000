@@ -117,7 +117,7 @@
                                 <p>To request multiple consecutive dates ,please specify in the box below.</p>
                             </div>
                         </div>
-                        <textarea class="form-control"></textarea>
+                        <textarea name="booking_date_extra" class="form-control"></textarea>
                     </div>
                 </div>
             </div>

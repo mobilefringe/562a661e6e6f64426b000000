@@ -4,6 +4,7 @@
 
 .fc-toolbar .fc-left{
     float:none;
+    margin-bottom: 20px;
     h2{
         float:none !important;
     }

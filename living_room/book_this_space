@@ -126,7 +126,7 @@
                         <p>Requested Booking Time *:</p>
                     </div>
                     <div class="col-md-8">
-                        <div class="row" style=" margin-bottom: 0px; ">
+                        <div class="row" style=" margin-bottom: 20px; ">
                             <div class="col-md-3">
                                 <label for="booking_time_start">Start:</label>
                             </div>

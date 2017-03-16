@@ -51,6 +51,23 @@ body{
     }
 }
 
+#public_event_tile{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    background:#8D437F;
+    
+}
+#dixie_event_tile{
+    
+}
+#private_event_tile{
+    
+}
+#cloased_event_tile{
+    
+}
+
 #gallery{
     padding-left: 15px;
     padding-right: 15px;

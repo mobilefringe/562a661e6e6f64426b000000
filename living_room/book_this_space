@@ -140,8 +140,6 @@
                                 <input name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                         </div>
-                        <label for="booking_time_extra">Note: Bookings are only permitted during  Dixie Outlet Mall regular Hours of Operation .</label>
-                        <textarea id="booking_time_extra" name="booking_time_extra" class="form-control"></textarea>
                     </div>
                 </div>
             </div>

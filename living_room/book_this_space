@@ -127,16 +127,16 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row" style=" margin-bottom: 20px; ">
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <label for="booking_time_start">Start:</label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <input name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <label for="booking_time_end">To:</label>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-4">
                                 <input name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                         </div>

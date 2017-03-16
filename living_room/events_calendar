@@ -29,6 +29,9 @@
             <div class="margin_20"></div>
             <h3 class="hours_header">Events Calendar</h3>
             <div id="">
+                <ul class="">
+                    <p><span></span> </p>
+                </ul>
                 <div class="calendar" id="calendar">
                     
                 </div>

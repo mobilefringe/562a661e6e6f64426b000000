@@ -166,6 +166,7 @@
             
             show_content();
             $('.datepicker').datepicker();
+            $('.timepicker').timepicker();
             $('#top_nav_living_room').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

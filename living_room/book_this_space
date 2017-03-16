@@ -104,7 +104,7 @@
                 
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="booking_date">If other please specify:</label>
+                        <label for="booking_date">Requested Booking Date *::</label>
                     </div>
                     <div class="col-md-8">
                         <textarea class="form-control"></textarea>

@@ -37,6 +37,16 @@ body{
     // margin: 10px;
 }
 
+.event_calendar_header{
+    position: absolute;
+    right: 0;
+    list-style: none;
+    width: calc(100% - 200px);
+    margin-bottom: 0;
+    li{
+        float:right;
+    }
+}
 
 #gallery{
     padding-left: 15px;

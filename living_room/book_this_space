@@ -107,7 +107,7 @@
                         <label for="booking_date">Requested Booking Date *::</label>
                     </div>
                     <div class="col-md-8">
-                        <div class="row" style=" margin-bottom: 20px; ">
+                        <div class="row" style=" margin-bottom: 0px; ">
                             <div class="col-md-4">
                                 
                             </div>

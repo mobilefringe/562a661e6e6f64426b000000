@@ -140,7 +140,7 @@
                                 <input name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                         </div>
-                        <textarea name="booking_date_extra" class="form-control"></textarea>
+                        <textarea name="booking_time_extra" class="form-control"></textarea>
                     </div>
                 </div>
             </div>

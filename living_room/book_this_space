@@ -59,7 +59,7 @@
                         <p>Intended Use *:</p>
                     </div>
                     <div class="col-md-3">
-                        <label>
+                        <label style="margin-bottom:10px">
                             <input type="radio" name="intended_use" value="public" /> Public
                         </label>
                         <label>

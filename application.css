@@ -28,7 +28,7 @@ body{
 }
 
 .no_pointer_desktop{
-    pointer-events:none
+    pointer-events:none;
 }
 
 .gallery_link{

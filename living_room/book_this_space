@@ -30,7 +30,8 @@
                 
                 <div class="row">
                     <div class="col-md-4">
-                        <label>First Name *</label>
+                        <label for="first_name">First Name *</label>
+                        <input required type="text" name="first_name" i="first_name" />
                     </div>
                     <div class="col-md-4">
                         

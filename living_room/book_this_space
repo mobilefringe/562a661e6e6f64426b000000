@@ -64,7 +64,7 @@
                     <div class="col-md-4">
                         <p>Intended Use *:</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-2">
                         <label style="margin-bottom:10px">
                             <input type="radio" name="intended_use" value="public" /> Public
                         </label>
@@ -72,7 +72,7 @@
                             <input type="radio" name="intended_use" value="private" /> Private
                         </label>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <p>Open to Dixie Outlet Mall Shoppers.</p>
                         <p>By Invite Only</p>
                     </div>

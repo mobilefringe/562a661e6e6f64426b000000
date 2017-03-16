@@ -91,6 +91,7 @@
                             <option value="To Sell Goods / Fundraising">To Sell Goods / Fundraising</option>
                             <option value="Other">Other</option>
                         </select>
+                        <textarea class="form-control"></textarea>
                     </div>
                     
                 </div>

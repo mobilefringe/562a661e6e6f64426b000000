@@ -141,7 +141,15 @@
                             </div>
                         </div>
                         <p>Note: Bookings are only permitted during  Dixie Outlet Mall regular Hours of Operation .</p>
-                        
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="additional_info">If other please specify:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
                     </div>
                 </div>
             </div>

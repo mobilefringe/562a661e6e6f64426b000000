@@ -82,7 +82,14 @@
                         <label for="use_type">Use Type *:</label>
                     </div>
                     <div class="col-md-4">
-                        
+                        <select name="use_type" class="form-control">
+                            <option value="Select Event Type">Select Event Type</option>
+                            <option value="Workshop / Seminar">Workshop / Seminar</option>
+                            <option value="Fitness Class">Fitness Class</option>
+                            <option value="Workspace">Workspace</option>
+                            <option value="To Sell Goods / Fundraising">To Sell Goods / Fundraising</option>
+                            <option value="Other">Other</option>
+                        </select>
                     </div>
                     
                 </div>

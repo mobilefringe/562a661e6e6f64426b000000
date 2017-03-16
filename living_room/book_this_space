@@ -100,7 +100,7 @@
                         <label for="other_use_type">If other please specify:</label>
                     </div>
                     <div class="col-md-8">
-                        <textarea class="form-control"></textarea>
+                        <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
                     </div>
                 </div>
                 

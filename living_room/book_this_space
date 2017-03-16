@@ -120,6 +120,23 @@
                         <textarea name="booking_date_extra" class="form-control"></textarea>
                     </div>
                 </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Requested Booking Time *:</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row" style=" margin-bottom: 0px; ">
+                            <div class="col-md-4">
+                                <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" />
+                            </div>
+                            <div class="col-md-8">
+                                <p>To request multiple consecutive dates ,please specify in the box below.</p>
+                            </div>
+                        </div>
+                        <textarea name="booking_date_extra" class="form-control"></textarea>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

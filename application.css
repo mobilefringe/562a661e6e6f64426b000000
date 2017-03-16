@@ -48,24 +48,29 @@ body{
     li{
         float:right;
         margin-left:20px;
+        span{
+            display:inline-block;
+            width:18px;
+            height:18px;
+            margin-right: 5px;
+            border-radius: 4px;
+            float: left;
+        }
     }
 }
 
 #public_event_tile{
-    display:inline-block;
-    width:18px;
-    height:18px;
     background:#8D437F;
     
 }
 #dixie_event_tile{
-    
+    background:#E67B5F;
 }
 #private_event_tile{
-    
+    background:#0079BD;
 }
-#cloased_event_tile{
-    
+#closed_event_tile{
+    background:#0C8B6D;
 }
 
 #gallery{

@@ -134,7 +134,10 @@
                                 <input name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                             <div class="col-md-3">
-                                <p>To request multiple consecutive dates ,please specify in the box below.</p>
+                                <label for="booking_time_end">To:</label>
+                            </div>
+                            <div class="col-md-3">
+                                <input name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                         </div>
                         <textarea name="booking_date_extra" class="form-control"></textarea>

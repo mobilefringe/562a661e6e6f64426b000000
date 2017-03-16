@@ -48,6 +48,10 @@
                         <label for="phone">Phone Number *</label>
                         <input required type="text" name="phone" id="phone" class="form-control" />
                     </div>
+                    <div class="col-md-4">
+                        <label for="phone">Org / Business Name:</label>
+                        <input required type="text" name="phone" id="phone" class="form-control" />
+                    </div>
                 </div>
                 
             </div>

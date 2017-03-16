@@ -29,7 +29,7 @@
             <div class="margin_20"></div>
             <h3 class="hours_header">Events Calendar</h3>
             <div id="">
-                <ul class="">
+                <ul class="event_calendar_header">
                     <li><span></span>Public Events</li>
                     <li><span></span>Dixie Events</li>
                     <li><span></span>Private Events</li>

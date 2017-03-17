@@ -112,7 +112,7 @@
                             <label for="booking_date">Requested Booking Date *:</label>
                         </div>
                         <div class="col-md-8">
-                            <div class="row" style="  ">
+                            <div class="row" style=" margin-bottom: 10px; ">
                                 <div class="col-md-3">
                                     <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>

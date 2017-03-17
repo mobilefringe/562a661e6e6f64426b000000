@@ -155,6 +155,11 @@
                             <textarea name="additional_info" id="additional_info" class="form-control"></textarea>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <input type="submit" value="Submit Form" />
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>

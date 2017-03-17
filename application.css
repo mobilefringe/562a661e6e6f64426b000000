@@ -30,6 +30,7 @@ body{
 .help-block{
     position:absolute;
     font-size:12px;
+    margin-top:-4px;
 }
 
 .no_pointer_desktop{

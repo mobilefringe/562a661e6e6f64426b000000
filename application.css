@@ -27,6 +27,11 @@ body{
     width:100%;
 }
 
+.help-block{
+    position:absolute;
+    font-size:12px;
+}
+
 .no_pointer_desktop{
     pointer-events:none;
 }

@@ -157,7 +157,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 text-right">
-                            <input type="submit" value="Submit Form" />
+                            <input type="submit" value="Submit Form" class="submit_btn" />
                         </div>
                     </div>
                 </form>

@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <label for="email">Email Address *:</label>
-                            <input required type="text" name="email" id="email" class="form-control" data-validation="required" />
+                            <input type="text" name="email" id="email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" />
                         </div>
                         <div class="col-md-4">
                             <label for="phone">Phone Number *:</label>

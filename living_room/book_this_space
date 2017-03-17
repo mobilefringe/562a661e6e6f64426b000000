@@ -38,123 +38,124 @@
             <h3 class="hours_header" id="mm_page_title">Book this space</h3>
             <div id="mm_page_content">
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="first_name">First Name *</label>
-                        <input required type="text" name="first_name" id="first_name" class="form-control" data-validation="required" />
-                    </div>
-                    <div class="col-md-4">
-                        <label for="last_name">Last Name *</label>
-                        <input required type="text" name="last_name" id="last_name" class="form-control" data-validation="required" />
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="email">Email Address *:</label>
-                        <input required type="text" name="email" id="email" class="form-control" data-validation="required" />
-                    </div>
-                    <div class="col-md-4">
-                        <label for="phone">Phone Number *:</label>
-                        <input required type="text" name="phone" id="phone" class="form-control" data-validation="required" />
-                    </div>
-                    <div class="col-md-4">
-                        <label for="business_name">Org / Business Name:</label>
-                        <input required type="text" name="business_name" id="business_name" class="form-control" />
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>Intended Use *:</p>
-                    </div>
-                    <div class="col-md-2">
-                        <label style="margin-bottom:10px">
-                            <input type="radio" name="intended_use" value="public" data-validation="required" /> Public
-                        </label>
-                        <label>
-                            <input type="radio" name="intended_use" value="private" data-validation="required" /> Private
-                        </label>
-                    </div>
-                    <div class="col-md-6">
-                        <p>Open to Dixie Outlet Mall Shoppers.</p>
-                        <p>By Invite Only</p>
-                    </div>
-                </div>
-                <div class="row" style=" margin-bottom: 20px; ">
-                    <div class="col-md-4">
-                        <label for="use_type">Use Type *:</label>
-                    </div>
-                    <div class="col-md-4">
-                        <select id="use_type" name="use_type" class="form-control" data-validation="required">
-                            <option value="Select Event Type" disabled selected>Select Event Type</option>
-                            <option value="Workshop / Seminar">Workshop / Seminar</option>
-                            <option value="Fitness Class">Fitness Class</option>
-                            <option value="Workspace">Workspace</option>
-                            <option value="To Sell Goods / Fundraising">To Sell Goods / Fundraising</option>
-                            <option value="Other">Other</option>
-                        </select>
+                <form>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="first_name">First Name *</label>
+                            <input required type="text" name="first_name" id="first_name" class="form-control" data-validation="required" />
+                        </div>
+                        <div class="col-md-4">
+                            <label for="last_name">Last Name *</label>
+                            <input required type="text" name="last_name" id="last_name" class="form-control" data-validation="required" />
+                        </div>
                     </div>
                     
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="other_use_type">If other please specify:</label>
-                    </div>
-                    <div class="col-md-8">
-                        <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="booking_date">Requested Booking Date *:</label>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row" style=" margin-bottom: 0px; ">
-                            <div class="col-md-4">
-                                <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
-                            </div>
-                            <div class="col-md-8">
-                                <label for="booking_date_extra">To request multiple consecutive dates ,please specify in the box below.</label>
-                            </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="email">Email Address *:</label>
+                            <input required type="text" name="email" id="email" class="form-control" data-validation="required" />
                         </div>
-                        <textarea id="booking_date_extra" name="booking_date_extra" class="form-control"></textarea>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <p>Requested Booking Time *:</p>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row" style=" margin-bottom: 20px; ">
-                            <div class="col-md-2">
-                                <label for="booking_time_start">Start:</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input data-validation="required" name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
-                            </div>
-                            <div class="col-md-2">
-                                <label for="booking_time_end">To:</label>
-                            </div>
-                            <div class="col-md-4">
-                                <input data-validation="required" name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
-                            </div>
+                        <div class="col-md-4">
+                            <label for="phone">Phone Number *:</label>
+                            <input required type="text" name="phone" id="phone" class="form-control" data-validation="required" />
                         </div>
-                        <p>Note: Bookings are only permitted during  Dixie Outlet Mall regular Hours of Operation .</p>
+                        <div class="col-md-4">
+                            <label for="business_name">Org / Business Name:</label>
+                            <input required type="text" name="business_name" id="business_name" class="form-control" />
+                        </div>
                     </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Intended Use *:</p>
+                        </div>
+                        <div class="col-md-2">
+                            <label style="margin-bottom:10px">
+                                <input type="radio" name="intended_use" value="public" data-validation="required" /> Public
+                            </label>
+                            <label>
+                                <input type="radio" name="intended_use" value="private" data-validation="required" /> Private
+                            </label>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Open to Dixie Outlet Mall Shoppers.</p>
+                            <p>By Invite Only</p>
+                        </div>
                     </div>
-                    <div class="col-md-8">
-                        <textarea name="additional_info" id="additional_info" class="form-control"></textarea>
+                    <div class="row" style=" margin-bottom: 20px; ">
+                        <div class="col-md-4">
+                            <label for="use_type">Use Type *:</label>
+                        </div>
+                        <div class="col-md-4">
+                            <select id="use_type" name="use_type" class="form-control" data-validation="required">
+                                <option value="Select Event Type" disabled selected>Select Event Type</option>
+                                <option value="Workshop / Seminar">Workshop / Seminar</option>
+                                <option value="Fitness Class">Fitness Class</option>
+                                <option value="Workspace">Workspace</option>
+                                <option value="To Sell Goods / Fundraising">To Sell Goods / Fundraising</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="other_use_type">If other please specify:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="booking_date">Requested Booking Date *:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row" style=" margin-bottom: 0px; ">
+                                <div class="col-md-4">
+                                    <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
+                                </div>
+                                <div class="col-md-8">
+                                    <label for="booking_date_extra">To request multiple consecutive dates ,please specify in the box below.</label>
+                                </div>
+                            </div>
+                            <textarea id="booking_date_extra" name="booking_date_extra" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>Requested Booking Time *:</p>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="row" style=" margin-bottom: 20px; ">
+                                <div class="col-md-2">
+                                    <label for="booking_time_start">Start:</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input data-validation="required" name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                </div>
+                                <div class="col-md-2">
+                                    <label for="booking_time_end">To:</label>
+                                </div>
+                                <div class="col-md-4">
+                                    <input data-validation="required" name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                </div>
+                            </div>
+                            <p>Note: Bookings are only permitted during  Dixie Outlet Mall regular Hours of Operation .</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
+                        </div>
+                        <div class="col-md-8">
+                            <textarea name="additional_info" id="additional_info" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

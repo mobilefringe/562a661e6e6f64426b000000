@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 <script src="//s3.amazonaws.com/kodekloud/sites/58c6f9856e6f642bbf0b0000/application/x-javascript/1451856482000/bootstrap-timepicker.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 <link href="http://assets.codecloudapp.com/sites/58c6f9856e6f642bbf0b0000/text/css/1451856482000/bootstrap-timepicker.min.css" rel="stylesheet">
 <style>
     label{
@@ -41,22 +42,22 @@
                 <div class="row">
                     <div class="col-md-4">
                         <label for="first_name">First Name *</label>
-                        <input required type="text" name="first_name" id="first_name" class="form-control" />
+                        <input required type="text" name="first_name" id="first_name" class="form-control" data-validation="required" />
                     </div>
                     <div class="col-md-4">
                         <label for="last_name">Last Name *</label>
-                        <input required type="text" name="last_name" id="last_name" class="form-control" />
+                        <input required type="text" name="last_name" id="last_name" class="form-control" data-validation="required" />
                     </div>
                 </div>
                 
                 <div class="row">
                     <div class="col-md-4">
                         <label for="email">Email Address *:</label>
-                        <input required type="text" name="email" id="email" class="form-control" />
+                        <input required type="text" name="email" id="email" class="form-control" data-validation="required" />
                     </div>
                     <div class="col-md-4">
                         <label for="phone">Phone Number *:</label>
-                        <input required type="text" name="phone" id="phone" class="form-control" />
+                        <input required type="text" name="phone" id="phone" class="form-control" data-validation="required" />
                     </div>
                     <div class="col-md-4">
                         <label for="business_name">Org / Business Name:</label>
@@ -70,10 +71,10 @@
                     </div>
                     <div class="col-md-2">
                         <label style="margin-bottom:10px">
-                            <input type="radio" name="intended_use" value="public" /> Public
+                            <input type="radio" name="intended_use" value="public" data-validation="required" /> Public
                         </label>
                         <label>
-                            <input type="radio" name="intended_use" value="private" /> Private
+                            <input type="radio" name="intended_use" value="private" data-validation="required" /> Private
                         </label>
                     </div>
                     <div class="col-md-6">
@@ -86,7 +87,7 @@
                         <label for="use_type">Use Type *:</label>
                     </div>
                     <div class="col-md-4">
-                        <select id="use_type" name="use_type" class="form-control">
+                        <select id="use_type" name="use_type" class="form-control" data-validation="required">
                             <option value="Select Event Type" disabled selected>Select Event Type</option>
                             <option value="Workshop / Seminar">Workshop / Seminar</option>
                             <option value="Fitness Class">Fitness Class</option>
@@ -113,7 +114,7 @@
                     <div class="col-md-8">
                         <div class="row" style=" margin-bottom: 0px; ">
                             <div class="col-md-4">
-                                <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" />
+                                <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                             </div>
                             <div class="col-md-8">
                                 <label for="booking_date_extra">To request multiple consecutive dates ,please specify in the box below.</label>
@@ -133,13 +134,13 @@
                                 <label for="booking_time_start">Start:</label>
                             </div>
                             <div class="col-md-4">
-                                <input name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                <input data-validation="required" name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                             <div class="col-md-2">
                                 <label for="booking_time_end">To:</label>
                             </div>
                             <div class="col-md-4">
-                                <input name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                <input data-validation="required" name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                             </div>
                         </div>
                         <p>Note: Bookings are only permitted during  Dixie Outlet Mall regular Hours of Operation .</p>

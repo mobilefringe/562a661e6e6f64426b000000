@@ -1580,6 +1580,11 @@ a:hover, a:focus{
     .navbar-nav, .navbar-nav>li{
         float:none;
     }
+    
+    .event_calendar_header{
+        position:relative;
+        padding:0;
+    }
 }
 
 @media (min-width:800px) and (max-width:1024px){

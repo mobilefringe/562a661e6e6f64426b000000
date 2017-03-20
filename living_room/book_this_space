@@ -117,7 +117,7 @@
                                     <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>
                                 <div class="col-md-9">
-                                    <label class="grey" for="booking_date_extra">To request multiple consecutive dates ,please specify in the box below.</label>
+                                    <label class="grey" for="booking_date_extra">To request multiple consecutive dates, please specify in the box below.</label>
                                 </div>
                             </div>
                             <textarea id="booking_date_extra" name="booking_date_extra" class="form-control"></textarea>

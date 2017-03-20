@@ -7,6 +7,14 @@
     label{
         display:block;
         font-weight:normal;
+        
+    }
+    @media(max-width:768px){
+        .col-md-4{
+            padding-right:0;
+            padding-left:0;
+            margin-bottom:20px;
+        }
     }
 </style>
 <div class="fluid_row">

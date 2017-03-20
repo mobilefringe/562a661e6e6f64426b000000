@@ -20,3 +20,7 @@
 .fc-today-button{
     text-transform: capitalize;
 }
+
+.fc-view-container *, .fc-view-container *:before, .fc-view-container *:after{
+    height:100%;
+}

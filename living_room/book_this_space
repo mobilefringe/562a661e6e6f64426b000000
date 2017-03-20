@@ -41,22 +41,22 @@
                 <form>
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="first_name">First Name *</label>
+                            <label for="first_name">First Name <span class="red">*</span>:</label>
                             <input required type="text" name="first_name" id="first_name" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
-                            <label for="last_name">Last Name *</label>
+                            <label for="last_name">Last Name <span class="red">*</span>:</label>
                             <input required type="text" name="last_name" id="last_name" class="form-control" data-validation="required" />
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="email">Email Address *:</label>
+                            <label for="email">Email Address <span class="red">*</span>:</label>
                             <input type="text" name="email" id="email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" />
                         </div>
                         <div class="col-md-4">
-                            <label for="phone">Phone Number *:</label>
+                            <label for="phone">Phone Number <span class="red">*</span>:</label>
                             <input required type="text" name="phone" id="phone" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
@@ -84,7 +84,7 @@
                     </div>
                     <div class="row" style=" margin-bottom: 20px; ">
                         <div class="col-md-4">
-                            <label for="use_type">Use Type *:</label>
+                            <label for="use_type">Use Type <span class="red">*</span>:</label>
                         </div>
                         <div class="col-md-4">
                             <select id="use_type" name="use_type" class="form-control" data-validation="required">
@@ -109,7 +109,7 @@
                     
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="booking_date">Requested Booking Date *:</label>
+                            <label for="booking_date">Requested Booking Date <span class="red">*</span>:</label>
                         </div>
                         <div class="col-md-8">
                             <div class="row" style=" margin-bottom: 20px; ">
@@ -126,7 +126,7 @@
                     
                     <div class="row">
                         <div class="col-md-4">
-                            <p>Requested Booking Time *:</p>
+                            <p>Requested Booking Time <span class="red">*</span>:</p>
                         </div>
                         <div class="col-md-8">
                             <div class="row" style=" margin-bottom: 20px; ">

@@ -63,7 +63,7 @@
                         calendar_events.push(published_event);
                     }
                     else if(val.tags.indexOf("#dixie_event") >= 0 ){
-                         published_event.start = val.start_date;
+                        published_event.start = val.start_date;
                         published_event.end = val.end_date;
                         // published_event.title = val.name;
                         published_event.color = "#8D437F";

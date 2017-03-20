@@ -47,6 +47,10 @@ body{
     color:#aaa;
 }
 
+.red{
+    color:f00;
+}
+
 .event_calendar_header{
     position: absolute;
     right: 0;

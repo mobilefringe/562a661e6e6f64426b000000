@@ -66,7 +66,7 @@
                         published_event.start = val.start_date;
                         published_event.end = val.end_date;
                         // published_event.title = val.name;
-                        published_event.color = "#8D437F";
+                        published_event.color = "#E67B5F";
                         published_event.url = "/events/" + val.slug;
                         calendar_events.push(published_event);
                     }

@@ -1468,6 +1468,7 @@ a:hover, a:focus{
     .scrollToTop{
         right:0;
         bottom:0;
+        z-index:999;
     }
     .jobs_filter li{
         padding: 11.5px 0px;

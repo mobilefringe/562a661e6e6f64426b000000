@@ -1215,6 +1215,16 @@ a:hover, a:focus{
 /* */
 
 @media(max-width:800px){
+    .event_calendar_header{
+        position:relative;
+        padding:0;
+    }
+    .event_calendar_header li{
+        margin-right: 35px;
+        float: left;
+        width: 115px;
+        margin-bottom: 5px;
+    }
     .no_pointer_desktop{
         pointer-events:all;
     }

@@ -65,7 +65,11 @@
             show_content();
             $('#calendar').fullCalendar({
                 timezone: getPropertyTimeZone(),
-                events: calendar_events
+                events: calendar_events,
+                buttonText: {
+                    prev: "Previous Month",
+                    next: "Next Month"
+                }
                 
             })
             $('#top_nav_living_room').addClass('active_yellow')

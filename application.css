@@ -1221,6 +1221,7 @@ a:hover, a:focus{
         width:100%;
         margin-bottom:20px;
         &:after{
+            display: table;
             content: " ";
             clear:both;
         }

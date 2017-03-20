@@ -56,7 +56,7 @@
                 if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && (val.tags.indexOf("#living_room") >= 0)) {
                     published_event.start = val.start_date;
                     published_event.end = val.end_date;
-                    published_event.title = val.name;
+                    // published_event.title = val.name;
                     published_event.color = (val.tags.indexOf("#public_event") >= 0 )? "#8D437F" : "#E67B5F";
                     published_event.url = "/events/" + val.slug
                     calendar_events.push(published_event);

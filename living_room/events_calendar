@@ -64,7 +64,9 @@
             });
             show_content();
             $('#calendar').fullCalendar({
-                
+                header: {
+                    right:  'prev,next'
+                }
                 timezone: getPropertyTimeZone(),
                 events: calendar_events,
                 buttonText: {

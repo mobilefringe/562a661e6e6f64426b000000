@@ -1216,7 +1216,7 @@ a:hover, a:focus{
 
 @media(max-width:800px){
     .event_calendar_header{
-        position:initla;
+        position:initial;
         padding:0;
     }
     .event_calendar_header li{

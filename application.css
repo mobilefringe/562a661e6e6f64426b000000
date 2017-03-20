@@ -1220,6 +1220,10 @@ a:hover, a:focus{
         padding:0;
         width:100%;
         margin-bottom:20px;
+        &:after{
+            content: " ";
+            clear:both;
+        }
     }
     .event_calendar_header li{
         margin-right: 35px;

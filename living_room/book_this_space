@@ -124,7 +124,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="row" style=" margin-bottom: 20px; ">
-                                <div class="col-md-3">
+                                <div class="col-md-3 marg_mobile_20" >
                                     <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>
                                 <div class="col-md-9">

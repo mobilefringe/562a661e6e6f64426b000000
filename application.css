@@ -1218,7 +1218,7 @@ a:hover, a:focus{
     .event_calendar_header{
         position:initial;
         padding:0;
-        width:100px;
+        width:100%
     }
     .event_calendar_header li{
         margin-right: 35px;

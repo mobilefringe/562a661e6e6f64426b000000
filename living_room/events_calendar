@@ -65,7 +65,7 @@
             show_content();
             $('#calendar').fullCalendar({
                 header: {
-                    left:  'prev,next'
+                    right:  'prev,next'
                 },
                 timezone: getPropertyTimeZone(),
                 events: calendar_events,

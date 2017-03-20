@@ -5,7 +5,7 @@
 <link href="http://assets.codecloudapp.com/sites/58c6f9856e6f642bbf0b0000/text/css/1451856482000/bootstrap-timepicker.min.css" rel="stylesheet">
 <style>
     textarea{
-        height:50px;
+            height: 100px !important;
     }
     label{
         display:block;

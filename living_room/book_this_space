@@ -10,7 +10,7 @@
         
     }
     @media(max-width:768px){
-        .col-md-4{
+        .col-md-4, .col-md-2{
             padding-right:0;
             padding-left:0;
             margin-bottom:20px;

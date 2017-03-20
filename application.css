@@ -43,6 +43,10 @@ body{
     // margin: 10px;
 }
 
+.grey{
+    color:#ccc;
+}
+
 .event_calendar_header{
     position: absolute;
     right: 0;

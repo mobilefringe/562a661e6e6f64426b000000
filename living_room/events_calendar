@@ -60,9 +60,10 @@
                         // published_event.title = val.name;
                         published_event.color = "#8D437F";
                         published_event.url = "/events/" + val.slug;
+                        calendar_events.push(published_event);
                     }
                     
-                    calendar_events.push(published_event);
+                    
                 } 
             });
             show_content();

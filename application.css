@@ -480,6 +480,7 @@ a:hover, a:focus{
     border-left: 0;
     border-right: 0;
     border-bottom: 2px solid #eee;
+    z-index: 99999;
 }
 
 .dropdown:hover .dropdown-menu2 {

@@ -56,26 +56,26 @@
                     <div class="row">
                         <div class="col-md-4">
                             <label for="first_name">First Name <span class="red">*</span>:</label>
-                            <input required type="text" name="first_name" id="first_name" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[first_name]" id="first_name" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
                             <label for="last_name">Last Name <span class="red">*</span>:</label>
-                            <input required type="text" name="last_name" id="last_name" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[last_name]" id="last_name" class="form-control" data-validation="required" />
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="col-md-4">
                             <label for="email">Email Address <span class="red">*</span>:</label>
-                            <input type="text" name="email" id="email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" />
+                            <input type="text" name="body[email]" id="email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" />
                         </div>
                         <div class="col-md-4">
                             <label for="phone">Phone Number <span class="red">*</span>:</label>
-                            <input required type="text" name="phone" id="phone" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[phone]" id="phone" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
                             <label for="business_name">Org / Business Name:</label>
-                            <input required type="text" name="business_name" id="business_name" class="form-control" />
+                            <input required type="text" name="body[business_name]" id="business_name" class="form-control" />
                         </div>
                     </div>
                     
@@ -88,7 +88,7 @@
                                 <input checked type="radio" name="intended_use" value="public" data-validation="required" /> Public
                             </label>
                             <label>
-                                <input type="radio" name="intended_use" value="private" data-validation="required" /> Private
+                                <input type="radio" name="body[intended_use]" value="private" data-validation="required" /> Private
                             </label>
                         </div>
                         <div class="col-md-6 col-xs-9">
@@ -101,7 +101,7 @@
                             <label for="use_type">Use Type <span class="red">*</span>:</label>
                         </div>
                         <div class="col-md-4">
-                            <select id="use_type" name="use_type" class="form-control" data-validation="required">
+                            <select id="use_type" name="body[use_type]" class="form-control" data-validation="required">
                                 <option value="Select Event Type" disabled selected>Select Event Type</option>
                                 <option value="Workshop / Seminar">Workshop / Seminar</option>
                                 <option value="Fitness Class">Fitness Class</option>
@@ -117,7 +117,7 @@
                             <label for="other_use_type">If other please specify:</label>
                         </div>
                         <div class="col-md-8">
-                            <textarea name="other_use_type" id="other_use_type" class="form-control"></textarea>
+                            <textarea name="body[other_use_type]" id="other_use_type" class="form-control"></textarea>
                         </div>
                     </div>
                     
@@ -128,13 +128,13 @@
                         <div class="col-md-8">
                             <div class="row" style=" margin-bottom: 20px; ">
                                 <div class="col-md-3 marg_mobile_20" >
-                                    <input name="booking_date" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
+                                    <input name="body[booking_date]" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>
                                 <div class="col-md-9">
                                     <label class="grey" for="booking_date_extra">To request multiple consecutive dates, please specify in the box below.</label>
                                 </div>
                             </div>
-                            <textarea id="booking_date_extra" name="booking_date_extra" class="form-control"></textarea>
+                            <textarea id="booking_date_extra" name="body[booking_date_extra]" class="form-control"></textarea>
                         </div>
                     </div>
                     
@@ -148,13 +148,13 @@
                                     <label for="booking_time_start">Start:</label>
                                 </div>
                                 <div class="col-md-4 col-xs-8">
-                                    <input data-validation="required" name="booking_time_start" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                    <input data-validation="required" name="body[booking_time_start]" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                                 </div>
                                 <div class="col-md-2 col-xs-4">
                                     <label for="booking_time_end">To:</label>
                                 </div>
                                 <div class="col-md-4 col-xs-8">
-                                    <input data-validation="required" name="booking_time_end" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                    <input data-validation="required" name="body[booking_time_end]" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                                 </div>
                             </div>
                             <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation .</p>
@@ -166,7 +166,7 @@
                             <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
                         </div>
                         <div class="col-md-8">
-                            <textarea name="additional_info" id="additional_info" class="form-control"></textarea>
+                            <textarea name="body[additional_info]" id="additional_info" class="form-control"></textarea>
                         </div>
                     </div>
                     <div class="row">

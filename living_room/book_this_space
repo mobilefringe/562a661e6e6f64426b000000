@@ -85,7 +85,7 @@
                         </div>
                         <div class="col-md-2 col-xs-3">
                             <label style="margin-bottom:10px">
-                                <input checked type="radio" name="intended_use" value="public" data-validation="required" /> Public
+                                <input checked type="radio" name="body[intended_use]" value="public" data-validation="required" /> Public
                             </label>
                             <label>
                                 <input type="radio" name="body[intended_use]" value="private" data-validation="required" /> Private

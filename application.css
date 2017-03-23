@@ -30,6 +30,7 @@ body{
 .fc-prev-button:before{
     font-family:'FontAwesome';
     content:"\f104";
+    margin-right:10px;
     
 }
 

@@ -27,7 +27,7 @@
             <h3 class="hours_header" id="mm_page_title">#DixieLivingRoom</h3>
             <div id="mm_page_content">
                 <p>Be sure to post your event photos inside the Living Room on social media using #DixieLivingRoom and tagging @DixieOutletMall! <br /> We’ll repost our favourites here:</p>
-                
+                <div id="instagram_feed"></div>
             </div>
             <h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>
         </div>
@@ -45,4 +45,8 @@
         }
         loadMallDataCached(renderAll); 
     })
+    
+    function render_feed(){
+        
+    }
 </script>

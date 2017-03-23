@@ -82,8 +82,8 @@
                 timezone: getPropertyTimeZone(),
                 events: calendar_events,
                 buttonText: {
-                    prev: "< Previous Month",
-                    next: "Next Month >"
+                    prev: "Previous Month",
+                    next: "Next Month"
                 }
                 
             })

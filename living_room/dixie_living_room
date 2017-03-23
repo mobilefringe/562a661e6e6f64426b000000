@@ -47,6 +47,6 @@
     })
     
     function render_feed(){
-        
+        $('#instagram_feed').html(data)
     }
 </script>

@@ -27,6 +27,12 @@ body{
     width:100%;
 }
 
+.fc-prev-button:before{
+    font-family:'FontAwesome';
+    content:"\f053";
+    
+}
+
 .help-block{
     position:absolute;
     font-size:12px;

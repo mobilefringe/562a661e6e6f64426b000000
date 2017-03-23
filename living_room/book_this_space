@@ -56,11 +56,11 @@
                     <div class="row">
                         <div class="col-md-4">
                             <label for="first_name">First Name <span class="red">*</span>:</label>
-                            <input required type="text" name="body[first_name]" id="first_name" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[First Name]" id="first_name" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
                             <label for="last_name">Last Name <span class="red">*</span>:</label>
-                            <input required type="text" name="body[last_name]" id="last_name" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[Last Name]" id="last_name" class="form-control" data-validation="required" />
                         </div>
                     </div>
                     
@@ -71,11 +71,11 @@
                         </div>
                         <div class="col-md-4">
                             <label for="phone">Phone Number <span class="red">*</span>:</label>
-                            <input required type="text" name="body[phone]" id="phone" class="form-control" data-validation="required" />
+                            <input required type="text" name="body[Phone]" id="phone" class="form-control" data-validation="required" />
                         </div>
                         <div class="col-md-4">
                             <label for="business_name">Org / Business Name:</label>
-                            <input required type="text" name="body[business_name]" id="business_name" class="form-control" />
+                            <input required type="text" name="body[Business Name]" id="business_name" class="form-control" />
                         </div>
                     </div>
                     
@@ -85,10 +85,10 @@
                         </div>
                         <div class="col-md-2 col-xs-3">
                             <label style="margin-bottom:10px">
-                                <input checked type="radio" name="body[intended_use]" value="public" data-validation="required" /> Public
+                                <input checked type="radio" name="body[Intended Use]" value="public" data-validation="required" /> Public
                             </label>
                             <label>
-                                <input type="radio" name="body[intended_use]" value="private" data-validation="required" /> Private
+                                <input type="radio" name="body[Intended Use]" value="private" data-validation="required" /> Private
                             </label>
                         </div>
                         <div class="col-md-6 col-xs-9">

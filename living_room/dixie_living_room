@@ -46,7 +46,7 @@
         loadMallDataCached(renderAll); 
     })
     
-    function render_feed(){
+    function render_feed(data){
         $('#instagram_feed').html(data);
     }
 </script>

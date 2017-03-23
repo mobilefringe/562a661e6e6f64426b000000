@@ -148,13 +148,13 @@
                                     <label for="booking_time_start">Start:</label>
                                 </div>
                                 <div class="col-md-4 col-xs-8">
-                                    <input data-validation="required" name="body[booking_time_start]" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                    <input data-validation="required" name="body[Booking Time Start]" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
                                 </div>
                                 <div class="col-md-2 col-xs-4">
                                     <label for="booking_time_end">To:</label>
                                 </div>
                                 <div class="col-md-4 col-xs-8">
-                                    <input data-validation="required" name="body[booking_time_end]" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
+                                    <input data-validation="required" name="body[Booking Time End]" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                                 </div>
                             </div>
                             <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation .</p>

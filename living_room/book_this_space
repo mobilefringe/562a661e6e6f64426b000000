@@ -101,7 +101,7 @@
                             <label for="use_type">Use Type <span class="red">*</span>:</label>
                         </div>
                         <div class="col-md-4">
-                            <select id="use_type" name="body[use_type]" class="form-control" data-validation="required">
+                            <select id="use_type" name="body[Use Type]" class="form-control" data-validation="required">
                                 <option value="Select Event Type" disabled selected>Select Event Type</option>
                                 <option value="Workshop / Seminar">Workshop / Seminar</option>
                                 <option value="Fitness Class">Fitness Class</option>

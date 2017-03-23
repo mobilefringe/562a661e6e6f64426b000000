@@ -20,6 +20,11 @@ body{
     font-family:brandon;
 }
 
+#instagram_feed .ig-image img{
+    width: 25%;
+    padding: 10px;
+}
+
 .yield {
     display: none;
 }

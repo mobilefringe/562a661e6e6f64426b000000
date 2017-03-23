@@ -34,7 +34,7 @@ body{
 }
 
 
-.fc-next-button:before{
+.fc-next-button:after{
     font-family:'FontAwesome';
     content:"\f104";
     margin-right:5px;

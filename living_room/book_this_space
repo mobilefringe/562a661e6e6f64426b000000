@@ -128,7 +128,7 @@
                         <div class="col-md-8">
                             <div class="row" style=" margin-bottom: 20px; ">
                                 <div class="col-md-3 marg_mobile_20" >
-                                    <input name="body[Booking]" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
+                                    <input name="body[Booking Date]" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>
                                 <div class="col-md-9">
                                     <label class="grey" for="booking_date_extra">To request multiple consecutive dates, please specify in the box below.</label>

@@ -166,7 +166,7 @@
                             <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
                         </div>
                         <div class="col-md-8">
-                            <textarea name="body[additional_info]" id="additional_info" class="form-control"></textarea>
+                            <textarea name="body[Additional Info]" id="additional_info" class="form-control"></textarea>
                         </div>
                     </div>
                     <div class="row">

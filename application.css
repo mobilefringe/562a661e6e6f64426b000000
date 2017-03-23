@@ -20,7 +20,7 @@ body{
     font-family:brandon;
 }
 
-#instagram_feed .ig-image img{
+#instagram_feed img{
     width: 25%;
     padding: 10px;
 }

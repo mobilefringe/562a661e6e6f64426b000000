@@ -31,7 +31,13 @@ body{
     font-family:'FontAwesome';
     content:"\f104";
     margin-right:5px;
-    
+}
+
+
+.fc-next-button:before{
+    font-family:'FontAwesome';
+    content:"\f104";
+    margin-right:5px;
 }
 
 .help-block{

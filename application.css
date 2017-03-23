@@ -1233,6 +1233,9 @@ a:hover, a:focus{
 /* */
 
 @media(max-width:800px){
+    #instagram_feed img{
+        width:50%;
+    }
     .event_calendar_header{
         position:initial;
         padding:0;

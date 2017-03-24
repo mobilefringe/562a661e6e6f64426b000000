@@ -194,5 +194,7 @@
         loadMallDataCached(renderAll); 
     });
     
+    function submit_form(){}
+    
     
 </script>

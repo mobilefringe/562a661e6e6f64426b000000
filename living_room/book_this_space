@@ -189,8 +189,10 @@
             $('.datepicker').datepicker();
             $('.timepicker').timepicker();
             $.validate();
-            $('#top_nav_living_room').addClass('active_yellow')
+            $('#top_nav_living_room').addClass('active_yellow');
         }
         loadMallDataCached(renderAll); 
     })
+    
+    
 </script>

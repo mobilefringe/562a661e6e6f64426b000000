@@ -80,7 +80,7 @@
                         </div>
                         <div class="col-md-4">
                             <label for="business_name">Org / Business Name:</label>
-                            <input required type="text" name="body[Business Name]" id="business_name" class="form-control" />
+                            <input type="text" name="body[Business Name]" id="business_name" class="form-control" />
                         </div>
                     </div>
                     

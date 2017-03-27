@@ -427,6 +427,13 @@ a:focus, a:hover{
     padding:25px 40px;
     max-width:600px;
     border-radius: 4px;
+    position: absolute;
+    z-index: 9999;
+    background: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .logo_container{

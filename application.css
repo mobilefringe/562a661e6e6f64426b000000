@@ -427,7 +427,7 @@ a:focus, a:hover{
     padding:25px 40px;
     max-width:600px;
     border-radius: 4px;
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     background: #fff;
     left: 50%;

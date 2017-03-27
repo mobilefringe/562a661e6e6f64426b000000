@@ -184,6 +184,9 @@
         </div>
     </div>
 </div>
+
+
+
 <div class="margin_40"></div>
 <script>
     $(document).ready(function(e){
@@ -202,6 +205,7 @@
                 $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
                     if(textStatus = "success"){
                         $('#living_room_form').trigger('reset');
+                        $('<div class="modal-backdrop custom_backdrop">').appendTo(document.body);
                         $('#success_modal').show();
                     }
                     else{

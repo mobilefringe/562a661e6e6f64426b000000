@@ -437,6 +437,9 @@ a:focus, a:hover{
     transform: translate(-50%, -50%);
     text-align: center;
     display:none;
+    p{
+        font-size:20px;
+    }
 }
 
 .logo_container{

@@ -199,7 +199,7 @@
                 e.preventDefault();
                 $('#send_to_user').val($('#email').val());
                 var data = $(this).serialize();
-                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data){
+                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
                     log(data)
                 });
             })

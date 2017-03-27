@@ -203,6 +203,9 @@
                     if(textStatus = "success"){
                         
                     }
+                    else{
+                        alert("Error submitting form. Please try again later.")
+                    }
                 });
             })
         }

@@ -219,7 +219,10 @@
                     }
                 });
                 
-                $('#close')
+                $('#close_btn').click(function(){
+                    $('.custom_success_backdrop').remove();
+                    $('#success_modal').fadeOut();
+                });
             })
         }
         loadMallDataCached(renderAll); 

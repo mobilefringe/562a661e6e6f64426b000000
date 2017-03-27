@@ -54,7 +54,7 @@
                 <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the form below and we will be in touch to discuss your needs:</p>
                 <form id="living_room_form">
                     <input type="hidden" name="send_to_prop_admin" value="rajbir@mobilefringe.com" />
-                    <input type="hidden" name="send_to_user" value="" />
+                    <input type="hidden" name="send_to_user" value="" id="send_to_user" />
                     <input type="hidden" name="subject" value="Booking Info received" />
                     <input type="hidden" name="centre_logo" value="http://codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1446664167000/dixie_mall_logo_1B[1].png" />
                     <input type="hidden" name="body[Dixie Living Room]" value="" />

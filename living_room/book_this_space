@@ -214,7 +214,6 @@
                         $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
                         $('#success_modal').fadeIn();
                         $('#close_btn').click(function(){
-                            log("h")
                             $('.custom_success_backdrop').remove();
                             $('#success_modal').fadeOut();
                         });

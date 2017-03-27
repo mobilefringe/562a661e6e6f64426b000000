@@ -197,6 +197,7 @@
             
             $('#living_room_form').submit(function(e){
                 e.preventDefault();
+                $('#send_to_user').val($('#email').val());
                 var data = $(this).serialize();
                 $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data)
             })

@@ -186,7 +186,7 @@
 </div>
 
 <div id="success_modal">
-    <h3>THANK YOU!</h3>
+    <h3><b>THANK YOU!</b></h3>
     <p class="text-left">Thank you for your booking request.</p>
     <p class="text-left">A member of our marketing team will gladly respond to your request via email or phone within 48 hours. </p>
     <br />

@@ -212,12 +212,14 @@
                     if(textStatus = "success"){
                         $('#living_room_form').trigger('reset');
                         $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
-                        $('#success_modal').show();
+                        $('#success_modal').fadeIn();
                     }
                     else{
                         alert("Error submitting form. Please try again later.")
                     }
                 });
+                
+                $()
             })
         }
         loadMallDataCached(renderAll); 

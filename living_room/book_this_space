@@ -186,7 +186,9 @@
 </div>
 
 <div id="success_modal">
-    
+    <h3>THANK YOU!</h3>
+    <p>A member of our marketing team will gladly respond to your request via email or phone within 48 hours. </p>
+    <button class="read_more_btn" id="close">OK</button>
 </div>
 
 <div class="margin_40"></div>

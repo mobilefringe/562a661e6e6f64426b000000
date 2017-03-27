@@ -40,7 +40,7 @@
         function renderAll(){
             
             show_content();
-            get_instagram("//dixieoutlet.mallmaverick.com/api/v2/dixieoutlet/social.json", 100, 'standard_resolution', render_feed)
+            get_instagram("//dixieliving.mallmaverick.com/api/v2/dixieliving/social.json", 100, 'standard_resolution', render_feed)
             $('#top_nav_living_room').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

@@ -416,6 +416,12 @@ a:focus, a:hover{
     text-align: center;
 }
 
+.custom_success_backdrop{
+    opacity: 0.7;
+    background: #000;
+    text-align: center;
+}
+
 .logo_container{
     max-width: 260px;
     height: 260px;

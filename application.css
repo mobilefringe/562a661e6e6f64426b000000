@@ -422,6 +422,12 @@ a:focus, a:hover{
     text-align: center;
 }
 
+
+#success_modal{
+    padding:25px 40px;
+    max-width:600px;
+}
+
 .logo_container{
     max-width: 260px;
     height: 260px;

@@ -197,7 +197,7 @@
             $('#living_room_form').submit(function(e){
                 e.preventDefault();
                 var data = $(this).serialize();
-                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email")
+                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data)
             })
         }
         loadMallDataCached(renderAll); 

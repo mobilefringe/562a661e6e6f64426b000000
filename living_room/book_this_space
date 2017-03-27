@@ -201,6 +201,7 @@
                 var data = $(this).serialize();
                 $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
                     if(textStatus = "success"){
+                        $('#living_room_form').trigger('reset');
                         
                     }
                     else{

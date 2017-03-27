@@ -426,6 +426,7 @@ a:focus, a:hover{
 #success_modal{
     padding:25px 40px;
     max-width:600px;
+    border-radius: 4px;
 }
 
 .logo_container{

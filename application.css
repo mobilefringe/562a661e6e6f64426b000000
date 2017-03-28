@@ -399,6 +399,7 @@ a:focus, a:hover{
     background: #000;
     display: none;
     font-size:40px;
+    z-index: 99;
 }
 
 .category_header{

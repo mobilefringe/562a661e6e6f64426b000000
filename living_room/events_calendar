@@ -62,7 +62,7 @@
                         published_event.url = "/events/" + val.slug;
                         calendar_events.push(published_event);
                     }
-                    else if(val.tags.indexOf("#private_event") >= 0  || val.tags.indexOf("#closed_event") >= 0 ){
+                    else if(val.tags.indexOf("#private_event") >= 0  || val.tags.indexOf("#closed") >= 0 ){
                         published_event.start = val.start_date;
                         published_event.end = val.end_date;
                         // published_event.title = "Private Event";

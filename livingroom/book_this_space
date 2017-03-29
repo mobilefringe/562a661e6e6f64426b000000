@@ -28,21 +28,21 @@
         <div class="col-md-3 mobile_padding">
             <h3 class="store_list_header">THE LIVING ROOM</h3>
             <ul class="side_menu hidden_phone">
-                <li><a href="/living_room/about">About</a></li>
-                <li><a href="/living_room/the_details">The Details</a></li>
-                <li><a href="/living_room/events_calendar">Events Calendar</a></li>
-                <li class="active"><a href="/living_room/book_this_space">Book This Space</a></li>
-                <li><a href="/living_room/dixie_living_room">#DixieLivingRoom</a></li>
-                <li><a href="/living_room/faq">FAQ</a></li>
+                <li><a href="/livingroom/about">About</a></li>
+                <li><a href="/livingroom/the_details">The Details</a></li>
+                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                <li class="active"><a href="/livingroom/book_this_space">Book This Space</a></li>
+                <li><a href="/livingroom/dixie_livingroom">#DixieLivingRoom</a></li>
+                <li><a href="/livingroom/faq">FAQ</a></li>
             </ul>
             <div class="position_relative show_phone">
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Book This Space</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
-                    <li><a href="/living_room/about">About</a></li>
-                    <li><a href="/living_room/the_details">The Details</a></li>
-                    <li><a href="/living_room/events_calendar">Events Calendar</a></li>
-                    <li><a href="/living_room/dixie_living_room">#DixieLivingRoom</a></li>
-                    <li><a href="/living_room/faq">FAQ</a></li>
+                    <li><a href="/livingroom/about">About</a></li>
+                    <li><a href="/livingroom/the_details">The Details</a></li>
+                    <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                    <li><a href="/livingroom/dixie_livingroom">#DixieLivingRoom</a></li>
+                    <li><a href="/livingroom/faq">FAQ</a></li>
                 </ul>
             </div>
         </div>
@@ -52,7 +52,7 @@
             <h3 class="hours_header" id="mm_page_title">Book this space</h3>
             <div id="mm_page_content">
                 <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the form below and we will be in touch to discuss your needs:</p>
-                <form id="living_room_form">
+                <form id="livingroom_form">
                     <input type="hidden" name="send_to_prop_admin" value="livingroom@dixieoutlet.com" />
                     <input type="hidden" name="send_to_user" value="" id="send_to_user" />
                     <input type="hidden" name="subject" value="Booking Info received" />
@@ -202,15 +202,15 @@
             $('.datepicker').datepicker();
             $('.timepicker').timepicker();
             $.validate();
-            $('#top_nav_living_room').addClass('active_yellow');
+            $('#top_nav_livingroom').addClass('active_yellow');
             
-            $('#living_room_form').submit(function(e){
+            $('#livingroom_form').submit(function(e){
                 e.preventDefault();
                 $('#send_to_user').val($('#email').val());
                 var data = $(this).serialize();
                 $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
                     if(textStatus = "success"){
-                        $('#living_room_form').trigger('reset');
+                        $('#livingroom_form').trigger('reset');
                         $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
                         $('#success_modal').fadeIn();
                         $('#close_btn').click(function(){

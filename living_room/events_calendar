@@ -63,6 +63,7 @@
                         calendar_events.push(published_event);
                     }
                     else if(val.tags.indexOf("#private_event") >= 0  || val.tags.indexOf("#closed") >= 0 ){
+                        log(val)
                         published_event.start = val.start_date;
                         published_event.end = val.end_date;
                         // published_event.title = "Private Event";

@@ -1,4 +1,3 @@
-/*Created 2015-10-23  by RKS*/
 
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];

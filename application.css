@@ -60,7 +60,8 @@ body{
     // margin: 10px;
 }
 
-.grey{
+.grey {
+    padding-left: 5px;
     color:#aaa;
     font-size: 14px;
 }

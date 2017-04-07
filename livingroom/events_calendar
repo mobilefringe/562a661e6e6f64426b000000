@@ -31,8 +31,8 @@
             <div class="position_relative">
                 <ul class="event_calendar_header">
                     <li><span id="closed_event_tile"></span>Closed</li>
-                    <li><span id="public_event_tile"></span>Public Events</li>
                     <li><span id="private_event_tile"></span>Private Events</li>
+                    <li><span id="public_event_tile"></span>Public Events</li>
                     <li><span id="dixie_event_tile"></span>Dixie Events</li>
                 </ul>
                 <div class="calendar" id="calendar">

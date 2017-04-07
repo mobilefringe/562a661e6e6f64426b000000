@@ -1643,8 +1643,15 @@ a:hover, a:focus{
     .top_form_control input{
         line-height:30px;
     }
+    .grey {
+        font
+    }
 }
-
+@media(max-width: 425px){
+    .grey {
+        font-size: 12px;
+    }
+    
 @media (min-width: 768px){
     .navbar-nav, .navbar-nav>li{
         float:none;

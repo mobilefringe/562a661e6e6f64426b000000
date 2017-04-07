@@ -63,6 +63,7 @@ body{
 .grey {
     padding-left: 5px;
     color:#aaa;
+    font-size: 14px;
 }
 
 .red{
@@ -1641,9 +1642,6 @@ a:hover, a:focus{
     
     .top_form_control input{
         line-height:30px;
-    }
-    .grey {
-        font-size: 14px;
     }
 }
 

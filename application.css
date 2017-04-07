@@ -1156,6 +1156,9 @@ a:hover, a:focus{
     }
 }
 
+.livingroom_details img {
+    max-width: 100%;
+}
 .site_search_results {
     width: 235px;
     background-color: #fff;

@@ -107,7 +107,7 @@
                     <div class="row" style=" margin-bottom: 20px; ">
                         <div class="col-md-4">
                             <label for="use_type">Use Type <span class="red">*</span>:</label>
-                        </div> hhh
+                        </div>
                         <div class="col-md-4">
                             <select id="use_type" name="body[Use Type]" class="form-control" data-validation="required">
                                 <option value="Select Event Type" disabled selected>Select Event Type</option>

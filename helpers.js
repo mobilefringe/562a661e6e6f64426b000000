@@ -6,8 +6,10 @@ function init(e){
         $('#navbar').slideToggle();
         if ($('.menu_toggler').attr('src') == '//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png'){
             $('.menu_toggler').attr('src', '//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1452534608000/menu_close.png')
+            $('body').addClass('no_scroll');
         }else{
             $('.menu_toggler').attr('src', '//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445970905000/menu.png')
+            $('body').removeClass('no_scroll');
         }
     })
     

@@ -168,7 +168,7 @@
                                     <input data-validation="required" name="body[Booking Time End]" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
                                 </div>
                             </div>
-                            <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation .</p>
+                            <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation. Please take into consideration set-up and take down times when requesting start and end times. These must also be during regular mall operating hours.</p>
                         </div>
                     </div>
                     

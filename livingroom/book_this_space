@@ -180,7 +180,7 @@
                             <textarea name="body[Additional Info]" id="additional_info" class="form-control"></textarea>
                         </div>
                     </div>
-                    <p>Note: All booking requests will be reviewed and considered thoroughly by the Marketing Department. Please include as much relevant info as possible to aid in the decision making process.</p>
+                    <p style="color:green"><i>Note: All booking requests will be reviewed and considered thoroughly by the Marketing Department. Please include as much relevant info as possible to aid in the decision making process.</i></p>
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <input type="submit" value="Submit Form" class="read_more_btn" />

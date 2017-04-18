@@ -194,8 +194,8 @@
 
 <div id="success_modal">
     <h3><b>THANK YOU!</b></h3>
-  
-    <p class="text-left">Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Team only if we are able to proceed with your booking. Note: not all booking requests will be accepted due to the nature of the request and availability.</p>
+    <p class="text-left">Thank you for your booking request.</p>
+    <p class="text-left">You will receive a follow-up from our Marketing Team only if we are able to proceed with your booking.</p>
     <br />
     <button class="read_more_btn" id="close_btn">OK</button>
 </div>

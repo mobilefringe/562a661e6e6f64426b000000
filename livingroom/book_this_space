@@ -58,11 +58,11 @@
                 <form id="livingroom_form">
                     <input type="hidden" name="send_to_prop_admin" value="rajbir@mobilefringe.com" />
                     <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />
-                    <input type="hidden" name="message" value="This is a confirmation of your booking at Dixie Outlet Mall Living Room.<br /> A member of our marketing team will gladly respond to your request via email or phone within 48 hours. Thank you for choosing Dixie Outlet Mall for your event." id="message" />
+                    <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Team only if we are able to proceed with your booking. Note: not all booking requests will be accepted due to the nature of the request and availability." id="message" />
                     
                     <input type="hidden" name="message_admin" value="You got a new request from Dixie Outlet Mall - Living Room. <br />Below are the booking information from the user." id="message_admin" />
                     <input type="hidden" name="send_to_user" value="" id="send_to_user" />
-                    <input type="hidden" name="subject" value="Booking Info received" />
+                    <input type="hidden" name="subject" value="Booking Info received *DO NOT REPLY*" />
                     <input type="hidden" name="centre_logo" value="http://codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1446664167000/dixie_mall_logo_1B[1].png" />
                     <div class="row">
                         <div class="col-md-4">

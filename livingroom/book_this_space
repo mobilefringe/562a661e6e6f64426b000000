@@ -12,6 +12,9 @@
         font-weight:normal;
         
     }
+    .form-control{
+        background:#fff;
+    }
     @media(max-width:768px){
         .col-md-4, .col-md-2, .col-md-8{
             padding-right:0;

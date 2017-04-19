@@ -13,7 +13,7 @@
         
     }
     .form-control{
-        background:#fff;
+        background:#fff !omportant;
     }
     @media(max-width:768px){
         .col-md-4, .col-md-2, .col-md-8{

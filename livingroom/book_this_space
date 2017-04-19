@@ -206,7 +206,14 @@
         init(e);
         function renderAll(){
             show_content();
-            $('.datepicker').datepicker();
+            var date=new Date();
+            var year=date.getFullYear();
+            var month=date.getMonth();
+            
+            $('.datepicker').datepicker({
+                startDate: new Date(year, month, '01'), //set it here
+                endDate: new Date(year, month+5, '31')
+            });
             $('.timepicker').timepicker();
             $.validate();
             $('#top_nav_livingroom').addClass('active_yellow');

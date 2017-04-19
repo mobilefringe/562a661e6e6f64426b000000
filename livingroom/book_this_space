@@ -212,7 +212,7 @@
             var day = date.getDate();
             
             $('.datepicker').datepicker({
-                startDate: new Date(year, month, day), //set it here
+                startDate: new Date(year, month, day),
                 endDate: new Date(year, month+5, day)
             });
             $('.timepicker').timepicker();

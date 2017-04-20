@@ -94,11 +94,11 @@
                     end.setMonth(now.getMonth() + 5); //Adjust as needed
         
                     if ( end < view.end) {
-                        $("#calendar .fc-next-button").hide();
+                        $("#calendar .fc-next-button").addClass("fc-state-disabled");
                         return false;
                     }
                     else {
-                        $("#calendar .fc-next-button").show();
+                        $("#calendar .fc-next-button").removeClass("fc-state-disabled");
                     }
         
                     

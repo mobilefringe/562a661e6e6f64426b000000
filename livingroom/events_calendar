@@ -89,26 +89,20 @@
                     next: "Next Month"
                 },
                 viewRender: function(view,element) {
-            var now = new Date();
-            var end = new Date();
-            end.setMonth(now.getMonth() + 2); //Adjust as needed
-
-            if ( end < view.end) {
-                $("#calendar .fc-next-button").hide();
-                return false;
-            }
-            else {
-                $("#calendar .fc-next-button").show();
-            }
-
-            if ( view.start < now) {
-                $("#calendar .fc-prev-button").hide();
-                return false;
-            }
-            else {
-                $("#calendar .fc-prev-button").show();
-            }
-        }
+                    var now = new Date();
+                    var end = new Date();
+                    end.setMonth(now.getMonth() + 5); //Adjust as needed
+        
+                    if ( end < view.end) {
+                        $("#calendar .fc-next-button").hide();
+                        return false;
+                    }
+                    else {
+                        $("#calendar .fc-next-button").show();
+                    }
+        
+                    
+                }
                 
             })
             $('#top_nav_living_room').addClass('active_yellow')

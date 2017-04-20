@@ -88,7 +88,7 @@
                     prev: "Previous Month",
                     next: "Next Month"
                 },
-                viewDisplay   : function(view) {
+                viewRender: function(view, element) {
                     var now = new Date(); 
                     var end = new Date();
                     end.setMonth(now.getMonth() + 5); //Adjust as needed

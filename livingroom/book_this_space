@@ -54,7 +54,7 @@
             <div class="margin_20"></div>
             <h3 class="hours_header" id="mm_page_title">Book this space</h3>
             <div id="mm_page_content">
-                <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the form below and we will be in touch to discuss your needs:
+                <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the Booking Request Form below and we will be in touch to discuss your needs:
                     
                 </p>
                 <p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>
@@ -106,7 +106,7 @@
                             </label>
                         </div>
                         <div class="col-md-6 col-xs-8">
-                            <p class="grey">Open to Dixie Outlet Mall Shoppers.</p>
+                            <p class="grey">Open to Dixie Outlet Mall Shoppers</p>
                             <p class="grey">By Invite Only</p>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                                     <input readonly="readonly" name="body[Booking Date]" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
                                 </div>
                                 <div class="col-md-9">
-                                    <label class="grey" for="booking_date_extra">To request multiple consecutive dates, please specify in the box below.</label>
+                                    <label class="grey" for="booking_date_extra">To request alternative date, please specify in the box below.</label>
                                 </div>
                             </div>
                             <textarea id="booking_date_extra" name="body[Booking Date Extra]" class="form-control"></textarea>
@@ -177,13 +177,13 @@
                     
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="additional_info">Please share any additional information about your booking that you’d like us to know:</label>
+                            <label for="additional_info">Please share any additional information about your booking that you’d like us to know (ie. your website):</label>
                         </div>
                         <div class="col-md-8">
                             <textarea name="body[Additional Info]" id="additional_info" class="form-control"></textarea>
                         </div>
                     </div>
-                    <p style="color:green"><i>Note: All booking requests will be reviewed and considered thoroughly by the Marketing Department. Please include as much relevant info as possible to aid in the decision making process.</i></p>
+                    <p style="color:green"><i>Note: All booking requests will be reviewed and considered by our Marketing Department. Please include as much relevant info as possible.</i></p>
                     <div class="row">
                         <div class="col-md-12 text-right">
                             <input type="submit" value="Submit Form" class="read_more_btn" />

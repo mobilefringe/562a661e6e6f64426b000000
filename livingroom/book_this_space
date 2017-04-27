@@ -61,7 +61,7 @@
                 <form id="livingroom_form">
                     <input type="hidden" name="send_to_prop_admin" value="cristina.avila@cominar.com" />
                     <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />
-                    <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Department only if we are able to proceed with your booking. Note: not all booking requests will be accepted due to the nature of the request and availability." id="message" />
+                    <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Department only if we are able to proceed with your booking. Note: Not all booking requests will be accepted due to the nature of the request and availability." id="message" />
                     
                     <input type="hidden" name="message_admin" value="You got a new request from Dixie Outlet Mall - Living Room. <br />Below are the booking information from the user." id="message_admin" />
                     <input type="hidden" name="send_to_user" value="" id="send_to_user" />

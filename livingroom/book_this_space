@@ -59,7 +59,7 @@
                 </p>
                 <p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>
                 <form id="livingroom_form">
-                    <input type="hidden" name="send_to_prop_admin" value="cristina.avila@cominar.com" />
+                    <input type="hidden" name="send_to_prop_admin" value="ardalan@mobilefringe.com" />
                     <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />
                     <input type="hidden" name="note" value="*Note: This email <u>does not</u> confirm your booking within the Dixie Living Room." id="note" />
                     <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Department only if we are able to proceed with your booking. Note: Not all booking requests will be accepted due to the nature of the request and availability. We appreciate your time and consideration in submitting a request" id="message" />

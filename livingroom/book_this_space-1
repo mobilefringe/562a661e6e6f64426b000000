@@ -58,7 +58,7 @@
                     
                 </p>
                 <p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>
-                <img src="http://assets.codecloudapp.com/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1494786976000/Living-Room-Requests.jpg">
+                <img src="http://assets.codecloudapp.com/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1494786976000/Living-Room-Requests.jpg" style="width:100%">
                 <form id="livingroom_form">
                     <input type="hidden" name="send_to_prop_admin" value="cristina.avila@cominar.com" />
                     <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />

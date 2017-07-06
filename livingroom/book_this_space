@@ -217,7 +217,7 @@
             
             $('.datepicker').datepicker({
                 startDate: new Date(year, month, day),
-                endDate: new Date(year, month+3, 0)
+                endDate: new Date(year, month+4, 0)
             });
             $('.timepicker').timepicker();
             $.validate();

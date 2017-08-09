@@ -52,7 +52,10 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             if(slug.indexOf("dixieoutlet-dixie-prize-locker") > -1) {
-                
+                $("#remarketing_tag").show();
+            }
+            else {
+                $("#remarketing_tag").hide();
             }
             event_details = getEventDetailsBySlug(slug);
             renderEventDetails('#promo_details_container', '#promo_details_template', event_details)

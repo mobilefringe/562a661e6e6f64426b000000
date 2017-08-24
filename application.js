@@ -81,6 +81,8 @@ function renderStoreList(container, template, collection, type){
         //var categories = getStoreCategories();
         if (val.categories != null){
             val.cat_list = val.categories.join(',')
+        } else {
+            val.cat_list = "";
         }
         
         var current_initial = val.name[0];

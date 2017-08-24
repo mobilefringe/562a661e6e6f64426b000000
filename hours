@@ -66,7 +66,7 @@
         function renderAll(){
             var hours = getPropertyRegularHours();
             renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
-            var holiday_hours = getPropertyHolidayHours();
+            var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });;
             renderHours('#holiday_hours_container','#holiday_hours_template', holiday_hours, 'holiday_hours')
             show_content();
             $('#top_nav_centre_info').addClass('active_yellow')

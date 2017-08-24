@@ -137,9 +137,9 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if (val.store_front_url != null){
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
-        } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
+        } else {
+            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         val.category_list = getCategoriesNamesByStoreSlug(slug);
         val.map_x_coordinate = val.x_coordinate - 19;

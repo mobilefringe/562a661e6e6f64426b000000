@@ -1,0 +1,55 @@
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">THE LIVING ROOM</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/livingroom/about">About</a></li>
+                <li><a href="/livingroom/the_details">The Details</a></li>
+                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                <!--<li><a href="/livingroom/book_this_space">Book This Space</a></li>-->
+                <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
+                <li class="active"><a href="/livingroom/faq">FAQ</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">FAQ</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/livingroom/about">About</a></li>
+                    <li><a href="/livingroom/the_details">The Details</a></li>
+                    <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                    <li><a href="/livingroom/book_this_space">Book This Space</a></li>
+                    <li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows mobile_padding">
+            <img src="//codecloud.cdn.speedyrails.net/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1490020571000/DX725_LivingRoom_WebBanner_FA.jpg" class="full_width hidden_phone" alt="hours banner">
+            <div class="margin_20"></div>
+            <h3 class="hours_header" id="mm_page_title"></h3>
+            <div id="mm_page_content"></div>
+            <h3 id="404_msg" class="hidden_now">Sorry we can't find the page you're looking for.</h3>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = '//dixieoutlet.mallmaverick.com/pages/dixieoutlet-living-room-frequently-asked-questions.json'
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+            $('#top_nav_livingroom').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

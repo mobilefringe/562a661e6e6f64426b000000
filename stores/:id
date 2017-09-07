@@ -128,14 +128,27 @@
             } else {
                 renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
                 renderStoreDetails("#details_container","#details_template", store_details, slug);
+                // var hour_ids = store_details.store_hours;
+                // if (hour_ids != null){
+                //     var hours = (getHoursForIds(hour_ids));
+                //     var hours = getHoursForStoreSlug(store_details.slug)
+                //     renderStoreDetailsHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
+                // } else {
+                //     $('#hours').hide();
+                // }
+                
                 var hour_ids = store_details.store_hours;
                 if (hour_ids != null){
-                    var hours = (getHoursForIds(hour_ids));
-                    var hours = getHoursForStoreSlug(store_details.slug)
-                    renderStoreDetailsHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
+                    try {
+                        var hours = getHoursForStoreSlug(store_details.slug).sortBy(function(o){ return o.day_of_week });
+                        renderStoreDetailsHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
+                    } catch(err) {
+                        console.log(err);
+                    }
                 } else {
                     $('#hours').hide();
                 }
+        
                 
                 var store_promo_ids = store_details.promotions
                 var store_promos = getPromotionsForIds(store_promo_ids).sortBy(function(o){ return o.start_date });

@@ -118,7 +118,7 @@ function renderStoreList(container, template, collection, type){
         }
         
         if(val.phone.length < 1){
-            val.phone_exist = "display:none";
+            val.phone_exist = "visibility:hidden";
         }
         val.block = current_initial + '-block';
         var rendered = Mustache.render(template_html,val);

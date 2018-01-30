@@ -279,6 +279,7 @@ function load_map(reg, store_details){
 }
 
 function init_map(reg){
+    console.log(reg)
     map = $('#mapsvg').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: '#EF4D86'},

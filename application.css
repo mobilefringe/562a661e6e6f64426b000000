@@ -726,7 +726,7 @@ a:hover, a:focus{
 .powered_by_info {
     padding:0;
     .powered_by {
-        
+        float: right;
     }
     .cushman_logo {
         

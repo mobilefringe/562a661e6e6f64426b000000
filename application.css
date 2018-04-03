@@ -720,7 +720,12 @@ a:hover, a:focus{
 .mini_footer a{
     color: #4A4A4A;
 }
-
+.copyright_info {
+    
+}
+.powered_by_info {
+    
+}
 .feature_row{
     margin-left:-14px;
     margin-right:-14px;

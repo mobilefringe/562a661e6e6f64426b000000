@@ -725,6 +725,12 @@ a:hover, a:focus{
 }
 .powered_by_info {
     padding:0;
+    .powered_by {
+        
+    }
+    .cushman_logo {
+        
+    }
 }
 .feature_row{
     margin-left:-14px;

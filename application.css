@@ -1680,7 +1680,7 @@ a:hover, a:focus{
     }
     
     .powered_by_info {
-        padding:0;
+        // padding:0;
         .powered_by {
             float: left;
         }

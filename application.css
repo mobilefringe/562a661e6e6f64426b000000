@@ -1682,10 +1682,10 @@ a:hover, a:focus{
     .powered_by_info {
         padding:0;
         .powered_by {
-            float: right;
+            float: left;
         }
         .cushman_logo {
-            float: right;
+            float: left;
         }
     }
 }

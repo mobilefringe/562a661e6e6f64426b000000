@@ -317,14 +317,14 @@
                    <div id="instafeed"></div>
                 </div>
             </div>
-            <div class="mini_footer mobile_padding">
-                <div class="col-sm-6">
+            <div class=" mobile_padding">
+                <div class="col-sm-6 mini_footer">
                     <p class="pull-left">
                     ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
                 </p>
                 </div>
                 <div class="col-sm-6">
-                     <p class="pull-right">
+                     <p class="pull-right mini_footer">
                     Powered by <a target="_blank" href="//mallmaverick.com">Mall Maverick</a>
                 </p>
                 <p  class="pull-right">

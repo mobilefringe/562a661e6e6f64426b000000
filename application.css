@@ -724,7 +724,7 @@ a:hover, a:focus{
     
 }
 .powered_by_info {
-    
+    padding:0;
 }
 .feature_row{
     margin-left:-14px;

@@ -323,14 +323,16 @@
                     ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
                 </p>
                 </div>
-                <div class="col-sm-6"></div>
-                
-                <p class="pull-right">
+                <div class="col-sm-6">
+                     <p class="pull-right">
                     Powered by <a target="_blank" href="//mallmaverick.com">Mall Maverick</a>
                 </p>
                 <p  class="pull-right">
                     <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Blacklogo copy.png" class="" alt="" style="width: 140px; padding-top: 10px;">
                 </p>
+                </div>
+                
+               
                 <div class="clearfix"></div>
             </div>
         </footer>

@@ -323,7 +323,7 @@
                     ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
                 </p>
                 </div>
-                <div class="col-sm-6 powered_by_info">
+                <div class="col-sm-6 powered_by_info clearfix">
                     <p class="mini_footer powered_by">
                         Powered by <a target="_blank" href="//mallmaverick.com">Mall Maverick</a>
                     </p>

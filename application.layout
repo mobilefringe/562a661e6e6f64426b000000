@@ -318,7 +318,7 @@
                 </div>
             </div>
             <div class=" mobile_padding">
-                <div class="col-sm-6 mini_footer">
+                <div class="col-sm-6 mini_footer copyright_info">
                     <p class="pull-left">
                     ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
                 </p>

@@ -1679,7 +1679,15 @@ a:hover, a:focus{
         float:none;
     }
     
-    
+    .powered_by_info {
+        padding:0;
+        .powered_by {
+            float: right;
+        }
+        .cushman_logo {
+            float: right;
+        }
+    }
 }
 
 @media (min-width:800px) and (max-width:1024px){

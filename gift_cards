@@ -1,0 +1,134 @@
+<div class="fluid_row mobile_padding">
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="store_list_header">GUEST SERVICES</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/guest_services">Guest Services</a></li>
+                <li class="active"><a href="/gift_cards">Gift Cards</a></li>
+                <li><a href="/group_tours">Group Tours</a></li>
+                <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="/green_initiatives">Green Initiatives</a></li>
+                <li><a href="/newsletter">Newsletter</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Gift Cards</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/guest_services">Guest Services</a></li>
+                    <li><a href="/group_tours">Group Tours</a></li>
+                    <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                    <li><a href="/accessibility">Accessibility</a></li>
+                    <li><a href="/green_initiatives">Green Initiatives</a></li>
+                    <li><a href="/newsletter">Newsletter</a></li>
+                </ul>
+                <div class="margin_10"></div>
+            </div>
+        </div>
+        <div class="col-md-9 ">
+            <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone margin_20" alt="hours banner">
+            <h3 class="hours_header" id="mm_page_title">Gift Cards</h3>
+            <p class="page_desc">
+                The Dixie Outlet Mall gift card is the perfect gift for every occasion. Gift cards are available for sale at the Guest Services Desk in any amount from $5 to $500. There is no activation fee.
+
+                <br />
+                The Dixie Outlet Mall gift card offers great flexibility of use since it is redeemable at nearly 1,500 participating stores within Cominar’s portfolio of shopping centres. The gift card program is valid at 18 shopping centres in Quebec as well as one in Ontario.
+            </p>
+            <h5 class="page_miniheads">Card Balance</h5>
+            <p class="page_desc">
+                To check the balance of your Dixie Outlet Mall gift card, please call 1-800 755-8608, or visit <a target="_blank" href="https://www.getmybalance.com">www.getmybalance.com</a>
+            </p>
+            <div class="margin_10"></div>
+            <h5 class="page_miniheads">Cominar shopping centres that accept the gift card include:</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="custom_list">
+                        <li>Alexis Nihon</li>
+                        <li>Carrefour Charlesbourg</li>
+                        <li>Carrefour Frontenac</li>
+                        <li>Carrefour St-Georges</li>
+                        <li>Carrefour Rimouski</li>
+                        <li>Centre Laval</li>
+                        <li>Centre Rivière-du-Loup</li>
+                        <li>Centropolis</li>
+                        <li>Dixie Outlet Mall</li>
+                        <li>Galeries de Hull</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="custom_list">
+                        <li>Galeries Rive Nord</li>
+                        <li>La Plaza de la Mauricie</li>
+                        <li>Les Promonades Beauport</li>
+                        <li>Les Rivières</li>
+                        <li>Mail Champlain</li>
+                        <li>Mail Montenach</li>
+                        <li>Place de la Cité</li>
+                        <li>Place Longueuil</li>
+                        <li>Rockland</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="margin_10"></div>
+            <h5 class="page_miniheads">Non-participating retailers at dixie outlet mall</h5>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="custom_list">
+                        <li>Burger King</li>
+                        <li>TJ Meats</li>
+                        <li>Dixie Smoke and Gift</li>
+                        <li>No Frills</li>
+                        <li>Fantastic Flea Market</li>
+                        <li>Tim Hortons</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="custom_list">
+                        <li>Sukiyaki</li>
+                        <li>Dollarama</li>
+                        <li>Dr. Tenny Leung - Dentist</li>
+                        <li>Jane Harvey Lawyers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="margin_10"></div>
+            <h5 class="page_miniheads">Purchases and accepted payment methods</h5>
+            <p class="page_desc">
+                Cash, debit, Visa and MasterCard are accepted forms of payment. <br />
+                Prepaid credit cards and personal cheques are not accepted.<br />
+                Cash is accepted for purchases of $500 or less.<br />
+                Photo ID is required for cash purchases of $500 or more.<br />
+                Transactions exceeding $1,000 must be approved by Dixie Outlet Mall Management.<br />
+                For all purchases of $3,000 or more, the card purchaser must provide the Guest Services Representative with the following information for validation: his/her first name, last name, telephone number and a piece of government issued photo ID.<br />
+                Guest Services Representatives may decline any transaction they believe to be fraudulent.<br />
+                Monthly maintenance fees of $2.50 will be automatically debited as of the 16th month following the gift card’s activation.<br />
+            </p>
+            <div class="margin_10"></div>
+            <h5 class="page_miniheads">Corporate Orders</h5>
+            <p class="page_desc">If you are making a purchase for your company or organization, contact us at the following address: <a href="mailto:marketing@dixieoutletmall.com">marketing@dixieoutletmall.com</a>.</p>
+            <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1479917869000/Gold Gift Card.jpg" class="gc_image" alt="gift cards">
+            <div class="details_sharer">
+                <span>Share</span>
+                <a href="//www.facebook.com/sharer.php?u=https://dixieoutletmall.com/gift_cards" target="_blank">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" class="" alt="share facebook">
+                </a>
+                <a target="_blank" href="//twitter.com/share?url=https://dixieoutletmall.com/gift_cards">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" class="" alt="share twitter">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var hours = getPropertyHours();
+            renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
+            renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
+            show_content();
+            $('#top_nav_about_us').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

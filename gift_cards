@@ -96,9 +96,9 @@
         init(e);
         function renderAll(){
             var hours = getPropertyHours();
-            renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
-            renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
-            // show_content();
+            // renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
+            // renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
+            show_content();
             $('#top_nav_about_us').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

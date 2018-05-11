@@ -1,0 +1,160 @@
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">GUEST SERVICES</h3>
+            <ul class="side_menu hidden_phone">
+                <li class="active"><a href="/guest_services">Guest Services</a></li>
+                <li><a href="/gift_cards">Gift Cards</a></li>
+                <li><a href="/group_tours">Group Tours</a></li>
+                <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="/green_initiatives">Green Initiatives</a></li>
+                <li><a href="/newsletter">Newsletter</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Guest Services</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/gift_cards">Gift Cards</a></li>
+                    <li><a href="/group_tours">Group Tours</a></li>
+                    <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                    <li><a href="/accessibility">Accessibility</a></li>
+                    <li><a href="/green_initiatives">Green Initiatives</a></li>
+                    <li><a href="/newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows">
+            <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone" alt="hours banner">
+            <div class="margin_20"></div>
+            <h3 class="hours_header mobile_padding">Guest Services</h3>
+            <div id="mm_page_content">
+                <div class="mobile_padding">
+                    <h5 class="page_miniheads">Help is just steps away.</h5>
+                    <p class="p_desc">
+                        If you have any questions (or your husband's gotten lost), visit our Guest Services located near the Yellow Entrance for:
+                    </p>
+                    <ul class="custom_list">
+                        <li>Information</li>
+                        <li>Dixie Outlet Mall Gift Cards</li>
+                        <li>Local tourism info & brochures</li>
+                        <li>Complimentary wheelchairs & walkers - A cash deposit or a credit card imprint of $50 is required</li>
+                        <li>Lost & found</li>
+                        <li>First aid station</li>
+                        <li>Fax & photocopy services</li>
+                        <li>Complimentary diaper kits</li>
+                        <li>Access to security control centre</li>
+                    </ul>
+                    <strong>Need more information?</strong>
+                    <p class="p_desc">
+                        Call us at (905) 278-7492 or email us at <a href="mailto:info@dixieoutletmall.com">info@dixieoutletmall.com</a>. <br />
+                        Have a comment or suggestion? Email us at <a href="mailto:comments@dixieoutletmall.com">comments@dixieoutletmall.com</a>.
+                    </p>
+                </div>
+                <div class="margin_40"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">GIFT CARDS</h5>
+                        <div class="gs_div">
+                            <h5 class="page_miniheads">Give the gift of shopping.</h5>
+                            <p class="p_desc">
+                                The Dixie Outlet Mall gift card is the perfect gift for every occasion. Gift cards are available for sale at the Guest Services Desk in any amount ranging from $5 to $500.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">CAREERS</h5>
+                        <div class="gs_div">
+                            <p class="p_desc">
+                                <strong>Looking for a job in retail?</strong> Please visit the <a href="/jobs">Careers</a> section to view which stores are currently hiring.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">WI-FI</h5>
+                        <div class="gs_div">
+                            <p class="p_desc">
+                               Take a break from your wild deal hunting and access our complimentary mall-wide WI-FI. Check e-mails, connect with friends, or tweet about those super cute shoes that you just scored for 70% off! Stay connected at all times with Dixie Outlet Mall!
+                            </p>
+                            
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">WASHROOMS</h5>
+                        <div class="gs_div">
+                            <p class="p_desc">
+                                <strong>Washrooms</strong> are all wheelchair accessible, and located:
+                            </p>
+                            <ul class="custom_list">
+                                <li>In the Food Court</li>
+                                <li>Beside Guess Factory Store (near Yellow Entrance)</li>
+                            </ul>
+                            <p>
+                                <strong>Family Washroom</strong> is available for little ones and their parents, and equipped with a toddler-size rest area and a private nursing/feeding area with child's play space. Located beside Guess Factory Store (near Yellow Entrance) 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">ATM BANKING</h5>
+                        <div class="gs_div">
+                            <p class="p_desc">
+                                <strong>Automated Teller Machines</strong> can be found at each of our three banks:
+                            </p>
+                            <ul class="custom_list">
+                                <li>CIBC Instant Teller Machine (Silver corridor)</li>
+                                <li>Bank of Montreal (Payless ShoeSource corridor)</li>
+                                <li>Scotiabank and Trust (near the Orange entrance)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">FAMILY SERVICES</h5>
+                        <div class="gs_div">
+                            <p class="p_desc"><strong>Children's Strollers.</strong></p>
+                            <p>Self service single strollers are located in the Teal Entrance (near Winners). Rental fees are $4.00 with a $1.00 refund upon return. Cash and credit cards are accepted.</p>
+                            <p><strong>Family Washroom.</strong></p>
+                            <p>Available for the little ones and their parents, and equipped with a toddler-size rest area and a private nursing/feeding area with child's play space. Located beside Guess Factory Store (near Yellow Entrance).</p>
+                            <p><strong>Bottle Warmer.</strong></p>
+                            <p>Complimentary bottle warming, available at the Guest Services Kiosk.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">PUBLIC TELEPHONES</h5>
+                        <div class="gs_div">
+                            <p class="p_desc"><strong>Public Telephones</strong> can be found at the Teal, Red, Yellow, Blue, Purple, Orange, and Silver Entrances. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5 class="accordion_header">OTHER SERVICES</h5>
+                        <div class="gs_div">
+                            
+                            <p><strong>Bike Racks.</strong></p>
+                            <p>We have four bike racks conveniently located at our Red, Blue, Purple and Silver Entrances.</p>
+                            <p><strong>Wheelchairs and Walkers.</strong></p>
+                            <p>Wheelchairs and Walkers are available at the Guest Services Kiosk located near the Yellow Entrance.They are available during regular shopping centre hours on a first-come, first-served basis. A cash deposit or a credit card imprint of $50 is required</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            
+            show_content();
+            $('#top_nav_about_us').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

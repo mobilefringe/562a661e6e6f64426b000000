@@ -1,0 +1,192 @@
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">Centre Information</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/about_us">About Us</a></li>
+                <li><a href="/hours">Operating Hours</a></li>
+                <li><a href="/getting_here">Getting Here</a></li>
+                <li><a href="/jobs">Careers</a></li>
+                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                <li><a href="/leasing">Leasing & Partnerships</a></li>
+                <li class="active"><a href="/contact_us">Contact Us</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Contact Us</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/about_us">About Us</a></li>
+                    <li><a href="/hours">Operating Hours</a></li>
+                    <li><a href="/getting_here">Getting Here</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                    <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                    <li><a href="/leasing">Leasing & Partnerships</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows">
+            <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone" alt="hours banner">
+            <div class="margin_20"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
+                        ADMINISTRATION OFFICE
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                        <div class="contact_box">
+                            <h3>Dixie Outlet Mall</h3>
+                            1250 South Service Road <br />
+                            Mississauga, ON L5E1V4<br />
+                            T: (905) 278-8010<br />
+                            F: (905) 278-4283
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                        GUEST SERVICES KIOSK
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+                        <div class="contact_box">
+                            <h3>Located near the Yellow Entrane</h3>
+                            T: (905)-278-3494<br />
+                            E: <a href="mailto:info@dixieoutletmall.com">info@dixieoutletmall.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                        DIXIE OUTLET MALL SECURITY
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                        <div class="contact_box">
+                            <h3>Security Control Office</h3>
+                            E: <a href="mailto:security@dixieoutletmall.com">security@dixieoutletmall.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                        LEASING INQUIRIES
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading4">
+                        <div class="contact_box">
+                            <h3>Leasing Manager</h3>
+                            E: <a href="mailto:leasing@dixieoutletmall.com">leasing@dixieoutletmall.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        SPECIALTY LEASING & PARTNERSHIPS INQUIRIES
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+                        <div class="contact_box">
+                            <h3>Speciality Leasing Manager</h3>
+                            E: <a href="mailto:specialityleasing@dixieoutletmall.com">specialityleasing@dixieoutletmall.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                        MARKETING INQUIRIES
+                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    </h3>
+                    <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading6">
+                        <div class="contact_box">
+                            <h3>Marketing Director</h3>
+                            E: <a href="mailto:marketing@dixieoutletmall.com">marketing@dixieoutletmall.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="separator" />
+            <div class="margin_40"></div>
+            <h2 class="feedback_header mobile_padding">Send us your feedback</h2>
+            <h3 class="required_fields mobile_padding">Required fields*</h3>
+            <div class="margin_40"></div>
+            <form id="feedback_form">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="first_name">First Name<span>*</span></label>
+                        <input name="feedback[first_name]" id="first_name" type="text" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="last_name">Last Name<span>*</span></label>
+                        <input name="feedback[last_name]" id="last_name" type="text" class="form-control" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="email">Email<span>*</span></label>
+                        <input name="feedback[email]" id="email" type="email" class="form-control" required />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="subject">Subject<span>*</span></label>
+                        <select id="subject" class="form-control" required>
+                            <option selected disabled>Purpose of your message</option>
+                            <option value="Complaint">Complaint</option>
+                            <option value="Suggestion">Suggestion</option>
+                            <option value="Compliment">Compliment</option>
+                            <option value="Question">Question</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <label for="message">Message<span>*</span></label>
+                        <textarea name="feedback[comment]" id="message" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="g-recaptcha" data-sitekey="6LfQuxQTAAAAAH2oW0qeTSs95tujK7FllF7Hjzt4"></div>
+                        <div class="margin_20"></div>
+                        <input type="submit" value="SUBMIT" class="read_more_btn" />
+                        <br /><br />
+                        <p id="success_subscribe" class="hidden_now">Thanks you for contacting us! We will get back to you as soon as we can.</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            show_content();
+            $('#top_nav_centre_info').addClass('active_yellow')
+            $('#feedback_form').submit(function(e){
+                verify_captcha();
+                e.preventDefault();
+                if($('#subject').val() != null){
+                    var data = {}
+                    $.post("//dixieoutlet.mallmaverick.com/email_feedback", $(this).serialize(), function(data, status, xhr){
+                        if(status == "success"){
+                            $("#success_subscribe").fadeIn();
+                            $('#feedback_form').trigger('reset');
+                        }
+                        else{
+                            alert("Unable to process your request. Please try again later.")
+                        }
+                    });
+                }
+                else{
+                    alert("Please select subject.")
+                }
+            });
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

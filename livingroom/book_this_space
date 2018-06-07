@@ -53,11 +53,6 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1490020571000/DX725_LivingRoom_WebBanner_FA.jpg" class="full_width hidden_phone" alt="hours banner">
             <div class="margin_20"></div>
             <h3 class="hours_header">Book this space</h3>
-        
-                <!--<p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings and more. Simply fill out the Booking Request Form below and we will be in touch to discuss your needs:-->
-                    
-                <!--</p>-->
-                <!--<p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>-->
             <div id="mm_page_content"></div>
             <form id="livingroom_form">
                 <input type="hidden" name="send_to_prop_admin" value="cristina.avila@cominar.com" />
@@ -79,7 +74,6 @@
                         <input required type="text" name="body[Last Name]" id="last_name" class="form-control" data-validation="required" />
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-4">
                         <label for="email">Email Address <span class="red">*</span>:</label>
@@ -94,7 +88,6 @@
                         <input type="text" name="body[Business Name]" id="business_name" class="form-control" />
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-4">
                         <p>Intended Use *:</p>
@@ -126,7 +119,6 @@
                             <option value="Other">Other</option>
                         </select>
                     </div>
-                    
                 </div>
                 <div class="row">
                     <div class="col-md-4">
@@ -136,7 +128,6 @@
                         <textarea name="body[Other Use Type]" id="other_use_type" class="form-control"></textarea>
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-4">
                         <label for="booking_date">Requested Booking Date <span class="red">*</span>:</label>
@@ -153,7 +144,6 @@
                         <textarea id="booking_date_extra" name="body[Booking Date Extra]" class="form-control"></textarea>
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-4">
                         <p>Requested Booking Time <span class="red">*</span>:</p>
@@ -176,7 +166,6 @@
                         <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation. Please take into consideration set-up and take down times when requesting start and end times. These must also be during regular mall operating hours.</p>
                     </div>
                 </div>
-                
                 <div class="row">
                     <div class="col-md-4">
                         <label for="additional_info">Please share any additional information about your booking that you’d like us to know (ie. your website):</label>
@@ -192,7 +181,6 @@
                     </div>
                 </div>
             </form>
-        
         </div>
     </div>
 </div>

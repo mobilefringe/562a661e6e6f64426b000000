@@ -213,7 +213,7 @@
             prefix = get_prefix();
             var pages_json = prefix + '/pages/dixieoutlet-livingroom-book-this-space.json'
             $.getJSON(pages_json).done(function(data) {
-                console.log(pages_json)
+                console.log(data)
                 $('#mm_page_title').html(data.title);
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {

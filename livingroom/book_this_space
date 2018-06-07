@@ -185,7 +185,6 @@
                         <textarea name="body[Additional Info]" id="additional_info" class="form-control"></textarea>
                     </div>
                 </div>
-                <p style="color:green"><i>Note: All booking requests will be reviewed and considered by our Marketing Department. Please include as much relevant info as possible.</i></p>
                 <div id="mm_page_disclaimer"></div>
                 <div class="row">
                     <div class="col-md-12 text-right">

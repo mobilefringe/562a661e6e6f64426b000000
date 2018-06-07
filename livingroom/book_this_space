@@ -186,6 +186,7 @@
                     </div>
                 </div>
                 <p style="color:green"><i>Note: All booking requests will be reviewed and considered by our Marketing Department. Please include as much relevant info as possible.</i></p>
+                <div id="mm_page_disclaimer"></div>
                 <div class="row">
                     <div class="col-md-12 text-right">
                         <input type="submit" value="Submit Form" class="read_more_btn" />

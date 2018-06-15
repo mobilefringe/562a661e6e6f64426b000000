@@ -245,19 +245,19 @@
                         </div>
                     </div>
                     
-                    <!--<div class="top_nav_menu" id="top_nav_livingroom">-->
-                    <!--    <div class="dropdown">-->
-                    <!--        <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>-->
-                    <!--        <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu5">-->
-                    <!--            <li><a href="/livingroom/about">About</a></li>-->
-                    <!--            <li><a href="/livingroom/the_details">The Details</a></li>-->
-                    <!--            <li><a href="/livingroom/events_calendar">Events Calendar</a></li>-->
-                                <!--<li><a href="/livingroom/book_this_space">Book This Space</a></li>-->
-                                <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
-                    <!--            <li><a href="/livingroom/faq">FAQ</a></li>-->
-                    <!--        </ul>-->
-                    <!--    </div>-->
-                    <!--</div>-->
+                    <div class="top_nav_menu" id="top_nav_livingroom">
+                        <div class="dropdown">
+                            <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>
+                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu5">
+                                <li><a href="/livingroom/about">About</a></li>
+                                <li><a href="/livingroom/the_details">The Details</a></li>
+                                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                                <li><a href="/livingroom/book_this_space">Book This Space</a></li>
+                                <li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>
+                                <li><a href="/livingroom/faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

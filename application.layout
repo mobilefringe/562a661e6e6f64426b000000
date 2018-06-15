@@ -209,7 +209,7 @@
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
                                
-                                <!--<li><a href="/livingroomevents">The Living Room</a></li>-->
+                                <li><a href="/livingroomevents">The Living Room</a></li>
                             </ul>
                         </div>
                     </div>

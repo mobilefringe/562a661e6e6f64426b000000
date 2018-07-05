@@ -230,7 +230,7 @@
                 e.preventDefault();
                 $('#send_to_user').val($('#email').val());
                 var data = $(this).serialize();
-                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
+                $.getJSON(prefix + "/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
                     if(textStatus = "success"){
                         $('#livingroom_form').trigger('reset');
                         $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);

@@ -55,7 +55,7 @@
             <h3 class="hours_header">Book this space</h3>
             <div id="mm_page_content"></div>
             <form id="livingroom_form">
-                <input type="hidden" name="send_to_prop_admin" value="Catherine.Dubois@cushwake.com" />
+                <input type="hidden" name="send_to_prop_admin" value="ardalan@mobilefringe.com" />
                 <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />
                 <input type="hidden" name="note" value="*Note: This email <u>does not</u> confirm your booking within the Dixie Living Room." id="note" />
                 <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Department only if we are able to proceed with your booking. Note: Not all booking requests will be accepted due to the nature of the request and availability. We appreciate your time and consideration in submitting a request" id="message" />

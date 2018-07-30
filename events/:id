@@ -79,16 +79,15 @@
             var event_details = getEventDetailsBySlug(slug);
             renderEventDetails('#promo_details_container', '#promo_details_template', event_details)
             renderEventDetails('#promo_details_container_2', '#promo_details_template_2', event_details)
+            
             if (slug.indexOf("dixieoutlet-dixie-play-days") > -1){
                 $(".promo_details_image").hide();
             } else {
                 $(".promo_details_image").show();
             }
+            
             show_content();
-            console.log(slug)
-            
-            
-            
+
             $('#top_nav_events').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

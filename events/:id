@@ -82,7 +82,7 @@
             
             show_content();
             console.log(slug)
-            if (slug.indexOf("dixieoutlet-dixie-play-days") > 0){
+            if (slug.indexOf("dixieoutlet-dixie-play-days") > -1){
                 $(".promo_details_image").hide();
             } else {
                 $(".promo_details_image").show();

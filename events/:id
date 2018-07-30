@@ -69,12 +69,12 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             
-            if(slug.indexOf("dixieoutlet-dixie-prize-locker") > -1) {
-                $("#remarketing_tag").show();
-            }
-            else {
-                $("#remarketing_tag").hide();
-            }
+            // if(slug.indexOf("dixieoutlet-dixie-prize-locker") > -1) {
+            //     $("#remarketing_tag").show();
+            // }
+            // else {
+            //     $("#remarketing_tag").hide();
+            // }
             
             if (slug.indexOf("dixieoutlet-dixie-play-days") > 0){
                 $(".promo_details_image").hide();

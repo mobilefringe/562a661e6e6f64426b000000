@@ -75,23 +75,20 @@
             // else {
             //     $("#remarketing_tag").hide();
             // }
-            
-            if (slug.indexOf("dixieoutlet-dixie-play-days") > 0){
-                $(".promo_details_image").hide();
-            } else {
-                $(".promo_details_image").show();
-            }
-            event_details = getEventDetailsBySlug(slug);
+
+            var event_details = getEventDetailsBySlug(slug);
             renderEventDetails('#promo_details_container', '#promo_details_template', event_details)
             renderEventDetails('#promo_details_container_2', '#promo_details_template_2', event_details)
             
+            show_content();
+            console.log(slug)
             if (slug.indexOf("dixieoutlet-dixie-play-days") > 0){
                 $(".promo_details_image").hide();
             } else {
                 $(".promo_details_image").show();
             }
             
-            show_content();
+            
             $('#top_nav_events').addClass('active_yellow')
         }
         loadMallDataCached(renderAll); 

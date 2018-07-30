@@ -82,8 +82,6 @@
             
             if (slug.indexOf("dixieoutlet-dixie-play-days") > -1){
                 $(".promo_details_image").hide();
-            } else {
-                $(".promo_details_image").show();
             }
             
             show_content();

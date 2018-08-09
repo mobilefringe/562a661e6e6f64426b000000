@@ -80,7 +80,7 @@
             renderEventDetails('#promo_details_container', '#promo_details_template', event_details)
             renderEventDetails('#promo_details_container_2', '#promo_details_template_2', event_details)
             
-            if (slug.indexOf("dixieoutlet-dixie-play-days") > -1 || slug.indexOf("dixieoutlet-safari-jeff") > -1 || slug.indexOf("dixieoutlet-free-meet-and-greet-with-peppa-pig-and-george") > -1){
+            if (slug.indexOf("dixieoutlet-dixie-play-days") > -1 || slug.indexOf("dixieoutlet-safari-jeff") > -1 || slug.indexOf("dixieoutlet-free-meet-and-greet-with-peppa-pig-and-george") > -1 || slug.indexOf("dixieoutlet-fun-fest-a-day-to-celebrate-our-community") > -1){
                 $(".promo_details_image").hide();
             }
             

@@ -88,7 +88,7 @@
                 viewRender: function(view,element) {
                     var now = new Date();
                     var end = new Date();
-                    end.setMonth(now.getMonth() + 2); //Adjust as needed
+                    end.setMonth(now.getMonth() + 4); //Adjust as needed
                     if ( end < view.end) {
                         $("#calendar .fc-next-button").addClass("fc-state-disabled");
                         return false;

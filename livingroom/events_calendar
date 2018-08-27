@@ -49,6 +49,7 @@
         function renderAll(){
             var calendar_events = [];
             var events = getEventsList().sortBy(function(o){ return o.start_date });
+            console.log("events", events)
             $.each( events , function( key, val ){
                 var published_event = {};
                 today = moment();

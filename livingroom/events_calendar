@@ -69,14 +69,12 @@
                             published_event.end = val.end_date;
                             published_event.title = "Reserved";
                             published_event.color = "#FBB917";
-                            // published_event.url = "/events/" + val.slug;
                             calendar_events.push(published_event);
                         } else if(val.tags.indexOf("#private_event") >= 0  || val.tags.indexOf("#closed") >= 0 ){
                             published_event.start = val.start_date;
                             published_event.end = val.end_date;
                             published_event.title = val.name;
                             published_event.color =  (val.tags.indexOf("#private_event") >= 0 ) ? "#E77471" : "#347235";
-                            // published_event.url = "/events/" + val.slug;
                             calendar_events.push(published_event);
                         }
                     }

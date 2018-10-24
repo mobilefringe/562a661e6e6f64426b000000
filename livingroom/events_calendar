@@ -52,7 +52,7 @@
             $.each( events , function( key, val ){
                 var published_event = {};
                 today = moment();
-                five_months = moment().add('6', 'M').endOf("d");
+                five_months = moment().add('7', 'M').endOf("d");
                 if (today < five_months){
                     webDate = moment(val.show_on_web_date);
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && (val.tags.indexOf("#living_room") >= 0)) {
@@ -94,7 +94,7 @@
                 viewRender: function(view,element) {
                     var now = new Date();
                     var end = new Date();
-                    end.setMonth(now.getMonth() + 5); //Adjust as needed
+                    end.setMonth(now.getMonth() + 6); //Adjust as needed
                     if ( end < view.end) {
                         $("#calendar .fc-next-button").addClass("fc-state-disabled");
                         return false;

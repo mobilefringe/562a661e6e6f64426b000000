@@ -41,6 +41,14 @@
             <img height="1" width="1" src="https://www.facebook.com/tr?id=1117328788363707&ev=PageView&noscript=1"/>
         </noscript>
         <!-- End Facebook Pixel Code -->
+        <!-- Global site tag (gtag.js) - Google Ads: 970904660 --> 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-970904660"></script> 
+        <script> 
+            window.dataLayer = window.dataLayer || []; 
+            function gtag(){dataLayer.push(arguments);} 
+            gtag('js', new Date());
+            gtag('config', 'AW-970904660'); 
+        </script>
 
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: //bootswatch.com/flatly/ -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">

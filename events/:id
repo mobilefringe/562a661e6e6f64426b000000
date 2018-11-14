@@ -25,7 +25,7 @@
                     <div class="details_desc">
                         {{{rich_description}}}
                     </div>
-                    <img src="{{event_image_url_abs}}" class="promo_details_image" style="{{promo_image_show}}" />
+                   
                     <div class="margin_30"></div>
                     <div class="details_sharer ">
                         <span>Share</span>

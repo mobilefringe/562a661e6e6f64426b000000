@@ -533,7 +533,7 @@ a:focus, a:hover{
     color: transparent;
 }
 
-a{
+a {
     color:inherit;
 }
 a:hover, a:focus{

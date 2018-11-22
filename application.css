@@ -409,8 +409,11 @@ a:focus, a:hover{
     padding: 5px 15px;
     background: #000;
     display: none;
-    font-size:40px;
+    font-size: 40px;
     z-index: 99;
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .category_header{

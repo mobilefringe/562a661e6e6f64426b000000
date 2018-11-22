@@ -197,9 +197,8 @@
                 <div class="col-md-4">
                     <div class="pull-right">
                         <div class="site_searcher_div" >
-                            <label class="top_form_control no_margin">
+                            <label class="top_form_control no_margin" for="site_search">
                                 <i class="custom_i fa fa-search"></i>
-                                <label class="accessibility" for="site_search">Search Site</label>
                                 <input type="text" placeholder="Search" id="site_search" />
                                 <i id="close_search" class="fa fa-times-circle"></i>
                             </label>

@@ -521,7 +521,7 @@ a:focus, a:hover{
     height: 13px;
     width: 13px;
     background: $primary;
-    background: rgba(255, 205, 42, 0.4);
+    background: rgba(98, 126, 80, 0.4);
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     -o-box-shadow: none;

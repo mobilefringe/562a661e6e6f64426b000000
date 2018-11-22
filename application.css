@@ -22,11 +22,11 @@ $primary: #627e50;
     width: 110px;
 }
 
-.store_list_name a{
+.store_list_name a {
     -webkit-tap-highlight-color: $primary;
 }
-body{
-    font-family:brandon;
+body {
+    font-family: brandon;
 }
 
 #instagram_feed img{

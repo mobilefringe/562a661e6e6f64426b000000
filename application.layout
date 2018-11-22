@@ -102,26 +102,27 @@
                 <div id="navbar">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Stores <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Stores <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav1">
                                 <li><a href="/stores">Directory</a></li>
                                 <li><a href="/map">Centre Map</a></li>
                             </ul>
-                                
                         </li>
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Events <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Events <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                              
-                                <!--<li><a href="/livingroomevents">The Living Room</a></li>-->
-                               
                             </ul>
-                                
                         </li>
                         <li><a href="/promotions">Promotions</a></li>
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre Information <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Centre Information <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav3">
                                 <li><a href="/about_us">About Us</a></li>
                                 <li><a href="/hours">Operating Hours</a></li>
@@ -130,11 +131,12 @@
                                 <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
                                 <li><a href="/leasing">Leasing & Partnerships</a></li>
                                 <li><a href="/contact_us">Contact Us</a></li>
-                                
                             </ul>
                         </li>
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Guest Services <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
                                 <li><a href="/guest_services">Guest Services</a></li>
                                 <li><a href="/gift_cards">Gift Cards</a></li>
@@ -146,13 +148,14 @@
                             </ul>
                         </li>
                         <li>
-                            <a class="dd_link" href="#" id="mobile_nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>
+                            <a class="dd_link" href="#" id="mobile_nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                The Living Room <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav5">
                                 <li><a href="/livingroom/about">About</a></li>
                                 <li><a href="/livingroom/the_details">The Details</a></li>
                                 <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
                                 <li><a href="/livingroom/book_this_space">Book This Space</a></li>
-                                <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
                                 <li><a href="/livingroom/faq">FAQ</a></li>
                             </ul>
                         </li>
@@ -161,7 +164,7 @@
             </nav>
             <div class="row top_header">
                 <div class="col-md-4 hidden_phone">
-                    <p class="todays_hours">
+                    <div class="todays_hours">
                         <b>Today's Hours </b>
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
@@ -169,16 +172,21 @@
                             </script>
                         </span>
                         <br />
-                        <a href="/hours">
-                            CLICK HERE FOR FULL HOURS
-                        </a>
-                    </p>
+                        <a href="/hours">CLICK HERE FOR FULL HOURS</a>
+                    </div>
                     <div class="top_header_social_icons ">
-                           <a target="_blank" href="https://instagram.com/dixieoutletmall/"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628026000/Instagram.png" class="" alt="Instagram"></a>
-                        <a target="_blank" href="//www.facebook.com/dixieoutletmall?ref=mf"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" class="" alt="Facebook"></a>
-                        <a target="_blank" href="//twitter.com/DixieOutletMall"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" class="" alt="Twitter"></a>
-                        <a target="_blank" href="//pinterest.com/dixieoutletmall/"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628012000/Pinterest Copy 2.png" class="" alt="Pinterest"></a>
-                 
+                        <a target="_blank" href="https://instagram.com/dixieoutletmall/">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628026000/Instagram.png" alt="Instagram">
+                        </a>
+                        <a target="_blank" href="//www.facebook.com/dixieoutletmall?ref=mf">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" alt="Facebook">
+                        </a>
+                        <a target="_blank" href="//twitter.com/DixieOutletMall">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" alt="Twitter">
+                        </a>
+                        <a target="_blank" href="//pinterest.com/dixieoutletmall/">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628012000/Pinterest Copy 2.png" alt="Pinterest">
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-4 text-center hidden_phone">
@@ -204,18 +212,6 @@
                                 <span>Subscribe to Our Newsletter</span>
                             </a>
                         </div>
-                        <!--<form action="//mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="newsletter_form">-->
-                        <!--    <label class="top_form_control">-->
-                        <!--        <i class="custom_i fa fa-envelope-o"></i>-->
-                        <!--        <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />-->
-                        <!--    </label>-->
-                        <!--    <label class="newsletter_label ">-->
-                        <!--        <input id="agree_newsletter" type="checkbox" required oninvalid="this.setCustomValidity('Please check this box to proceed')"  />-->
-                        <!--        I agree to receive newsletters.-->
-                        <!--    </label>-->
-                        <!--    <button type="submit" class="submit_newsletter"><i class="fa fa-arrow-right"></i></button>-->
-                        <!--    <span id="subscription_confirmed">Thank you for subscribing.</span>-->
-                        <!--</form>-->
                     </div>
                 </div>
             </div>
@@ -223,7 +219,9 @@
                 <div class="top_nav_row">
                     <div class="top_nav_menu" id="top_nav_stores">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Stores <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Stores <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu1">
                                 <li><a href="/stores">Directory</a></li>
                                 <li><a href="/map">Centre Map</a></li>
@@ -232,11 +230,11 @@
                     </div>
                     <div class="top_nav_menu" id="top_nav_events">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Events <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Events <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu2">
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                               
-                                <!--<li><a href="/livingroomevents">The Living Room</a></li>-->
                             </ul>
                         </div>
                     </div>
@@ -245,7 +243,9 @@
                     </div>
                     <div class="top_nav_menu" id="top_nav_centre_info">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Centre Information <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Centre Information <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu3">
                                 <li><a href="/about_us">About Us</a></li>
                                 <li><a href="/hours">Operating Hours</a></li>
@@ -259,7 +259,9 @@
                     </div>
                     <div class="top_nav_menu" id="top_nav_about_us">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Guest Services <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
                                 <li><a href="/guest_services">Guest Services</a></li>
                                 <li><a href="/gift_cards">Gift Cards</a></li>
@@ -271,16 +273,16 @@
                             </ul>
                         </div>
                     </div>
-                    
                     <div class="top_nav_menu" id="top_nav_livingroom">
                         <div class="dropdown">
-                            <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>
+                            <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                The Living Room <i class="fa fa-caret-down"></i>
+                            </a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu5">
                                 <li><a href="/livingroom/about">About</a></li>
                                 <li><a href="/livingroom/the_details">The Details</a></li>
                                 <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
                                 <li><a href="/livingroom/book_this_space">Book This Space</a></li>
-                                <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
                                 <li><a href="/livingroom/faq">FAQ</a></li>
                             </ul>
                         </div>
@@ -295,9 +297,7 @@
             <div class="row footer_nav">
                 <div class="col-md-3">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1446664167000/dixie_mall_logo_1B[1].png" class="main_logo" alt="Dixie Logo">
-                    <p class="footer_desc">
-                     Dixie Outlet Mall delivers what any great shopping experience should: a large selection at fantastic prices with plenty of ‘Back away, I found it first’ moments. Located just 20 minutes from downtown Toronto along the Queen Elizabeth Highway, Dixie Outlet Mall is Southern Ontario’s go-to destination for shoppers who are Wild for Deals!
-                    </p>
+                    <p class="footer_desc">Dixie Outlet Mall delivers what any great shopping experience should: a large selection at fantastic prices with plenty of ‘Back away, I found it first’ moments. Located just 20 minutes from downtown Toronto along the Queen Elizabeth Highway, Dixie Outlet Mall is Southern Ontario’s go-to destination for shoppers who are Wild for Deals!</p>
                 </div>
                 <div class="col-md-6 hidden_phone">
                     <h3 class="footer_explore">EXPLORE</h3>
@@ -309,7 +309,6 @@
                                 <li><a href="/map">Centre Map</a></li>
                                 <li class="footer_main_li">Events</li>
                                 <li><a href="/events">Mall-Wide Events</a></li>
-                             
                                 <li class="footer_main_li"><a href="/promotions">Promotions</a></li>
                             </ul>
                         </div>
@@ -341,22 +340,18 @@
                 </div>
                 <div class="col-md-3 hidden_phone">
                     <h3 class="footer_explore">INSTAGRAM</h3>
-                   <div id="instafeed"></div>
+                    <div id="instafeed"></div>
                 </div>
             </div>
             <div class=" mobile_padding">
                 <div class="col-sm-6 mini_footer copyright_info clearfix">
-                    <p class="pull-left">
-                    ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
-                </p>
+                    <p class="pull-left">©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a></p>
                 </div>
                 <div class="col-sm-6 powered_by_info clearfix">
-                    <p class="mini_footer powered_by">
-                        Powered by <a target="_blank" href="//mallmaverick.com">Mall Maverick</a>
-                    </p>
+                    <p class="mini_footer powered_by">Powered by <a target="_blank" href="//mallmaverick.com">Mall Maverick</a></p>
                     <p  class="cushman_logo">
                         <a href="http://www.cushmanwakefield.ca/en" target="_blank">
-                            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Blacklogo copy.png" class="" alt="Cushman & Wakefield Logo" style="width: 110px; padding-top: 10px;margin-right: 10px;">
+                            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Blacklogo copy.png" class="management_logo" alt="Cushman & Wakefield Logo">
                         </a>
                     </p>
                     <p class="slate_logo">

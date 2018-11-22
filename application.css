@@ -11,6 +11,8 @@
     src: url(//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/014/841/original/Brandon_bld.otf?1448395145);
     font-weight: bold;
 }
+$primary: #627e50;
+
 .accessibility {
     display: none;
 }
@@ -21,7 +23,7 @@
 }
 
 .store_list_name a{
-    -webkit-tap-highlight-color: #E9B50A
+    -webkit-tap-highlight-color: $primary;
 }
 body{
     font-family:brandon;
@@ -226,7 +228,7 @@ body{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
-    background: #E9B50A;
+    background: $primary;
     padding: 10px;
     border-radius: 4px;
     &:hover{
@@ -259,7 +261,7 @@ body{
     float:right;
     color: #fff;
     border: none;
-    background: #E9B50A;
+    background: $primary;
     padding: 0;
     width: 30px
 }
@@ -277,7 +279,7 @@ body{
     display: none; 
     position: absolute;
     z-index: 999999;
-    background: #E9B50A;
+    background: $primary;
     width: 100%;
     padding: 5px 10px;
     top: 0px;
@@ -319,7 +321,7 @@ body{
 .checkbox-custom:checked+.checkbox-custom-label:before {
     content: "\f00c";
     font-family: 'FontAwesome';
-    background: #E9B50A;
+    background: $primary;
     color: #fff;
 }
 
@@ -347,7 +349,7 @@ body{
 }
 
 a:focus, a:hover{
-    color:#E9B50A;
+    color:$primary;
 }
 
 .margin_40{
@@ -398,7 +400,7 @@ a:focus, a:hover{
 }
 
 .active_cat{
-    color:#E9B50A !important;
+    color:$primary !important;
 }
 
 .scrollToTop {
@@ -518,7 +520,7 @@ a:focus, a:hover{
 .flex-control-paging li a{
     height:13px;
     width:13px;
-    background: #E9B50A;
+    background: $primary;
     background: rgba(255, 205, 42, 0.4);
     -webkit-box-shadow: none;
     -moz-box-shadow:none;
@@ -527,7 +529,7 @@ a:focus, a:hover{
 }
 
 .flex-control-paging li a.flex-active, .flex-control-paging li a:hover{
-    background: #E9B50A;
+    background: $primary;
     background: rgba(255, 205, 42, 1);
     color: transparent;
 }
@@ -560,7 +562,7 @@ a:hover, a:focus{
 .todays_hours a{
     font-size:12px;
     font-weight:bold;
-    color:#E9B50A;
+    color:$primary;
 }
 
 .top_header_social_icons{
@@ -668,7 +670,7 @@ a:hover, a:focus{
     border-right: 2px solid #eee;
 }
 .dropdown-menu2>li>a:focus, .dropdown-menu2>li>a:hover{
-    color:#E9B50A;
+    color:$primary;
     background-color:transparent;
 }
 
@@ -714,7 +716,7 @@ a:hover, a:focus{
 }
 
 .mini_footer a:hover, .footer_ul a:hover{
-    color: #E9B50A;
+    color: $primary;
 }
 
 .footer_main_li{
@@ -781,7 +783,7 @@ a:hover, a:focus{
     width:40px;
     height:4px;
     margin: 0 auto;
-    background-color:#E9B50A;
+    background-color:$primary;
 }
 
 .category_name{
@@ -791,7 +793,7 @@ a:hover, a:focus{
 }
 
 .category_name a:hover{
-    color: #E9B50A;;
+    color: $primary;;
 }
 
 .store_initial{
@@ -829,7 +831,7 @@ a:hover, a:focus{
 }
 
 .store_list_name a:hover{
-    color: #E9B50A;;
+    color: $primary;;
 }
 
 .store_list_name img{
@@ -947,7 +949,7 @@ a:hover, a:focus{
 }
 
 .side_menu .active{
-    color:#E9B50A;
+    color:$primary;
 }
 
 .side_menu li{
@@ -1064,7 +1066,7 @@ a:hover, a:focus{
 
 .read_more_btn{
     width:140px;
-    background:#E9B50A;
+    background:$primary;
     color:#fff;
     text-transform:uppercase;
     padding: 6px 35px;
@@ -1087,7 +1089,7 @@ a:hover, a:focus{
     color:#666;
     line-height: 24px;
     a{
-        color: #E9B50A;
+        color: $primary;
         text-decoration:underline;
     }
 }
@@ -1097,7 +1099,7 @@ a:hover, a:focus{
     line-height: 28px;
     font-size: 15px;
     h3{
-        color:#E9B50A;
+        color:$primary;
         line-height: 28px;
         font-size: 15px;
         margin:0;
@@ -1154,7 +1156,7 @@ a:hover, a:focus{
         margin-bottom:8px;
     }
     a{
-        color:#E9B50A;
+        color:$primary;
     }
 }
 
@@ -1185,7 +1187,7 @@ a:hover, a:focus{
     font-size:15px;
     line-height: 28px;
     a{
-        color: #E9B50A;
+        color: $primary;
         text-decoration:underline;
     }
 }
@@ -1241,7 +1243,7 @@ a:hover, a:focus{
     width: 235px;
     height: 30px;
     display: inline-block;
-    background: #E9B50A;
+    background: $primary;
     color: #fff;
     font-size: 15px;
     font-weight: 400;
@@ -1267,7 +1269,7 @@ a:hover, a:focus{
     content: " ";
     height: 4px;
     width: 40px;
-    background: #E9B50A;
+    background: $primary;
     position: absolute;
     left: 50%;
     top: -6px;
@@ -1447,7 +1449,7 @@ a:hover, a:focus{
         padding:10px 0;
     }
     #navbar .nav li a:focus, #navbar .nav li a:hover{
-        background-color:#E9B50A;
+        background-color:$primary;
         color: #fff ;
     }
     
@@ -1482,7 +1484,7 @@ a:hover, a:focus{
         display: block;
         padding: 10px 12px;
         margin-bottom: 12px;
-        background: #E9B50A;
+        background: $primary;
         margin: 0 12px 12px 12px;
         border-radius: 4px;
         color: #fff;
@@ -1501,7 +1503,7 @@ a:hover, a:focus{
     }
     
     #category_container_phone li{
-        background: #E9B50A;
+        background: $primary;
         padding: 5px 12px;
         color:#fff !important;
         font-size: 20px;
@@ -1520,7 +1522,7 @@ a:hover, a:focus{
     
     #side_dd{
         display: block;
-        background: #E9B50A;
+        background: $primary;
         padding: 10px 12px;
         color: #fff;
         font-size: 20px;
@@ -1528,7 +1530,7 @@ a:hover, a:focus{
     }
     
     #side_nav{
-        background: #E9B50A;
+        background: $primary;
         border: 0;
         box-shadow: none;
         width: 100%;

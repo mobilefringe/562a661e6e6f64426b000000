@@ -520,7 +520,7 @@ a:focus, a:hover{
 .flex-control-paging li a{
     height: 13px;
     width: 13px;
-    border: 1px solid $primary;
+    border: 2px solid $primary;
     background: #FFF;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;

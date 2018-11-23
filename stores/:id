@@ -165,10 +165,10 @@
                 });
                 if( published_jobs.length > 0){
                     renderJobs('#jobs_container', '#jobs_template', published_jobs);
-                }
-                else{
+                } else {
                     $('#employment').hide();
                 }
+                
                 show_content();
                 $('#top_nav_stores').addClass('active_yellow')
                 regions = {};

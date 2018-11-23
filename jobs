@@ -65,7 +65,7 @@
                     </div>
                 </script>
             </div>
-            <h3 id="no_jobs_in_filter">There are currently no jobs availabke that meet your criteria</h3>
+            <h3 id="no_jobs_in_filter" class="hidden_now">There are currently no jobs available that meet your criteria.</h3>
             <div class="col-md-12">
                 <h3 id="no_jobs" class="hidden_now">There are currently no jobs available, please check back again later.</h3>
             </div>

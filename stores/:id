@@ -11,7 +11,7 @@
                     <h3 class="store_details_name">{{name}}</h3>
                     <div class="grey_divider"></div>
                     <div class="margin_20"></div>
-                    <a href="tel:{{phone}}" style="{{phone_show}}"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1446046952000/telephone66.png" class="store_details_icon" alt="phone"><span class="store_details_phone_field">{{phone}}</a>
+                    <a href="tel:{{phone}}" style="{{phone_show}}"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1446046952000/telephone66.png" class="store_details_icon" alt="Call Store"><span class="store_details_phone_field">{{phone}}</a>
                     <br />
                     <a href="//{{website}}" target="_blank" style="{{show}}"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1446145967000/web_icon.png" class="store_details_icon" alt="Visit Store Website"><span class="store_details_phone_field">Visit Website</a>
                     <div class="margin_20"></div>

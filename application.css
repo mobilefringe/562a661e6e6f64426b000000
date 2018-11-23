@@ -1001,10 +1001,10 @@ a:hover, a:focus{
 
 .jobs_publish_date{
     margin-top: 0;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     font-size: 12px;
-    text-transform:uppercase;
-    color: #9B9B9B;
+    text-transform: uppercase;
+    // color: #9B9B9B;
 }
 
 .jobs_publish_date i{

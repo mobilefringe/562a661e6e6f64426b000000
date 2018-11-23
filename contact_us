@@ -87,7 +87,7 @@
                         SPECIALTY LEASING & PARTNERSHIPS INQUIRIES
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
-                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading5">
+                    <div id="collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapse5">
                         <div class="contact_box">
                             <h3>Speciality Leasing Manager</h3>
                             E: <a href="mailto:specialityleasing@dixieoutletmall.com">specialityleasing@dixieoutletmall.com</a>
@@ -99,7 +99,7 @@
                         MARKETING INQUIRIES
                         <i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
-                    <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading6">
+                    <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapse6">
                         <div class="contact_box">
                             <h3>Marketing Director</h3>
                             E: <a href="mailto:marketing@dixieoutletmall.com">marketing@dixieoutletmall.com</a>

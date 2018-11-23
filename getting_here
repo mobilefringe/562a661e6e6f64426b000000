@@ -36,38 +36,38 @@
             <div class="row">
                 <div class="col-md-6">
                     <h3 class="accordion_header">FROM THE WEST</h3>
-                    <div>
+                    <!--<div>-->
                         <ul class="custom_list_direction">
                             <li>QEW East to Cawthra Road</li>
                             <li>Right onto Cawthra Road</li>
                             <li>Left onto South Service Road</li>
                             <li>Dixie Outlet Mall is on your right</li>
                         </ul>
-                    </div>
+                    <!--</div>-->
                     <div class="margin_30 show_phone"></div>
                 </div>
                 <div class="col-md-6">
                     <h3 class="accordion_header">FROM DOWNTOWN TORONTO VIA GO TRANSIT</h3>
-                    <div>
+                    <!--<div>-->
                         <ul class="custom_list_direction">
                             <li>From Union Station take the GO Transit Lakeshore West Line</li>
                             <li>Exit the GO train at Long Branch station and take the Mississauga Transit Route 5 North bus</li>
                             <li>Route 5 North bus will take your directly to Dixie Outlet Mall</li>
                             For additional details and transit fares please visit <a href="//www.gotransit.com">www.gotransit.com</a>
                         </ul>
-                    </div>
+                    <!--</div>-->
                     <div class="margin_30 show_phone"></div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <h3 class="accordion_header">FROM THE EAST</h3>
-                    <div>
+                    <!--<div>-->
                         <ul class="custom_list_direction">
                             <li>Gardiner Expressway/QEW West to Dixie Road</li>
                             <li>Left onto Dixie Road South</li>
                         </ul>
-                    </div>
+                    <!--</div>-->
                     <div class="margin_30 show_phone"></div>
                 </div>
             </div>

@@ -119,7 +119,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
-            if(store_details === undefined){
+            if (store_details === undefined) {
                 window.location = "/";
             } else {
                 renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
@@ -147,7 +147,7 @@
                         published_promos.push(val);
                     } 
                 });
-                if( published_promos.length > 0){
+                if ( published_promos.length > 0) {
                     renderPromotions("#promos_container","#promos_template", published_promos);
                 } else {
                     $('#promotions').hide();
@@ -163,7 +163,7 @@
                         published_jobs.push(val);
                     } 
                 });
-                if( published_jobs.length > 0){
+                if ( published_jobs.length > 0) {
                     renderJobs('#jobs_container', '#jobs_template', published_jobs);
                 } else {
                     $('#employment').hide();

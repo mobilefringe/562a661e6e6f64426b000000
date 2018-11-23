@@ -26,15 +26,14 @@
             </div>
         </div>
         <div class="col-md-9 contact_rows">
-            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone" alt="hours banner">
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone" alt="">
             <div class="margin_20"></div>
             <div class="row">
                 <div class="col-md-6">
-                    <h3 class="accordion_header cursor_auto no_pointer_desktop" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse3">
-                        ADMINISTRATION OFFICE
-                        <i class="fa fa-caret-down pull-right show_phone"></i>
+                    <h3 class="accordion_header cursor_auto no_pointer_desktop">
+                        ADMINISTRATION OFFICE<i class="fa fa-caret-down pull-right show_phone"></i>
                     </h3>
-                    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                    <div id="collapse1" class="panel-collapse collapse in">
                         <div class="contact_box">
                             <h3>Dixie Outlet Mall</h3>
                             1250 South Service Road <br />

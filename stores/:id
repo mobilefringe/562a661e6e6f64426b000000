@@ -60,10 +60,10 @@
                     </div>
                 </div>
                 <div id="promotions">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         PROMOTIONS <i class="fa fa-caret-up pull-right"></i>
                     </h3>
-                    <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
+                    <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapseThree">
                         <div class="store_desc  row" id="promos_container">
                             <script id="promos_template" type="x-tmpl-mustache/text">
                                 <div class="col-md-6 margin_30">

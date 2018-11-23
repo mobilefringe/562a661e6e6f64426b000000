@@ -1,0 +1,57 @@
+<div class="fluid_row mobile_padding">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="store_list_header">Events</h3>
+        </div>
+        <div id="jobs_container">
+            <script id="jobs_template" type="x-tmpl-mustache/text">
+                <div class="col-md-6 margin_50">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="logo_container">
+                                <img src="{{logo}}" alt="{{name}}" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="details_header">{{name}}</h3>
+                            <h3 class="details_store_name">{{store_name}}</h3>
+                            <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{dates}}</h3>
+                            <a href="/events/{{slug}}" class="read_more_btn">Event Details</a>
+                        </div>
+                    </div>
+                </div>
+            </script>
+        </div>
+        <div class="col-md-12">
+            <h3 id="no_events" class="hidden_now">There are currently no events available, please check back again later.</h3>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var events = getEventsList().sortBy(function(o){ return o.start_date });
+            var published_events = [];
+             $.each( events , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && val.tags.indexOf("#living_room") < 0) {
+                    published_events.push(val);
+                } 
+            });
+            if(published_events.length > 0){
+                renderEvents("#jobs_container","#jobs_template", published_events);
+            }
+            else{
+                $('#no_events').show()
+            }
+            
+            
+            show_content();
+            $('#top_nav_events').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

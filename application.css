@@ -1076,7 +1076,10 @@ a:hover, a:focus{
 .read_more_btn:hover{
     color:#fff;
 }
-
+#promo_details_container {
+    padding: 15px auto;
+    border: 1px solid #eee;
+}
 .promo_details_image{
     max-width:100%;
 }

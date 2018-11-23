@@ -77,7 +77,7 @@
                                         <div class="col-md-6">
                                             <h3 class="details_header">{{name}}</h3>
                                             <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{dates}}</h3>
-                                            <a href="/promotions/{{slug}}" class="read_more_btn">View Promo Details</a>
+                                            <a href="/promotions/{{slug}}" class="read_more_btn">Promo Details</a>
                                         </div>
                                     </div>
                                 </div>

@@ -59,9 +59,7 @@
                     <div class="col-md-6">
                         <h5 class="accordion_header">CAREERS</h5>
                         <div class="gs_div">
-                            <p class="p_desc">
-                                <strong>Looking for a job in retail?</strong> Please visit the <a href="/jobs">Careers</a> section to view which stores are currently hiring.
-                            </p>
+                            <p class="p_desc"><strong>Looking for a job in retail?</strong> Please visit the <a href="/jobs">Careers</a> section to view which stores are currently hiring.</p>
                         </div>
                     </div>
                 </div>
@@ -115,9 +113,6 @@
                             <p>Complimentary bottle warming, available at the Guest Services Kiosk.</p>
                         </div>
                     </div>
-                    
-                <!--</div>-->
-                <!--<div class="row">-->
                     <div class="col-md-6">
                         <h5 class="accordion_header">OTHER SERVICES</h5>
                         <div class="gs_div">
@@ -127,7 +122,6 @@
                             <p>Wheelchairs and Walkers are available at the Guest Services Kiosk located near the Yellow Entrance.They are available during regular shopping centre hours on a first-come, first-served basis. A cash deposit or a credit card imprint of $50 is required</p>
                         </div>
                     </div>
-                    <div class="col-md-6"></div>
                 </div>
             </div>
         </div>

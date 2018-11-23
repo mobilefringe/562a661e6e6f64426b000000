@@ -85,11 +85,11 @@
                     </div>
                 </div>
                 <div id="employment">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse3">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         EMPLOYMENT
                         <i class="fa fa-caret-down pull-right"></i>
                     </h3>
-                    <div id="collapse4" class="panel-collapse collapse " role="tabpanel" aria-labelledby="heading4">
+                    <div id="collapseFour" class="panel-collapse collapse " role="tabpanel" aria-labelledby="collapseFour">
                         <div class="store_desc margin_30" id="jobs_container">
                             <script id="jobs_template" type="x-tmpl-mustache/text">
                                 <div class="row filter_row" data-job-type="{{job_type}}">

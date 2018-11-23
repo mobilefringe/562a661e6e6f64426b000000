@@ -40,8 +40,8 @@
                     </script>
                 </div>
                 <div id="hours">
-                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">OPENING HOURS <i class="fa fa-caret-up pull-right hidden_phone"></i><i class="fa fa-caret-down pull-right show_phone"></i></h3>
-                    <div id="collapse2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading2">
+                    <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">OPENING HOURS <i class="fa fa-caret-up pull-right hidden_phone"></i><i class="fa fa-caret-down pull-right show_phone"></i></h3>
+                    <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapseTwo">
                         <div class="store_desc margin_30">
                             <table id="reg_hours_container" class="hours_container">
                                 <script id="reg_hours_template" type="x-tmpl-mustache/text">

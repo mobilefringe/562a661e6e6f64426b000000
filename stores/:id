@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-md-9 position_relative">
-            <!--<div class="overlay2" onClick="style.pointerEvents='none'"></div>-->
+            <div class="overlay2" onClick="style.pointerEvents='none'"></div>
             <div id="mapsvg_store_detail" class="mobile_padding"></div>
             <div class="margin_30"></div>
             <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -61,8 +61,7 @@
                 </div>
                 <div id="promotions">
                     <h3 class="accordion_header" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                        PROMOTIONS 
-                        <i class="fa fa-caret-up pull-right"></i>
+                        PROMOTIONS <i class="fa fa-caret-up pull-right"></i>
                     </h3>
                     <div id="collapse3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading3">
                         <div class="store_desc  row" id="promos_container">

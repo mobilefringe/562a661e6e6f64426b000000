@@ -292,6 +292,7 @@
             </div>
         </div>
         <div class="site_container yield">
+            <h1 class="accessibility">Dixie Outlet Mall</h1>
             {{yield}}
         </div>
         <footer class="site_container">

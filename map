@@ -17,8 +17,6 @@
     </div>
 </div>
 <div class="margin_40"></div>
-<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/gallery/slimbox/slimbox2.js"></script>
-<link rel="stylesheet" href="//mallmaverick.cdn.speedyrails.net/javascripts/gallery/slimbox/slimbox2.css" type="text/css" media="screen" />
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/raphael.js"></script>
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel.js"></script>

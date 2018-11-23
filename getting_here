@@ -1,0 +1,87 @@
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">Centre Information</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/about_us">About Us</a></li>
+                <li><a href="/hours">Operating Hours</a></li>
+                <li class="active"><a href="/getting_here">Getting Here</a></li>
+                <li><a href="/jobs">Careers</a></li>
+                <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                <li><a href="/leasing">Leasing & Partnerships</a></li>
+                <li><a href="/contact_us">Contact Us</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span id="side_nav_text">Getting Here</span> <i class="fa fa-caret-down pull-right"></i>
+                </a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="side_dd">
+                    <li><a href="/about_us">About Us</a></li>
+                    <li><a href="/hours">Operating Hours</a></li>
+                    <li><a href="/jobs">Careers</a></li>
+                    <li><a href="/non_profit_groups">Non-Profit Groups</a></li>
+                    <li><a href="/leasing">Leasing & Partnerships</a></li>
+                    <li><a href="/contact_us">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows mobile_padding position_relative">
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone" alt="">
+            <div class="margin_20"></div>
+            <div class="overlay" style="position:absolute" onClick="style.pointerEvents='none'"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.646956026263!2d-79.57064718409426!3d43.593069479123514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b47dbaa35b3f5%3A0x694cdc42c6a2c734!2sDixie+Outlet+Mall!5e0!3m2!1sen!2sca!4v1447796950959" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div class="margin_20"></div>
+            <p class="page_desc mobile_padding">Dixie Outlet Mall is conveniently located at the QEW & Dixie Road, in Mississauga, Ontario.</p>
+            <div class="margin_30"></div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="accordion_header">FROM THE WEST</h3>
+                    <div>
+                        <ul class="custom_list_direction">
+                            <li>QEW East to Cawthra Road</li>
+                            <li>Right onto Cawthra Road</li>
+                            <li>Left onto South Service Road</li>
+                            <li>Dixie Outlet Mall is on your right</li>
+                        </ul>
+                    </div>
+                    <div class="margin_30 show_phone"></div>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="accordion_header">FROM DOWNTOWN TORONTO VIA GO TRANSIT</h3>
+                    <div>
+                        <ul class="custom_list_direction">
+                            <li>From Union Station take the GO Transit Lakeshore West Line</li>
+                            <li>Exit the GO train at Long Branch station and take the Mississauga Transit Route 5 North bus</li>
+                            <li>Route 5 North bus will take your directly to Dixie Outlet Mall</li>
+                            For additional details and transit fares please visit <a href="//www.gotransit.com">www.gotransit.com</a>
+                        </ul>
+                    </div>
+                    <div class="margin_30 show_phone"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="accordion_header">FROM THE EAST</h3>
+                    <div>
+                        <ul class="custom_list_direction">
+                            <li>Gardiner Expressway/QEW West to Dixie Road</li>
+                            <li>Left onto Dixie Road South</li>
+                        </ul>
+                    </div>
+                    <div class="margin_30 show_phone"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            show_content();
+            $('#top_nav_centre_info').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

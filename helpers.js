@@ -115,9 +115,9 @@ function jobs_filter(){
         $(this).addClass('active_filter');
         $('#current_filter').text($(this).text());
         var rows = $('.filter_row');
-        if (filter_id == "all"){
+        if (filter_id == "all") {
             rows.show();
-        } else{
+        } else {
             rows.hide();
             $.each(rows, function(i, val){
                 var filter_array = val.getAttribute('data-job-type').split('/');
@@ -126,8 +126,9 @@ function jobs_filter(){
                 }
             });
         }
-        if($('.filter_row:hidden').length == rows.length){
-            $('#no_jobs_in_filter').text("There are currently no " + filter_id + " jobs available, please check back again later.")
+        if ($('.filter_row:hidden').length == rows.length) {
+            $('#no_jobs_in_filter').text("There are currently no " + filter_id + " jobs available, please check back again later.");
+            $('#no_jobs_in_filter').show();
         }
     });
     

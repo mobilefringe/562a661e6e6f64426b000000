@@ -27,23 +27,25 @@
         function renderAll(){
             var stores = getStoresList();
             renderStoreList('#store_select_container','#store_select_template', stores, "stores");
+            
             show_content();
-            $('#top_nav_stores').addClass('active_yellow')
+            $('#top_nav_stores').addClass('active_yellow');
+            
             regions = {};
             $.each( stores , function( key, val ) {
-                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                if (val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined') {
                     obj = {};
-                    if(val.store_front_url_abs.indexOf('missing.png') > -1){
-                        obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
-                    }
-                    else{
-                        obj["tooltip"] = "<div class='tooltip_div'><img src='" + val.store_front_url_abs + "'><p class='tooltip_name text-center'>"+val.name+"</p></div>"
+                    if (val.store_front_url_abs.indexOf('missing.png') > -1) {
+                        obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name text-center'>" + val.name + "</p></div>";
+                    } else {
+                        obj["tooltip"] = "<div class='tooltip_div'><img src='" + val.store_front_url_abs + "'><p class='tooltip_name text-center'>" + val.name + "</p></div>";
                     }
                     obj["attr"] = {}
-                    obj["attr"]["href"] = "/stores/"+val.slug
+                    obj["attr"]["href"] = "/stores/" + val.slug;
                     regions[val.svgmap_region] = obj
                 }
             });
+            
             $('#store_select_container').change(function(e){
                 drop_pin($(this).val())
             })

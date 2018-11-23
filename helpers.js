@@ -252,26 +252,25 @@ function drop_pin(id){
     $('#btnZoomIn').click()
 }
 
-function load_map(reg, store_details){
-    console.log(reg)
+function load_map(reg, store_details) {
     this_region = {};
     this_region = store_details.svgmap_region;
     map = $('#mapsvg_store_detail').mapSvg({
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaa', hover: 0, selected: '#EF4D86'},
         disableAll: true,
-        height:335,
-        width:848,
+        height: 335,
+        width: 848,
         regions: reg,
-        tooltipsMode:'custom',
-        loadingText: "loading...",
+        tooltipsMode: 'custom',
+        loadingText: "Map is loading...",
         zoom: true,
         zoomButtons: {'show': false,'location': 'left' },
-        pan:true,
-        cursor:'pointer',
-        responsive:true,
-        zoomLimit: [0,5],
-        viewBox:[420,420,1650,1650]
+        pan: true,
+        cursor: 'pointer',
+        responsive: true,
+        zoomLimit: [0, 5],
+        viewBox: [420, 420, 1650, 1650]
     });
     map.setViewBox(store_details.svgmap_region);
     map.selectRegion(store_details.svgmap_region);

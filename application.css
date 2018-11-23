@@ -1077,7 +1077,7 @@ a:hover, a:focus{
     color:#fff;
 }
 #promo_details_container {
-    padding: 15px auto;
+    padding: 15px;
     border: 1px solid #eee;
 }
 .promo_details_image{

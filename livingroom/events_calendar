@@ -80,7 +80,10 @@
                     }
                 }
             });
+            
             show_content();
+            $('#top_nav_livingroom').addClass('active_yellow');
+            
             $('#calendar').fullCalendar({
                 header: {
                     right:  'prev,next'

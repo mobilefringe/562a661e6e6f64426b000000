@@ -33,6 +33,8 @@
             show_content();
             $('.flexslider').flexslider({
                 animation: "slide",
+                pauseOnAction: true,
+                pauseOnHover: false, 
             });
             
             $(".flex-control-paging li a").text("");

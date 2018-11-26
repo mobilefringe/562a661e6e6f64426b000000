@@ -1,0 +1,264 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<script src="//s3.amazonaws.com/kodekloud/sites/58c6f9856e6f642bbf0b0000/application/x-javascript/1451856482000/bootstrap-timepicker.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<link href="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/text/css/1451856482000/bootstrap-timepicker.min.css" rel="stylesheet">
+<style>
+    textarea{
+        height: 100px !important;
+    }
+    label{
+        display:block;
+        font-weight:normal;
+        
+    }
+    .form-control{
+        background:#fff !important;
+    }
+    @media(max-width:768px){
+        .col-md-4, .col-md-2, .col-md-8{
+            padding-right:0;
+            padding-left:0;
+            margin-bottom:20px;
+        }
+        .marg_mobile_20{
+            margin-bottom:20px;
+        }
+    }
+</style>
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">THE LIVING ROOM</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/livingroom/about">About</a></li>
+                <li><a href="/livingroom/the_details">The Details</a></li>
+                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                <li class="active"><a href="/livingroom/book_this_space">Book This Space</a></li>
+                <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
+                <li><a href="/livingroom/faq">FAQ</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span id="side_nav_text">Book This Space</span> <i class="fa fa-caret-down pull-right"></i>
+                </a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="side_dd">
+                    <li><a href="/livingroom/about">About</a></li>
+                    <li><a href="/livingroom/the_details">The Details</a></li>
+                    <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                    <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
+                    <li><a href="/livingroom/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows mobile_padding">
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1528729321000/DX725_LivingRoom_WebBanner_2018.png" class="full_width hidden_phone" alt="">
+            <div class="margin_20"></div>
+            <h3 class="hours_header">Book this space</h3>
+            <div id="mm_page_content"></div>
+            <form id="livingroom_form">
+                <input type="hidden" name="send_to_prop_admin" value="Catherine.Dubois@cushwake.com" />
+                <input type="hidden" name="heading" value="Dixie Living Room" id="heading" />
+                <input type="hidden" name="note" value="*Note: This email <u>does not</u> confirm your booking within the Dixie Living Room." id="note" />
+                <input type="hidden" name="message" value="Thank you for your interest in the Dixie Living Room. You will receive a follow-up from our Marketing Department only if we are able to proceed with your booking. Note: Not all booking requests will be accepted due to the nature of the request and availability. We appreciate your time and consideration in submitting a request" id="message" />
+                
+                <input type="hidden" name="message_admin" value="You got a new request from Dixie Outlet Mall - Living Room. <br />Below are the booking information from the user." id="message_admin" />
+                <input type="hidden" name="send_to_user" value="" id="send_to_user" />
+                <input type="hidden" name="subject" value="We Have Received Your Booking Request *DO NOT REPLY*" />
+                <input type="hidden" name="centre_logo" value="https://codecloud.cdn.speedyrails.net/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1492615354000/DX725_Press-Release-Header_FA.jpg" />
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="first_name">First Name <span class="red">*</span>:</label>
+                        <input required type="text" name="body[First Name]" id="first_name" class="form-control" data-validation="required" />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="last_name">Last Name <span class="red">*</span>:</label>
+                        <input required type="text" name="body[Last Name]" id="last_name" class="form-control" data-validation="required" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="email">Email Address <span class="red">*</span>:</label>
+                        <input type="text" name="body[email]" id="email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phone">Phone Number <span class="red">*</span>:</label>
+                        <input required type="text" name="body[Phone]" id="phone" class="form-control" data-validation="required" />
+                    </div>
+                    <div class="col-md-4">
+                        <label for="business_name">Org / Business Name:</label>
+                        <input type="text" name="body[Business Name]" id="business_name" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Intended Use *:</p>
+                    </div>
+                    <div class="col-md-2 col-xs-4">
+                        <fieldset>
+                            <legend style="display: none">Please select which type of Event this will be:</legend>
+                            <label style="margin-bottom:10px">
+                                <input checked type="radio" name="body[Intended Use]" value="public" data-validation="required" /> Public
+                            </label>
+                            <label>
+                                <input type="radio" name="body[Intended Use]" value="private" data-validation="required" /> Private
+                            </label>
+                        </fieldset>
+                    </div>
+                    <div class="col-md-6 col-xs-8">
+                        <p class="grey">Open to Dixie Outlet Mall Shoppers</p>
+                        <p class="grey">By Invite Only</p>
+                    </div>
+                </div>
+                <div class="row" style=" margin-bottom: 20px; ">
+                    <div class="col-md-4">
+                        <label for="use_type">Use Type <span class="red">*</span>:</label>
+                    </div>
+                    <div class="col-md-4">
+                        <select id="use_type" name="body[Use Type]" class="form-control" data-validation="required">
+                            <option value="Select Event Type" disabled selected>Select Event Type</option>
+                            <option value="Workshop / Seminar">Workshop / Seminar</option>
+                            <option value="Fitness Class">Fitness Class</option>
+                            <option value="Workspace">Workspace</option>
+                            <option value="To Sell Goods / Fundraising">To Sell Goods / Fundraising</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="other_use_type">If other please specify:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea name="body[Other Use Type]" id="other_use_type" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="booking_date">Requested Booking Date <span class="red">*</span>:</label>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row" style=" margin-bottom: 20px; ">
+                            <div class="col-md-3 marg_mobile_20" >
+                                <input readonly="readonly" name="body[Booking Date]" id="booking_date" class="datepicker form-control" placeholder="mm/dd/yyyy" data-validation="required" />
+                            </div>
+                            <div class="col-md-9">
+                                <label class="grey" for="booking_date_extra">To request an alternative date, please specify in the box below.</label>
+                            </div>
+                        </div>
+                        <textarea id="booking_date_extra" name="body[Booking Date Extra]" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Requested Booking Time <span class="red">*</span>:</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row" style=" margin-bottom: 20px; ">
+                            <div class="col-md-2 col-xs-4">
+                                <label for="booking_time_start">Start:</label>
+                            </div>
+                            <div class="col-md-4 col-xs-8">
+                                <input data-validation="required" name="body[Booking Time Start]" id="booking_time_start" class="timepicker form-control" placeholder="hh:mm:aa" />
+                            </div>
+                            <div class="col-md-2 col-xs-4">
+                                <label for="booking_time_end">To:</label>
+                            </div>
+                            <div class="col-md-4 col-xs-8">
+                                <input data-validation="required" name="body[Booking Time End]" id="booking_time_end" class="timepicker form-control" placeholder="hh:mm:aa" />
+                            </div>
+                        </div>
+                        <p class="grey">Note: Bookings are only permitted during Dixie Outlet Mall regular Hours of Operation. Please take into consideration set-up and take down times when requesting start and end times. These must also be during regular mall operating hours.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="additional_info">Please share any additional information about your booking that you’d like us to know (ie. your website):</label>
+                    </div>
+                    <div class="col-md-8">
+                        <textarea name="body[Additional Info]" id="additional_info" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div id="mm_page_disclaimer"></div>
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <input type="submit" value="Submit Form" class="read_more_btn" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="success_modal">
+    <h3><b>THANK YOU!</b></h3>
+    <p class="text-left">Thank you for your booking request.</p>
+    <p class="text-left">You will receive a follow-up from our Marketing Team only if we are able to proceed with your booking.</p>
+    <br />
+    <button class="read_more_btn" id="close_btn">OK</button>
+</div>
+
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            prefix = get_prefix();
+            var pages_json = prefix + '/pages/dixieoutlet-livingroom-book-this-space.json'
+            $.getJSON(pages_json).done(function(data) {
+                console.log(data)
+                var content = data.subpages[0].body
+                var disclaimer = data.subpages[1].body
+                $('#mm_page_content').html(content);
+                $('#mm_page_disclaimer').html(disclaimer);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
+            show_content();
+            var date=new Date();
+            var year=date.getFullYear();
+            var month=date.getMonth();
+            var day = date.getDate();
+            
+            $('.datepicker').datepicker({
+                startDate: new Date(year, month, day),
+                endDate: new Date(year, month+4, 0)
+            });
+            $('.timepicker').timepicker();
+            $.validate();
+            $('#top_nav_livingroom').addClass('active_yellow');
+            
+            $('#livingroom_form').submit(function(e){
+                e.preventDefault();
+                $('#send_to_user').val($('#email').val());
+                var data = $(this).serialize();
+                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
+                    if(textStatus = "success"){
+                        $('#livingroom_form').trigger('reset');
+                        $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
+                        $('#success_modal').fadeIn();
+                        $('#close_btn').click(function(){
+                            $('.custom_success_backdrop').remove();
+                            $('#success_modal').fadeOut();
+                        });
+                    }
+                    else{
+                        alert("Error submitting form. Please try again later.")
+                    }
+                });
+                
+                
+            })
+        }
+        loadMallDataCached(renderAll); 
+    });
+    
+    function submit_form(data){
+        
+    }
+    
+    
+</script>

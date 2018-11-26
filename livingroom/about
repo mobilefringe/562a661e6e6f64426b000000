@@ -61,7 +61,6 @@
             }); 
             
             var gallery_images = getFashionBySlug("dixieoutlet-living-room").fashion_images;
-            console.log("images", gallery_images);
             renderGallery("#gallery", "#gallery_template", gallery_images);
             
             show_content();
@@ -80,7 +79,6 @@
                     }
                 ]
             });
-            
             
             $('#top_nav_livingroom').addClass('active_yellow')
         }

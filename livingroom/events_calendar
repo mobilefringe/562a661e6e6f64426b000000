@@ -74,7 +74,7 @@
                             published_event.start = val.start_date;
                             published_event.end = val.end_date;
                             published_event.title = val.name;
-                            published_event.color =  (val.tags.indexOf("#private_event") >= 0 ) ? "#ba4e4b" : "#408741";
+                            published_event.color =  (val.tags.indexOf("#private_event") >= 0 ) ? "#E77471" : "#408741";
                             calendar_events.push(published_event);
                         }
                     }

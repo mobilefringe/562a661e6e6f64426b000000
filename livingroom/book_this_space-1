@@ -1,0 +1,125 @@
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<script src="//s3.amazonaws.com/kodekloud/sites/58c6f9856e6f642bbf0b0000/application/x-javascript/1451856482000/bootstrap-timepicker.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<link href="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/text/css/1451856482000/bootstrap-timepicker.min.css" rel="stylesheet">
+<style>
+    textarea{
+        height: 100px !important;
+    }
+    label{
+        display:block;
+        font-weight:normal;
+        
+    }
+    .form-control{
+        background:#fff !important;
+    }
+    @media(max-width:768px){
+        .col-md-4, .col-md-2, .col-md-8{
+            padding-right:0;
+            padding-left:0;
+            margin-bottom:20px;
+        }
+        .marg_mobile_20{
+            margin-bottom:20px;
+        }
+    }
+</style>
+<div class="fluid_row">
+    <div class="row">
+        <div class="col-md-3 mobile_padding">
+            <h3 class="store_list_header">THE LIVING ROOM</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/livingroom/about">About</a></li>
+                <li><a href="/livingroom/the_details">The Details</a></li>
+                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                <li class="active"><a href="/livingroom/book_this_space">Book This Space</a></li>
+                <li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>
+                <li><a href="/livingroom/faq">FAQ</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Book This Space</span> <i class="fa fa-caret-down pull-right"></i></a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/livingroom/about">About</a></li>
+                    <li><a href="/livingroom/the_details">The Details</a></li>
+                    <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
+                    <li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>
+                    <li><a href="/livingroom/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 contact_rows mobile_padding">
+            <img src="//codecloud.cdn.speedyrails.net/sites/58c6f9856e6f642bbf0b0000/image/jpeg/1490020571000/DX725_LivingRoom_WebBanner_FA.jpg" class="full_width hidden_phone" alt="">
+            <div class="margin_20"></div>
+            <h3 class="hours_header" id="mm_page_title">Book this space</h3>
+            <div id="mm_page_content">
+                <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the Booking Request Form below and we will be in touch to discuss your needs:
+                    
+                </p>
+                <p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>
+                <img class="full_width" src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/jpeg/1494786976000/Living-Room-Requests.jpg" alt="">
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="success_modal">
+    <h3><b>THANK YOU!</b></h3>
+    <p class="text-left">Thank you for your booking request.</p>
+    <p class="text-left">You will receive a follow-up from our Marketing Team only if we are able to proceed with your booking.</p>
+    <br />
+    <button class="read_more_btn" id="close_btn">OK</button>
+</div>
+
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            show_content();
+            var date=new Date();
+            var year=date.getFullYear();
+            var month=date.getMonth();
+            var day = date.getDate();
+            
+            $('.datepicker').datepicker({
+                startDate: new Date(year, month, day),
+                endDate: new Date(year, month+4, day)
+            });
+            $('.timepicker').timepicker();
+            $.validate();
+            $('#top_nav_livingroom').addClass('active_yellow');
+            
+            $('#livingroom_form').submit(function(e){
+                e.preventDefault();
+                $('#send_to_user').val($('#email').val());
+                var data = $(this).serialize();
+                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
+                    if(textStatus = "success"){
+                        $('#livingroom_form').trigger('reset');
+                        $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
+                        $('#success_modal').fadeIn();
+                        $('#close_btn').click(function(){
+                            $('.custom_success_backdrop').remove();
+                            $('#success_modal').fadeOut();
+                        });
+                    }
+                    else{
+                        alert("Error submitting form. Please try again later.")
+                    }
+                });
+                
+                
+            })
+        }
+        loadMallDataCached(renderAll); 
+    });
+    
+    function submit_form(data){
+        
+    }
+    
+    
+</script>

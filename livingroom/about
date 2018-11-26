@@ -36,7 +36,7 @@
                 <script id="gallery_template" type="x-tmpl-mustache/text">
                     <div class="gallery_item">
                         <a href="{{image_url}}" class="gallery_link" data-lightbox="livingroom_gallery">
-                            <img src="{{image_url}}" alt= "{{alt}}" class />
+                            <img src="{{image_url}}" alt= "{{caption}}" class />
                         </a>
                     </div>
                 </script>

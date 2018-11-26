@@ -54,12 +54,9 @@
             <div class="margin_20"></div>
             <h3 class="hours_header" id="mm_page_title">Book this space</h3>
             <div id="mm_page_content">
-                <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the Booking Request Form below and we will be in touch to discuss your needs:
-                    
-                </p>
+                <p>The Dixie Living Room is a 3,100 square foot multipurpose rental venue you don’t want to miss! Conveniently located inside Dixie Outlet Mall, you can make the space your own with movable wall dividers, tables, chairs, and a stage – all free to use for events, meetings, retail, and more. Request a tour or book today! Simply fill out the Booking Request Form below and we will be in touch to discuss your needs:</p>
                 <p style="color:green"><i> Please consult the <a href="http://dixieoutletmall.com/livingroom/faq">FAQ page</a> outlining general Living Room operations prior to submitting your Booking Request.</i></p>
                 <img class="full_width" src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/jpeg/1494786976000/Living-Room-Requests.jpg" alt="">
-               
             </div>
         </div>
     </div>
@@ -79,47 +76,8 @@
         init(e);
         function renderAll(){
             show_content();
-            var date=new Date();
-            var year=date.getFullYear();
-            var month=date.getMonth();
-            var day = date.getDate();
-            
-            $('.datepicker').datepicker({
-                startDate: new Date(year, month, day),
-                endDate: new Date(year, month+4, day)
-            });
-            $('.timepicker').timepicker();
-            $.validate();
             $('#top_nav_livingroom').addClass('active_yellow');
-            
-            $('#livingroom_form').submit(function(e){
-                e.preventDefault();
-                $('#send_to_user').val($('#email').val());
-                var data = $(this).serialize();
-                $.getJSON("//dixieoutlet.mallmaverick.com/send_prop_admin_and_user_email", data, function(data, textStatus, jqXHR){
-                    if(textStatus = "success"){
-                        $('#livingroom_form').trigger('reset');
-                        $('<div class="modal-backdrop custom_success_backdrop">').appendTo(document.body);
-                        $('#success_modal').fadeIn();
-                        $('#close_btn').click(function(){
-                            $('.custom_success_backdrop').remove();
-                            $('#success_modal').fadeOut();
-                        });
-                    }
-                    else{
-                        alert("Error submitting form. Please try again later.")
-                    }
-                });
-                
-                
-            })
         }
         loadMallDataCached(renderAll); 
     });
-    
-    function submit_form(data){
-        
-    }
-    
-    
 </script>

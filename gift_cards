@@ -1,0 +1,57 @@
+<div class="fluid_row mobile_padding">
+    <div class="row">
+        <div class="col-md-3">
+            <h3 class="store_list_header">GUEST SERVICES</h3>
+            <ul class="side_menu hidden_phone">
+                <li><a href="/guest_services">Guest Services</a></li>
+                <li class="active"><a href="/gift_cards">Gift Cards</a></li>
+                <li><a href="/group_tours">Group Tours</a></li>
+                <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                <li><a href="/accessibility">Accessibility</a></li>
+                <li><a href="/green_initiatives">Green Initiatives</a></li>
+                <li><a href="/newsletter">Newsletter</a></li>
+            </ul>
+            <div class="position_relative show_phone">
+                <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span id="side_nav_text">Gift Cards</span> <i class="fa fa-caret-down pull-right"></i>
+                </a>
+                <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
+                    <li><a href="/guest_services">Guest Services</a></li>
+                    <li><a href="/group_tours">Group Tours</a></li>
+                    <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
+                    <li><a href="/accessibility">Accessibility</a></li>
+                    <li><a href="/green_initiatives">Green Initiatives</a></li>
+                    <li><a href="/newsletter">Newsletter</a></li>
+                </ul>
+                <div class="margin_10"></div>
+            </div>
+        </div>
+        <div class="col-md-9 ">
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone margin_20" alt="">
+            <h3 class="hours_header" id="mm_page_title">Gift Cards</h3>
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1525104167000/DX_CominarGiftCard_FA (1)(1)-1.png" alt="">
+            <br>
+            <img src="//codecloud.cdn.speedyrails.net/sites/5bf6f9f86e6f646528410000/image/png/1525104186000/DX_CominarGiftCard_FA (1)(1)-2.png" alt="">
+            <div class="details_sharer">
+                <span>Share</span>
+                <a href="//www.facebook.com/sharer.php?u=https://dixieoutletmall.com/gift_cards" target="_blank">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" class="" alt="Share on Facebook">
+                </a>
+                <a target="_blank" href="//twitter.com/share?url=https://dixieoutletmall.com/gift_cards">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" class="" alt="Share on Twitter">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="margin_40"></div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            show_content();
+            $('#top_nav_about_us').addClass('active_yellow')
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>

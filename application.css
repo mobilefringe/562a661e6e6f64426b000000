@@ -1264,6 +1264,12 @@ a:hover, a:focus{
 #mc_embed_signup .asterisk {
     color: #cb4c34;
 }
+#mc_embed_signup .button {
+    background-color: #767676;
+    &:hover {
+        background-color: #676767;
+    }
+}
 .back_btn{
     font-weight:400;
     font-size:15px;

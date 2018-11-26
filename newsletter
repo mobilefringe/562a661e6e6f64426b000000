@@ -118,8 +118,10 @@
                             <input type="text" name="b_6163aac6af752915b3b139054_d72b99c0f3" tabindex="-1" value="">
                         </div>
                         <div class="clear">
-                            <label for="mc-embedded-subscribe" style="display:none">Submit</label>
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+
+                            <!--<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">-->
+                            
+                            <button id="mc-embedded-subscribe" class="button">Subscribe</button>
                         </div>
                     </div>
                 </form>

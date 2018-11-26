@@ -1260,6 +1260,10 @@ a:hover, a:focus{
 .newsletter_btn a:hover {
     color: #FFF;
 }
+
+#mc_embed_signup .asterisk {
+    color: #cb4c34;
+}
 .back_btn{
     font-weight:400;
     font-size:15px;

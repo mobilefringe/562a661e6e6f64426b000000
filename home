@@ -34,6 +34,8 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
+            
+            $(".flex-control-paging li a").text("");
         }
         loadMallData(renderAll); 
     })

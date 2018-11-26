@@ -52,7 +52,7 @@
             $.each( events , function( key, val ){
                 var published_event = {};
                 today = moment();
-                five_months = moment().add('6', 'M').endOf("d");
+                five_months = moment().add('6', 'M').endOf("d"); //Adjust as needed
                 if (today < five_months){
                     webDate = moment(val.show_on_web_date);
                     if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone()) && (val.tags.indexOf("#living_room") >= 0)) {
@@ -102,7 +102,6 @@
                         $("#calendar .fc-next-button").removeClass("fc-state-disabled");
                     }
                 }
-                
             })
             $('#top_nav_living_room').addClass('active_yellow')
         }

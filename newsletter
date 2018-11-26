@@ -70,7 +70,8 @@
                         <div class="mc-field-group input-group">
                             <ul>
                                 <li>
-                                    <input type="checkbox" value="1" name="group[17081][1]" id="mce-group[17081]-17081-0"><label for="mce-group[17081]-17081-0">I agree to receive newsletters from Dixie Outlet Mall. You can unsubscribe at anytime.</label>
+                                    <input type="checkbox" value="1" name="group[17081][1]" id="mce-group[17081]-17081-0">
+                                    <label for="mce-group[17081]-17081-0">I agree to receive newsletters from Dixie Outlet Mall. You can unsubscribe at anytime.</label>
                                 </li>
                             </ul>
                         </div>
@@ -115,7 +116,8 @@
                     	</div>    
                     	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_6163aac6af752915b3b139054_d72b99c0f3" tabindex="-1" value="">
+                            <label for="b_6163aac6af752915b3b139054_d72b99c0f3"></label>
+                            <input type="text" id="b_6163aac6af752915b3b139054_d72b99c0f3" name="b_6163aac6af752915b3b139054_d72b99c0f3" tabindex="-1" value="">
                         </div>
                         <div class="clear">
 

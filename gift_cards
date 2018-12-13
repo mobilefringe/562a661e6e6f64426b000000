@@ -27,6 +27,7 @@
         <div class="col-md-9 ">
             <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1526070970000/3_Guest_Banner.png" class="full_width hidden_phone margin_20" alt="hours banner">
             <h3 class="hours_header" id="mm_page_title">Gift Cards</h3>
+            <div id="mm_page_content"></div>
            <p class="page_desc">
               <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1525104167000/DX_CominarGiftCard_FA (1)(1)-1.png" class="" alt="" width="100%"><br>
               <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1525104186000/DX_CominarGiftCard_FA (1)(1)-2.png" class="" alt="" width="100%"></p>
@@ -47,9 +48,15 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            var hours = getPropertyHours();
-            // renderHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours')
-            // renderHours('#holiday_hours_container','#holiday_hours_template', hours, 'holiday_hours')
+            var pages_json = '//dixieoutlet.mallmaverick.com/pages/dixieoutlet-gift-cards.json';
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            
             show_content();
             $('#top_nav_about_us').addClass('active_yellow')
         }

@@ -52,6 +52,19 @@
                 </div>
                 <div class="margin_40"></div>
                 <div class="row">
+                  <div class="col-md-6">
+                        <h5 class="accordion_header">ATM BANKING</h5>
+                        <div class="gs_div">
+                            <p class="p_desc">
+                                <strong>Automated Teller Machines</strong> can be found at each of our three banks:
+                            </p>
+                            <ul class="custom_list">
+                                <li>CIBC Instant Teller Machine (Silver corridor)</li>
+                                <li>Bank of Montreal (Payless ShoeSource corridor)</li>
+                                <li>Scotiabank and Trust (near the Orange entrance)</li>
+                            </ul>
+                        </div>
+                    </div>
 <!--                    <div class="col-md-6">-->
 <!--                        <h5 class="accordion_header">GIFT CARDS</h5>-->
 <!--                        <div class="gs_div">-->
@@ -97,19 +110,19 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <h5 class="accordion_header">ATM BANKING</h5>
-                        <div class="gs_div">
-                            <p class="p_desc">
-                                <strong>Automated Teller Machines</strong> can be found at each of our three banks:
-                            </p>
-                            <ul class="custom_list">
-                                <li>CIBC Instant Teller Machine (Silver corridor)</li>
-                                <li>Bank of Montreal (Payless ShoeSource corridor)</li>
-                                <li>Scotiabank and Trust (near the Orange entrance)</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <!--<div class="col-md-6">-->
+                    <!--    <h5 class="accordion_header">ATM BANKING</h5>-->
+                    <!--    <div class="gs_div">-->
+                    <!--        <p class="p_desc">-->
+                    <!--            <strong>Automated Teller Machines</strong> can be found at each of our three banks:-->
+                    <!--        </p>-->
+                    <!--        <ul class="custom_list">-->
+                    <!--            <li>CIBC Instant Teller Machine (Silver corridor)</li>-->
+                    <!--            <li>Bank of Montreal (Payless ShoeSource corridor)</li>-->
+                    <!--            <li>Scotiabank and Trust (near the Orange entrance)</li>-->
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--</div>-->
                 </div>
                 <div class="row">
                     <div class="col-md-6">

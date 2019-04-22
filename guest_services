@@ -4,7 +4,7 @@
             <h3 class="store_list_header">GUEST SERVICES</h3>
             <ul class="side_menu hidden_phone">
                 <li class="active"><a href="/guest_services">Guest Services</a></li>
-                <li><a href="/gift_cards">Gift Cards</a></li>
+                <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                 <li><a href="/group_tours">Group Tours</a></li>
                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                 <li><a href="/accessibility">Accessibility</a></li>
@@ -14,7 +14,7 @@
             <div class="position_relative show_phone">
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Guest Services</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
-                    <li><a href="/gift_cards">Gift Cards</a></li>
+                    <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                     <li><a href="/group_tours">Group Tours</a></li>
                     <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                     <li><a href="/accessibility">Accessibility</a></li>
@@ -35,7 +35,7 @@
                     </p>
                     <ul class="custom_list">
                         <li>Information</li>
-                        <li>Dixie Outlet Mall Gift Cards</li>
+                        <!--<li>Dixie Outlet Mall Gift Cards</li>-->
                         <li>Local tourism info & brochures</li>
                         <li>Complimentary wheelchairs & walkers - A cash deposit or a credit card imprint of $50 is required</li>
                         <li>Lost & found</li>
@@ -52,16 +52,16 @@
                 </div>
                 <div class="margin_40"></div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <h5 class="accordion_header">GIFT CARDS</h5>
-                        <div class="gs_div">
+<!--                    <div class="col-md-6">-->
+<!--                        <h5 class="accordion_header">GIFT CARDS</h5>-->
+<!--                        <div class="gs_div">-->
                            
-                            <p class="p_desc">
-                                New mall gift cards are currently unavailable. Pre-issued
-Cominar gift cards with existing balances will continue to be accepted up to their expiry dates. Most of our individual retailers have store-specific gift cards available for your convenience.
-                            </p>
-                        </div>
-                    </div>
+<!--                            <p class="p_desc">-->
+<!--                                New mall gift cards are currently unavailable. Pre-issued-->
+<!--Cominar gift cards with existing balances will continue to be accepted up to their expiry dates. Most of our individual retailers have store-specific gift cards available for your convenience.-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
                     <div class="col-md-6">
                         <h5 class="accordion_header">CAREERS</h5>
                         <div class="gs_div">

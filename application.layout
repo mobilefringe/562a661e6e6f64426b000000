@@ -137,7 +137,7 @@
                             <a class="dd_link" href="#" id="mobile_nav4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu" aria-labelledby="mobile_nav4">
                                 <li><a href="/guest_services">Guest Services</a></li>
-                                <li><a href="/gift_cards">Gift Cards</a></li>
+                                <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                                 <li><a href="/group_tours">Group Tours</a></li>
                                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                                 <li><a href="/accessibility">Accessibility</a></li>
@@ -262,7 +262,7 @@
                             <a href="#" id="dropdownMenu4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Guest Services <i class="fa fa-caret-down"></i></a>
                             <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu4">
                                 <li><a href="/guest_services">Guest Services</a></li>
-                                <li><a href="/gift_cards">Gift Cards</a></li>
+                                <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                                 <li><a href="/group_tours">Group Tours</a></li>
                                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                                 <li><a href="/accessibility">Accessibility</a></li>
@@ -329,7 +329,7 @@
                             <ul class="footer_ul">
                                 <li class="footer_main_li">Guest Services</li>
                                 <li><a href="/guest_services">Guest Services</a></li>
-                                <li><a href="/gift_cards">Gift Cards</a></li>
+                                <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                                 <li><a href="/group_tours">Group Tours</a></li>
                                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                                 <li><a href="/accessibility">Accessibility</a></li>

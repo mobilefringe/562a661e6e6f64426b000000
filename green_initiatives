@@ -4,7 +4,7 @@
             <h3 class="store_list_header">GUEST SERVICES</h3>
             <ul class="side_menu hidden_phone">
                 <li><a href="/guest_services">Guest Services</a></li>
-                <li><a href="/gift_cards">Gift Cards</a></li>
+                <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                 <li><a href="/group_tours">Group Tours</a></li>
                 <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                 <li><a href="/accessibility">Accessibility</a></li>
@@ -15,7 +15,7 @@
                 <a href="#" id="side_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><span id="side_nav_text">Green Initiatives</span> <i class="fa fa-caret-down pull-right"></i></a>
                 <ul id="side_nav" class="dropdown-menu" aria-labelledby="cat_dd">
                     <li><a href="/guest_services">Guest Services</a></li>
-                    <li><a href="/gift_cards">Gift Cards</a></li>
+                    <!--<li><a href="/gift_cards">Gift Cards</a></li>-->
                     <li><a href="/group_tours">Group Tours</a></li>
                     <li><a href="/mall_walkers_program">Mall Walker’s Program</a></li>
                     <li><a href="/accessibility">Accessibility</a></li>

@@ -145,17 +145,17 @@
                                 <li><a href="/newsletter">Newsletter</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a class="dd_link" href="#" id="mobile_nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>
-                            <ul class="dropdown-menu" aria-labelledby="mobile_nav5">
-                                <li><a href="/livingroom/about">About</a></li>
-                                <li><a href="/livingroom/the_details">The Details</a></li>
-                                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
-                                <li><a href="/livingroom/book_this_space">Book This Space</a></li>
+                        <!--<li>-->
+                        <!--    <a class="dd_link" href="#" id="mobile_nav5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>-->
+                        <!--    <ul class="dropdown-menu" aria-labelledby="mobile_nav5">-->
+                        <!--        <li><a href="/livingroom/about">About</a></li>-->
+                        <!--        <li><a href="/livingroom/the_details">The Details</a></li>-->
+                        <!--        <li><a href="/livingroom/events_calendar">Events Calendar</a></li>-->
+                        <!--        <li><a href="/livingroom/book_this_space">Book This Space</a></li>-->
                                 <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
-                                <li><a href="/livingroom/faq">FAQ</a></li>
-                            </ul>
-                        </li>
+                        <!--        <li><a href="/livingroom/faq">FAQ</a></li>-->
+                        <!--    </ul>-->
+                        <!--</li>-->
                     </ul>
                 </div><!--/.nav-collapse -->
             </nav>
@@ -272,19 +272,19 @@
                         </div>
                     </div>
                     
-                    <div class="top_nav_menu" id="top_nav_livingroom">
-                        <div class="dropdown">
-                            <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>
-                            <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu5">
-                                <li><a href="/livingroom/about">About</a></li>
-                                <li><a href="/livingroom/the_details">The Details</a></li>
-                                <li><a href="/livingroom/events_calendar">Events Calendar</a></li>
-                                <li><a href="/livingroom/book_this_space">Book This Space</a></li>
+                    <!--<div class="top_nav_menu" id="top_nav_livingroom">-->
+                    <!--    <div class="dropdown">-->
+                    <!--        <a href="#" id="dropdownMenu5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">The Living Room <i class="fa fa-caret-down"></i></a>-->
+                    <!--        <ul class="dropdown-menu dropdown-menu2" aria-labelledby="dropdownMenu5">-->
+                    <!--            <li><a href="/livingroom/about">About</a></li>-->
+                    <!--            <li><a href="/livingroom/the_details">The Details</a></li>-->
+                    <!--            <li><a href="/livingroom/events_calendar">Events Calendar</a></li>-->
+                    <!--            <li><a href="/livingroom/book_this_space">Book This Space</a></li>-->
                                 <!--<li><a href="/livingroom/dixie_living_room">#DixieLivingRoom</a></li>-->
-                                <li><a href="/livingroom/faq">FAQ</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <!--            <li><a href="/livingroom/faq">FAQ</a></li>-->
+                    <!--        </ul>-->
+                    <!--    </div>-->
+                    <!--</div>-->
                 </div>
             </div>
         </div>

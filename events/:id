@@ -40,8 +40,6 @@
         <!--    </div>-->
         <!--</div>-->
         <div class="col-md-12">
-            
-                <div class="yellow_line no_margin"></div>
             <div id="promo_details_container_2">
                 <script id="promo_details_template_2" type="x-tmpl-mustache/text">
                     <div class="row">

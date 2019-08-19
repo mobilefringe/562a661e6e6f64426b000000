@@ -40,11 +40,13 @@
         <!--    </div>-->
         <!--</div>-->
         <div class="col-md-12">
-            <div class="yellow_line no_margin"></div>
+            
+                <div class="yellow_line no_margin"></div>
             <div id="promo_details_container_2">
                 <script id="promo_details_template_2" type="x-tmpl-mustache/text">
                     <div class="row">
                         <div class="col-md-3">
+                            <div class="yellow_line no_margin"></div>
                             <h3 class="details_header">{{name}}</h3>
                             <h3 class="details_store_name">{{store_name}}</h3>
                             <h3 class="jobs_publish_date"><i class="fa fa-calendar"></i> &nbsp;{{dates}}</h3>

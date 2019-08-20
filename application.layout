@@ -52,13 +52,10 @@
 
         <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: //bootswatch.com/flatly/ -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-        
-        <!-- Custom Fonts -->
-        
-        
+
         <!-- Custom CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
         <link href="../application.css" rel="stylesheet">
         
@@ -66,7 +63,7 @@
         <!-- jQuery Version 1.11.0 -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
@@ -174,11 +171,10 @@
                         </a>
                     </p>
                     <div class="top_header_social_icons ">
-                           <a target="_blank" href="https://instagram.com/dixieoutletmall/"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628026000/Instagram.png" class="" alt="Instagram"></a>
+                        <a target="_blank" href="https://instagram.com/dixieoutletmall/"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628026000/Instagram.png" class="" alt="Instagram"></a>
                         <a target="_blank" href="//www.facebook.com/dixieoutletmall?ref=mf"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627976000/Facebook Copy 2.png" class="" alt="Facebook"></a>
                         <a target="_blank" href="//twitter.com/DixieOutletMall"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445627988000/Twitter Copy 2.png" class="" alt="Twitter"></a>
                         <a target="_blank" href="//pinterest.com/dixieoutletmall/"><img src="//codecloud.cdn.speedyrails.net/sites/562a661e6e6f64426b000000/image/png/1445628012000/Pinterest Copy 2.png" class="" alt="Pinterest"></a>
-                 
                     </div>
                 </div>
                 <div class="col-md-4 text-center hidden_phone">
@@ -204,18 +200,6 @@
                                 <span>Subscribe to Our Newsletter</span>
                             </a>
                         </div>
-                        <!--<form action="//mobilefringe.createsend.com/t/d/s/ddtidj/" method="post" id="subForm" class="newsletter_form">-->
-                        <!--    <label class="top_form_control">-->
-                        <!--        <i class="custom_i fa fa-envelope-o"></i>-->
-                        <!--        <input name="cm-ddtidj-ddtidj" type="text" placeholder="Enter your email to Subscribe" required />-->
-                        <!--    </label>-->
-                        <!--    <label class="newsletter_label ">-->
-                        <!--        <input id="agree_newsletter" type="checkbox" required oninvalid="this.setCustomValidity('Please check this box to proceed')"  />-->
-                        <!--        I agree to receive newsletters.-->
-                        <!--    </label>-->
-                        <!--    <button type="submit" class="submit_newsletter"><i class="fa fa-arrow-right"></i></button>-->
-                        <!--    <span id="subscription_confirmed">Thank you for subscribing.</span>-->
-                        <!--</form>-->
                     </div>
                 </div>
             </div>
@@ -348,7 +332,7 @@
                 <div class="col-sm-6 mini_footer copyright_info clearfix">
                     <p class="pull-left">
                     ©<span id="current_year"></span> Dixie Outlet Mall. All rights reserved. <a href="/privacy_policy">Privacy Policy</a> | <a href="/terms_and_conditions">Terms & Conditions</a>
-                </p>
+                    </p>
                 </div>
                 <div class="col-sm-6 powered_by_info clearfix">
                     <p class="mini_footer powered_by">
@@ -359,14 +343,7 @@
                             <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Blacklogo copy.png" class="" alt="" style="width: 110px; padding-top: 10px;margin-right: 10px;">
                         </a>
                     </p>
-                    <!--<p class="slate_logo">-->
-                    <!--    <a href="http://www.slateretailreit.com" target="_blank">-->
-                    <!--        <img src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/jpeg/1523905812000/slate_logo_only_1280px.jpg" class="" alt="Slate Reit Logo">-->
-                    <!--    </a>-->
-                    <!--</p>-->
                 </div>
-                
-               
                 <div class="clearfix"></div>
             </div>
         </footer>

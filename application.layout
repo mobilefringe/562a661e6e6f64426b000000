@@ -26,21 +26,22 @@
         
         <!-- Facebook Pixel Code -->
         <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window,document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1117328788363707');
-        fbq('track', 'PageView');
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '1117328788363707');
+            fbq('track', 'PageView');
         </script>
         <noscript>
             <img height="1" width="1" src="https://www.facebook.com/tr?id=1117328788363707&ev=PageView&noscript=1"/>
         </noscript>
         <!-- End Facebook Pixel Code -->
+        
         <!-- Global site tag (gtag.js) - Google Ads: 970904660 --> 
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-970904660"></script> 
         <script> 
@@ -63,7 +64,6 @@
         <!-- jQuery Version 1.11.0 -->
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
         <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>

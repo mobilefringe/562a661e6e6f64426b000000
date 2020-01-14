@@ -355,5 +355,11 @@
             </div>
         </footer>
         <a href="#top" class="scrollToTop"><i class="fa fa-arrow-up"></i></a>
+        
+<script>
+    $("#track_link").click( function() {
+        trackOutboundLink('https://www.wires.org.au/');
+    });
+</script>
     </body>
 </html>

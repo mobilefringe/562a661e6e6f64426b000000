@@ -282,6 +282,11 @@
         <div class="site_container yield">
             {{yield}}
         </div>
+        <div class="trim_screen">
+            <a id="track_link" href="https://www.wires.org.au/" target="_blank">
+                <img class="center-block bc_banner" src="THE_IMG_SRC" alt=""/>
+            </a>
+        </div>
         <footer class="site_container">
             <div class="row footer_nav">
                 <div class="col-md-3">

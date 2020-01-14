@@ -284,7 +284,7 @@
         </div>
         <div class="trim_screen">
             <a id="track_link" href="https://www.wires.org.au/" target="_blank">
-                <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/jpeg/1578946090000/1140x500.jpg" alt=""/>
+                <img class="center-block max-width" src="//codecloud.cdn.speedyrails.net/sites/599ed8136e6f647d28200000/image/jpeg/1578946090000/1140x500.jpg" alt=""/>
             </a>
         </div>
         <footer class="site_container">

@@ -34,8 +34,8 @@
             prefix = get_prefix();
             var pages_json = prefix + "/pages/" + slug + ".json"
             $.getJSON(pages_json).done(function(data) {
-                console.log("slug", slug)
-                if (slug.includes('dixieoutlet-covid-19-update'){
+                console.log("slug", slug);
+                if (slug.includes('dixieoutlet-covid-19-update')) {
                     console.log("yes")
                 }
                 $('#mm_page_title').html(data.title);

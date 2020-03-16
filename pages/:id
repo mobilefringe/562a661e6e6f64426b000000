@@ -1,4 +1,4 @@
-<div id="regular" class="fluid_row">
+<div id="regular" class="fluid_row hidden_now">
     <div class="row">
         <div class="col-md-3 mobile_padding">
             
@@ -32,12 +32,12 @@
             $.getJSON(pages_json).done(function(data) {
                 if (slug.includes('dixieoutlet-covid-19-update')) {
                     $("#full_width").show();
-                    $("#regular").hide();
                     $('#page_title').html(data.title);
                     $('#page_content').html(data.body);
                 } else {
                     $('#mm_page_title').html(data.title);
                     $('#mm_page_content').html(data.body);
+                    $("#regular").show();
                 }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {

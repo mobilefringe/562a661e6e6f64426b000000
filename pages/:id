@@ -13,14 +13,10 @@
 </div>
 <div id="full_width" class="fluid_row hidden_now">
     <div class="row">
-        <div class="col-md-3 mobile_padding">
-            
-        </div>
-        <div class="col-md-9 contact_rows">
-            <img src="//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/jpeg/1447713049000/img.jpg" class="full_width hidden_phone" alt="hours banner">
+        <div class="col-md-12 contact_rows">
             <div class="margin_20"></div>
-            <h3 class="hours_header" id="mm_page_title"></h3>
-            <div id="mm_page_content"></div>
+            <h3 class="hours_header" id="page_title"></h3>
+            <div id="page_content"></div>
         </div>
     </div>
 </div>

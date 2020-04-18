@@ -336,7 +336,7 @@ function renderGallery(container, template, collection){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
-        val.image_url = "//mallmaverick.cdn.speedyrails.net" + val.photo_url
+        val.image_url = "//assets.mallmaverick.com" + val.photo_url
         if (val.caption != null && val.caption.length > 0){
             val.alt = val.vaption;
         }else{

@@ -36,15 +36,15 @@
                         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                         <div class="mc-field-group">
                         	<label for="mce-FNAME">First Name  <span class="asterisk">*</span></label>
-                        	<input aria-label="First Name" id="fieldjlkihki" maxlength="200" name="cm-f-jlkihki" required="">
+                        	<input aria-label="First Name" id="fieldjlkihki" maxlength="200" name="cm-f-jlkihki" required="" class="required">
                         </div>
                         <div class="mc-field-group">
                         	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span></label>
-                        	<input aria-label="Last Name" id="fieldjlkihkd" maxlength="200" name="cm-f-jlkihkd" required="">
+                        	<input aria-label="Last Name" id="fieldjlkihkd" maxlength="200" name="cm-f-jlkihkd" required="" class="required">
                         </div>
                         <div class="mc-field-group">
                         	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span></label>
-                        	<input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ddtidj-ddtidj" required="" type="email">
+                        	<input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email required email" id="fieldEmail" maxlength="200" name="cm-ddtidj-ddtidj" required="" type="email">
                         </div>
                         <div class="mc-field-group">
                         	<label for="mce-MMERGE5">Postal Code  <span class="asterisk">*</span></label>

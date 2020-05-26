@@ -79,7 +79,7 @@
                             <ul>
                                 <li>
                                     <!--<input type="checkbox" value="1" name="group[17081][1]" id="mce-group[17081]-17081-0">-->
-                                    <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">
+                                    <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" type="checkbox">
                                     <label for="mce-group[17081]-17081-0">I agree to receive newsletters from Dixie Outlet Mall. You can unsubscribe at anytime.</label>
                                 </li>
                             </ul>

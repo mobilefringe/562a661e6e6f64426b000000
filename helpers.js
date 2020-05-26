@@ -36,7 +36,7 @@ function init(e){
     
     $('#subForm').submit(function(e){
         e.preventDefault();
-        if($("#agree_newsletter").is(':checked')){
+        if($("#cm-privacy-consent").is(':checked')){
             $.getJSON(
                 this.action + "?callback=?",
                 $(this).serialize(),
@@ -51,7 +51,7 @@ function init(e){
             });
         }
         else{
-            $("#agree_newsletter").focus();
+            $("#cm-privacy-consent").focus();
             alert("Please agree to receive newsletter before continuing.")
         }
     });
